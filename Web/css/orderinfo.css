@@ -1,0 +1,395 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.order-con {
+    padding: 1px;
+    background: #fff;
+}
+
+.order_table th {
+    height: 40px;
+    background: #f5f5f5;
+    font-size: 14px;
+}
+
+.order_table td {
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
+}
+
+    .order_table td .though {
+        padding-right: 10px;
+    }
+
+    .order_table td.fir {
+        padding-left: 45px;
+        text-align: left;
+    }
+
+        .order_table td.fir img {
+            border: 1px solid #dddddd;
+            padding: 1px;
+            background: #fff;
+            margin-right: 28px;
+            vertical-align: middle;
+        }
+
+.sumsize {
+    border-bottom: 1px solid #ddd;
+    height: 35px;
+    line-height: 35px;
+    padding: 15px 0;
+    text-align: right;
+    font-size: 14px;
+    padding-right:35px;
+}
+
+.songpad {
+    padding: 20px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.infop {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.txtp {
+    line-height: 30px;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.songpad .culbg {
+    background: #fff0df;
+}
+
+.t_text {
+    height: 24px;
+    border: 1px solid #ccc;
+    line-height: 24px;
+    padding: 3px;
+}
+
+.txtp .red {
+    color: #ff0000;
+    padding-right: 5px;
+}
+
+.le_in {
+    width:100px;
+    text-align: right;
+    display: inline-block;
+    float: left;
+}
+
+.txtp select {
+    display: inline-block;
+}
+
+.txtp option {
+    padding: 0 5px;
+    float: left;
+}
+
+.tiptable td {
+    width: 116px;
+    height: 38px;
+    border: 1px solid #ddd;
+}
+
+    .tiptable td a {
+        width: 116px;
+        height: 38px;
+        text-align: center;
+        display: block;
+        line-height: 38px;
+    }
+
+        .tiptable td a.cul {
+            background: #fff0df;
+            color: #ff982a;
+        }
+
+.order_check_btn {
+    width: 115px;
+    height: 36px;
+    line-height:35px;
+    color:#fff;
+    font-size:15px;
+    text-align:center;
+    display: inline-block;
+    background:#f39800;
+    border: none;
+    cursor: pointer;
+}
+
+.songpad .btn {
+    padding:20px 0;
+}
+
+.tipinfo {
+    background: #fff;
+    padding: 28px 0 10px;
+}
+
+    .tipinfo h1 {
+        background: url(../images/tip_face.png) no-repeat;
+        padding-left: 100px;
+        height:80px;
+        width: 185px;
+        line-height:78px;
+        font-size:26px;
+        font-weight: normal;
+        color: #f39800;
+        margin: 0px auto 0px;
+        padding-bottom:30px;
+    }
+
+.faqtable {
+    width: 780px;
+    margin: 0 auto;
+}
+
+    .faqtable td {
+        line-height: 32px;
+        font-size: 16px;
+        padding-bottom: 35px;
+    }
+
+.h1 {
+    font-size: 30px;
+    padding: 25px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.susscon {
+    width: 400px;
+    margin: 0 auto;
+    background: url(../images/big_ok.png) no-repeat 0 30px #fff;
+    padding-top: 30px;
+    padding-left: 200px;
+    line-height: 42px;
+    color: #666;
+}
+
+.quick_note_control span {
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 3px;
+    padding: 4px 8px 3px 8px;
+    display: inline-block;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+
+.quick_note_control {
+    width: 500px;
+}
+
+    .quick_note_control .selectedbg {
+        background-color: #f1fafc;
+    }
+
+.cull {
+    background: none repeat scroll 0 0 #FFF0DF;
+    color: #f39800;
+}
+
+#tbaddress::-moz-placeholder {
+    text-align: center;
+}
+
+
+/*-------------------card----------------------*/
+.cardtype {
+    color: #C68600;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+    .cardtype:hover {
+        color: red;
+        font-weight: bold;
+        line-height: 25px;
+    }
+
+.order_intro {
+    overflow: hidden;
+    _height: 1%;
+}
+
+    .order_intro li {
+        border-bottom: 1px dashed #ccc;
+        clear: both;
+        height: 30px;
+        line-height: 30px;
+    }
+
+.order_gift_card {
+    background: #fff;
+    border: 2px solid #f39800;
+    overflow: hidden;
+    margin: 10px 93px;
+    padding: 10px 15px;
+    line-height: 30px;
+}
+
+    .order_gift_card h3 {
+        color: #f39800;
+        font-size: 14px;
+        font-weight: normal;
+        padding-bottom: 5px;
+    }
+
+    .order_gift_card h4 {
+        font-size: 14px;
+    }
+
+    .order_gift_card p {
+        padding-bottom: 5px;
+    }
+
+        .order_gift_card p a {
+            color: #005EAB;
+        }
+
+            .order_gift_card p a:hover {
+                color: #005EAB;
+                text-decoration: underline;
+            }
+
+    .order_gift_card h4 {
+        line-height: 22px;
+        font-size: 14px;
+    }
+
+        .order_gift_card h4 a {
+            font-size: 12px;
+            float: right;
+            padding-right:5px;
+            color: red;
+        }
+
+.gift_card_sure_btn {
+    background: #f39800;
+    width: 40px;
+    height: 23px;
+    line-height: 23px;
+    color: #fff;
+    cursor: pointer;
+    vertical-align: middle;
+    border: none;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.order_gift_card_table {
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin: 5px 0 0;
+}
+
+    .order_gift_card_table th {
+        padding:5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .order_gift_card_table td {
+        font-family: Arial;
+        padding: 0px 10px;
+    }
+
+.order_gift_card h5 {
+    font-size: 12px;
+    font-weight: normal;
+    text-align: right;
+}
+
+    .order_gift_card h5 span {
+        font-weight: bold;
+        color: Red;
+    }
+
+.order_gift_card h6 {
+    font-size: 12px;
+    font-weight: normal;
+    color: Red;
+}
+
+    .order_gift_card h6 a {
+        color: #005EAB;
+    }
+
+        .order_gift_card h6 a:hover {
+            color: #005EAB;
+            text-decoration: underline;
+        }
+
+.order_gift_card_table tr.invalid {
+    background-color: #D3A5BA !important;
+}
+
+.order_gift_card_table tr {
+    cursor: pointer;
+}
+
+.ordercon {
+    background: #ffe9d1;
+    border-top: none;
+    padding:15px 0 12px;
+    margin:0 15px;
+}
+
+    .ordercon .p {
+        margin-bottom: 10px;
+    }
+
+    .ordercon .tname {
+        color: #f39800;
+        padding-right: 10px;
+        text-align: right;
+        width: 145px;
+        display: block;
+        float: left;
+    }
+
+.shopcardcheck {
+    vertical-align: middle;
+}
+
+.cart_table {
+    float: left;
+}
+
+    .cart_table tr td {
+        padding-right: 15px;
+    }
+
+        .cart_table tr td label {
+            padding-left: 3px;
+        }
+
+.card_title {
+    font-size: 14px;
+    margin: 10px 93px;
+    text-align: left;
+}
+.del_icon {
+    background:url(../images/del_icon.png) no-repeat;
+    width:20px;
+    height:24px;
+    display:inline-block;
+}
+.bord_icon {
+    margin:0 5px;
+}

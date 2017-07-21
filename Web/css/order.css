@@ -1,0 +1,70 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.horder_btn {
+    background: url(../images/submit_btn.jpg) no-repeat;
+    width: 125px;
+    height: 32px;
+    line-height: 32px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+/*--------   ordersuccess----------*/
+
+.h1 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    font-size: 30px;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.susscon {
+    background: url("../images/big_ok.png") no-repeat scroll 0 30px #FFFFFF;
+    color: #666666;
+    line-height: 42px;
+    margin: 0 auto;
+    padding-left: 200px;
+    padding-top: 30px;
+    width: 600px;
+}
+/*----------orderdetail-------------*/
+.stemplate {
+    border: 1px solid #DDDDDD;
+    height: 38px;
+    width: 116px;
+}
+
+
+/*----------paysuccess-------------*/
+.pay_bg {
+    margin-bottom: 15px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    background:#fff;
+}
+
+.pay_title {
+    background: none repeat scroll 0 0 #fafafa;
+    height: 33px;
+    font-weight: bold;
+    line-height: 33px;
+    padding-left: 15px;
+    font-size: 14px;
+    border-bottom:1px solid #ddd;
+}
+
+.pay_con {
+    text-align: center;
+    font-size:14px;
+    padding:15px 15px 20px;
+}
+    .pay_con p {
+        line-height:30px;
+    }
+        .pay_con p a {
+            color:#f39800;
+        }

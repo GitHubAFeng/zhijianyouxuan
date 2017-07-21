@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <import>
+    <!--导入节点-->
+    <row height="20" title="用户信息" sheetname="sheet1" ignoreerr="false">
+      <column key="用户名称" name="Name"  required="true"/>
+      <column key="用户ID" name="Id"></column>
+      <column key="用户年龄" name="Age"></column>
+      <column key="生日" name="BirDate"></column>
+    </row>
+  </import>
+  <export>
+    <row height="50" title="配送员结算" sheetname="sheet1" ignoreerr="false" isStyle="true">
+      <column key="IsDelete" name="骑士编号" />
+      <column key="TogoName" name="姓名" />
+      <column key="basewage" name="基本工资" />
+      <column key="percentagewage" name="配送费提成" />
+       <column key="allwage" name="总工资" />
+      <column key="allprice" name="总金额" />
+      <column key="allcount" name="订单数" />
+      <column key="getmoney" name="应收款" />
+      <column key="deliverpayweb" name="应结款" />
+
+     
+    </row>
+  </export>
+</root>

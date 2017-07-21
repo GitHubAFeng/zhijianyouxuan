@@ -1,0 +1,53 @@
+
+加表 EAdmin 管理员表
+     sys_Module 功能模块表
+     sys_ModulePermition 模块权限表
+	 sys_RolePermission 角色权限表
+	 sys_Roles 角色表
+	 Supplier 供应商表
+
+
+1, 表 OrderItem 增加字段  
+a,是否分拣
+b,重量
+c,supplierID  默认0     update OrderItem set supplierID = 0 
+d，备用。
+
+
+
+
+存储过程：OrderItem_noPocessOrderFoods,OrderItem_getFoodSendInfo,Orders_ADD，OrderItem_setPickState,pickbill_sumForExcel
+
+
+表  Orders 增加字段 senddate (datetime),daynumber(int)
+
+加表 Seek
+
+加种子数据
+
+	DECLARE  @addcount int
+    DECLARE    @i INT
+    
+    SET @addcount = 3650
+    SET @i = 0
+
+	
+	WHILE	@i <= @addcount
+	begin
+		
+		INSERT INTO dbo.Seek
+		        ( SeekValue, DateModel, daytime )
+		VALUES  ( 0, -- SeekValue - int
+			
+				  CONVERT(varchar(100), DATEADD(DAY,@i,GETDATE()), 112),
+		          GETDATE() -- daytime - datetime
+		          )
+		          
+		set @i=@i + 1
+	
+	end
+	
+---------------------  over-----------------------------------------
+
+加表 pickbill，pickbillitem
+

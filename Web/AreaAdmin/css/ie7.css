@@ -1,0 +1,4 @@
+﻿.db-menu ul li a { background:transparent url(../images/db-menu-bg-up.gif) repeat-x 0px 3px; height:26px; }
+.db-menu ul li a:hover, .db-menu ul li a.hover { background:transparent url(../images/db-menu-bg-hov.gif) repeat-x 0px 3px; }
+.graph-block { height:auto; }
+.db-menu { width:947px; }

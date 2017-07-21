@@ -1,0 +1,440 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, form, input, textarea, button, fieldset, legend, ul, ol, li, dl, dt, dd, th, td, div {
+    margin: 0;
+    padding: 0;
+}
+img{
+	border:none;
+	}
+ul,li{
+	list-style:none;
+	}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}
+.clearfix{zoom:1}
+.al-tc{
+	text-align:center;
+	}
+#downloadmore {
+    background: url("http://img02.taobaocdn.com/tps/i2/T1AD4FFk8XXXbY8tQk-178-168.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    cursor: pointer;
+    height: 59px;
+    width: 178px;
+}
+.dlg-android .brand-android, .dlg-iphone .brand-iphone, .dlg-weixin .brand-weixin, .dlg-androidpad .brand-androidpad, .dlg-winphone .brand-winphone {
+    border: 1px solid #ccc !important;
+    border-radius: 73px;
+}
+.ks-stdmod-body-brand {
+    padding-left: 0 !important;
+    width: 800px !important;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download {
+    background-color: #f9f7f5;
+    height: 312px;
+    width: 800px !important;
+}
+.ks-dl-cont {
+    display: none;
+}
+.dlg-android .ks-dl-cont-android, .dlg-iphone .ks-dl-cont-iphone, .dlg-weixin .ks-dl-cont-weixin, .dlg-androidpad .ks-dl-cont-androidpad, .dlg-winphone .ks-dl-cont-winphone {
+    display: block !important;
+}
+.ks-dialog .ks-contentbox .ks-stdmod-body .ks-stdmod-body-brand span img {
+    margin-top: 0;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-right .qrcode {
+    margin-left: 0;
+}
+.mtb-oSite {
+    overflow: hidden;
+}
+
+
+
+
+
+.app_down_content{
+	width:980px;
+	margin:0 auto;
+	}
+.down_app_bg{
+	background:url(../images/app_main_bg_ad.png) no-repeat;
+	width:100%;
+	height:400px;
+	position:relative;
+	}
+.app-down-evt{
+	position:absolute;
+	left:50%;
+	margin-left:-143px;
+	width:286px;
+	height:245px;
+	top:132px;
+	position:absolute;
+	background:rgba(255,255,255,.6);
+	text-align:center;
+	font-family:"Microsoft Yahei";
+	box-shadow:1px 2px 5px rgba(0,0,0,.4);
+	text-align:center;
+	
+	}
+.app-down-evt p{
+	margin-top:35px;
+	margin-bottom:20px;
+	font-size:24px;
+	line-height:1;
+		}
+.app-down-btn{
+	background:url(../images/app_down_btn.png) no-repeat;
+	width:170px;
+	height:58px;
+	cursor:pointer;
+	display:inline-block;
+	}	
+.ye-option-link{
+	background:rgba(255,192,0,.8);
+	height:87px;
+	margin-top:21px;
+	}	
+.ye-option-link a{
+	color:#b05500;
+	font-size:18px;
+	line-height:1;
+	display:inline-block;
+	padding-top:34px;
+	}
+.ye-option-link a.mid{
+	margin:0 25px;
+	}
+.app-bom-ad{
+	margin-top:15px;
+    margin-bottom:15px;
+	}
+.app-bom-ad li{
+	float:left;
+	margin-right:18px;
+	}
+.app-bom-ad li {
+	font-size:14px;
+	}	
+.app-bom-ad li:last-child{
+	margin-right:0;
+	}	
+.app-bom-ad li a>img{
+	height:150px;
+	width:231px;
+	}
+.app-bom-ad li p{
+	text-align:center;
+	line-height:28px;
+	color:#8c8c8c;
+	}	
+.app-step-num-one{
+	background:url(../images/app-step-num-one.png) 0 -10px no-repeat;
+	width:100px;
+	height:69px;
+	float:left;
+	}
+.app-step-num-two{
+	background:url(../images/app-step-num-two.png) 0 -10px no-repeat;
+	width:100px;
+	height:69px;
+	float:right;
+	}	
+.app-step-btn{
+	float:left;
+	margin-left:20px;
+	width:200px;
+	padding-top:5px;
+	}	
+.app-step-btn label.public-number{
+	width:158px;
+	height:46px;
+	border:1px solid #719f1f;
+	border-radius:5px;
+	background:#fff;
+	text-align:center;
+	line-height:46px;
+	font-size:14px;
+	display:inline-block;
+	color:#719f1f;
+	
+	}
+
+/*-----------------弹出框------------------*/
+#J_Wrap {
+    background-color: white;
+}
+.ks-contentbox{
+	text-align:center;
+	}
+.ks-dialog {
+    box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.2);
+    z-index: 20000;
+}
+.ks-dialog .ks-stdmod-header {
+    display: none;
+}
+.ks-dialog .ks-stdmod-footer {
+    display: none;
+}
+.ks-dialog .ks-ext-close-x {
+    background: url("http://img04.taobaocdn.com/tps/i4/T1xLJFFbFcXXa94Hfd-32-32.png") no-repeat scroll 0 0 / contain rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 30px;
+    margin: 2.5px;
+    position: absolute;
+    right: -15px;
+    text-indent: -9999px;
+    top: -15px;
+    width: 30px;
+}
+.ks-dialog .ks-ext-close-x:hover {
+    background-image: url("http://img03.taobaocdn.com/tps/i3/T1v6xnFhNdXXa94Hfd-32-32.png");
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-brand {
+    background-color: #fff;
+    height: 234px;
+    padding-left: 70px;
+    width: 690px;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-brand span {
+    border: 1px solid white;
+    display: inline-block;
+    height: 146px;
+    text-align: center;
+    vertical-align: middle;
+    width: 146px;
+	overflow:hidden;
+	
+
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-brand span:first-child{
+	margin-left:0;
+	}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-brand span img {
+    margin-top: 26px;
+    vertical-align: middle;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-brand span:hover {
+    border: 1px solid #ccc;
+    border-radius: 73px;
+    cursor: pointer;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-brand .brand-circle {
+    border: 1px solid #ccc;
+    border-radius: 73px;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-brand span {
+    margin-left: 52px;
+    margin-top: 45px;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download {
+    background-color: #f9f7f5;
+    height: 312px;
+    width: 100%;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download {
+    height: 224px;
+    padding: 44px 80px 24px;
+    width: 640px;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left {
+    display: inline-block;
+    height: 184px;
+    vertical-align: top;
+    width: 450px;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left span, .ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left hr {
+    display: block;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left hr {
+    border-top: 2px dotted #d8d8d8;
+    border-width: 2px 0 0;
+    color: #d8d8d8;
+    height: 1px;
+    width: 85%;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .t, .ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .f {
+    color: #999;
+    font-size: 14px;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .f {
+    margin-bottom: 14px;
+    margin-top: 24px;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .f em {
+    color: #f50;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .m {
+    height: 52px;
+    margin-bottom: 24px;
+    margin-top: 14px;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .m a {
+    display: inline-block;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .s .st {
+    height: 31px;
+    padding: 0;
+    width: 252px !important;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .s .st::-moz-placeholder {
+    font-size: 12px;
+    text-indent: 5px;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .s .st:-moz-placeholder {
+    font-size: 12px;
+    text-indent: 5px;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .s .st:focus::-moz-placeholder {
+    color: transparent;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .s .st:focus:-moz-placeholder {
+    color: transparent;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .s input[type="button"], .ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .s .su-android, .ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .s .su-iphone, .ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .s .su-winphone {
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 2px;
+    height: 34px;
+    width: 72px !important;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .s input[type="button"]:hover, .ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .s .su-android:hover, .ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .s .su-iphone:hover, .ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-left .s .su-winphone:hover {
+    cursor: pointer;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-right {
+    background: url("../images/qr-codes-bg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    display: inline-block;
+    height: 180px;
+    margin-left: 10px;
+    vertical-align: top;
+    width: 144px;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-right .qrcode {
+    height: 150px;
+    margin-left: 12px;
+	margin-right:12px;
+    margin-top: 28px;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-right .qrcode img {
+    height: 120px;
+    text-align: center;
+    width: 120px;
+}
+.ks-dialog .ks-stdmod-body .ks-stdmod-body-download .ks-download .ks-download-right .qrtxt {
+    color: #999;
+    font-size: 14px;
+    height: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.ks-overlay {
+    left: -9999px;
+    position: absolute;
+    top: -9999px;
+}
+.ks-overlay-hidden {
+    visibility: hidden;
+}
+.ks-dialog-mask-hidden {
+    display: none;
+}
+.ks-overlay-shown {
+    visibility: visible;
+}
+.ks-overlay-mask-shown {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    display: block;
+}
+
+/**7.25new*/
+.appwarp {
+            width: 100%;
+            position:relative;
+        }
+
+            .appwarp .app_bg {
+                width: 100%;
+            }
+        .app_qrcode {
+            position:absolute;
+            top:11%;
+            left:56%;
+        }
+ .app_qrcode .app_cpm_logo {
+     width:393px;
+     height:110px;
+     overflow:hidden;
+     margin-bottom:40px;
+}
+    .app_qrcode .app_cpm_logo img {
+        width:100%;
+    }
+            .app_qrcode ul {
+            float:left;
+
+        }
+                .app_qrcode ul li {
+                    width:190px;
+                    line-height:45px;
+                    border:#f39800 2px solid;
+                    margin:0 10px 14px 5px; 
+                    font-size:14px;
+                    text-align:center;
+                    cursor:pointer;
+                    
+                }
+                   .app_qrcode ul li:hover {
+                       background-color:#f39800;
+                       color:#fff;
+                    }
+                .app_qrcode ul .iphone {
+                    background-image:url(/images/app_iphone.png );
+                    background-repeat:no-repeat;
+                    background-position:5px center;
+                }
+                .app_qrcode ul .android {
+                    background-image:url(/images/app_android.png );
+                    background-repeat:no-repeat;
+                    background-position:5px center;
+                }
+                 .app_qrcode ul .iphone:hover {
+                    background-image:url(/images/app_iphone_hover.png );
+                    background-repeat:no-repeat;
+                    background-position:5px center;
+                }
+                .app_qrcode ul .android:hover {
+                    background-image:url(/images/app_android_hover.png );
+                    background-repeat:no-repeat;
+                    background-position:5px center;
+                }
+                 
+
+        .app_qrcode span{
+            width:108px;
+            height:108px;
+            border:#f39800 2px solid;
+            float:left;           
+        }
+            .app_qrcode span img {
+                width:100%;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

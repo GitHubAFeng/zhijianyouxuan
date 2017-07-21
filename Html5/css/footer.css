@@ -1,0 +1,19 @@
+﻿.footerbtm{ width:100%; height:60px; background-color:#FFF; position:fixed; left:0; bottom:0;}
+.footerbtm div{ width:25%; height:60px;  float:left;text-align:center; padding-top:12px;font-size:16px; color:#666 ;}
+.footerbtm  a{  text-decoration:none; color:#666; }
+.footerbtm div:hover {color:#f39800}
+.footerbtm div:link{color:#f39800}
+.icon-th-large,.icon-shopping-cart,.icon-user,.icon-home{ font-size:24px; margin-top:5px;}
+.basket { position:absolute; top:5px; width:20px; height:20px; background-color:#ff0000; color:#fff; border-radius:50%;line-height:20px; margin-left:12px; font-size:12px;}
+.current i{ color:#f39800}
+.current {color:#f39800
+}
+.current p{ color:#f39800}
+@media screen and (min-width:320px) and (max-width:414px) {
+.nomore{ font-size:12px;}
+.footerbtm{ height:50px;}
+.footerbtm div{  height:50px; padding-top:8px;font-size:12px;}
+.icon-th-large,.icon-shopping-cart,.icon-user,.icon-home{ font-size:18px;}
+.basket { position:absolute; top:5px; width:16px; height:16px; line-height:16px; margin-left:12px;font-size:10px;}
+
+}

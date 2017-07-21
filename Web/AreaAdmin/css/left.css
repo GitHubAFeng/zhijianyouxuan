@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+img
+{
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+ul, li
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+h1, h2, h3, h4, h5, h6, form, dl, dd, dt, p
+{
+	margin: 0px;
+	padding: 0px;
+}
+.clear
+{
+	clear: both;
+}
+.clearFix:after
+{
+	clear: both;
+	display: block;
+	height: 0px;
+	visibility: hidden;
+	content: ".";
+}
+.clearFix
+{
+	display: inline-block;
+}
+table
+{
+	border-collapse: collapse;
+}
+body, html
+{
+	color: #2F2F2F;
+	font: 12px/1.5em Arial, Helvetica, sans-serif;
+}
+.divfan_leftsider
+{
+	float: left;
+	width: 160px;
+	padding-bottom: 25px;
+}
+.divfan_leftsider a
+{
+	color: #2d444f;
+	text-decoration: none;
+}
+.divfan_leftsider h3
+{
+	color: #253033;
+	font-size: 1.25em;
+	margin-bottom: 0.5em;
+}
+.divfan_leftsider_info
+{
+	background-color: #e0e3e5;
+}
+.divfan_leftsider_info_nav
+{
+	background: url(../images/leftsider_fan_bg1.jpg) repeat-x;
+	height: 28px;
+	line-height: 28px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+.divfan_leftsider_info_nav img
+{
+	padding: 5px 8px 0 10px;
+	float: left;
+}
+.divfan_leftsider_menuContent
+{
+	margin-top: -1px;
+}
+.divfan_leftsider_menuContent_nav
+{
+	background: url(../images/leftsider_fan_bg6.jpg) no-repeat;
+	width: 160px;
+	height: 2px;
+	font-size: 0;
+	line-height: 0;
+}
+.divfan_leftsider_ul li
+{
+	background: url(../images/leftsider_fan_bg3.jpg) no-repeat bottom;
+}
+.divfan_leftsider_ul li a
+{
+	display: block;
+	width: 145px;
+	padding: 5px 0;
+	_padding: 7px 0;
+	padding-left: 15px;
+	background: url(../images/leftsider_fan_bg3.jpg) no-repeat bottom;
+}
+.divfan_leftsider_ul li img
+{
+	padding: 0 10px 0 0;
+	margin-bottom: 3px;
+}
+.divfan_leftsider_ul li a:hover
+{
+	display: block;
+	width: 145px;
+	padding: 5px 0;
+	_padding: 7px 0;
+	padding-left: 15px;
+	background: #ebeced url(../images/leftsider_fan_bg3.jpg) no-repeat bottom;
+}
+.divfan_leftsider_ul .divfan_leftsider_ul_2_b
+{
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+.divfan_leftsider_ul .divfan_leftsider_ul_2 li a
+{
+	padding-left: 25px;
+	width: 135px;
+}
+.divfan_leftsider_ul .divfan_leftsider_ul_2 li a:hover
+{
+	padding-left: 25px;
+	width: 135px;
+}
+
+/******************** 展开，关闭左边菜单 *********************/
+.closeLeft #leftToggler {
+    background: url("../images/arrow-right.gif") no-repeat scroll 2px 50% #6F777A;
+    left: 0;
+}
+
+#leftToggler {
+    background: url("../images/arrow-left.gif") no-repeat scroll 1px 50% #6F777A;
+    border-right: 1px solid #70787B;
+    cursor: pointer;
+    left: 187px;
+    margin-top: 7px;
+    overflow: hidden;
+    position: absolute;
+    width: 7px;
+    z-index: 99;
+}
+#leftToggler:hover
+{
+    background-color:#b9c8d4;  
+}
+/******************** 展开，关闭左边菜单 *********************/

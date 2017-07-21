@@ -1,0 +1,187 @@
+ @charset "utf-8";
+/* CSS Document   @charset "utf-8";*/
+
+img
+{
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	margin: 0px;
+	padding: 0px;
+	/*width: 414px;*/
+}
+ul, li
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+h1, h2, h3, h4, h5, h6, form, dl, dd, dt, p
+{
+	margin: 0px;
+	padding: 0px;
+}
+.clear
+{
+	clear: both;
+}
+.clearFix:after
+{
+	clear: both;
+	display: block;
+	height: 0px;
+	visibility: hidden;
+	content: ".";
+}
+.clearFix
+{
+	display: inline-block;
+}
+a, a:link
+{
+	text-decoration: none;
+	color: #000;
+}
+a:hover
+{
+	color: #925842;
+}
+body
+{
+	font-size: 12px;
+	line-height: 180%;
+	padding: 0;
+	background: #444660;
+	margin: 0;
+}
+.header
+{
+	background: url(../images/top.jpg) repeat-x;
+	height: 40px;
+}
+.middlesider
+{
+	background: url(../images/middle_bg.jpg) repeat-x;
+	height: 550px;
+}
+.footer
+{
+	color: #ccc;
+	text-align: center;
+	padding-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.warp
+{
+	width: 980px;
+	margin: 0 auto;
+}
+.leftsider
+{
+	float: left;
+	width: 280px;
+	background: url(../images/leftsider_bg.jpg) no-repeat right top;
+	padding-top: 200px;
+	height: 350px;
+	padding-left: 212px;
+}
+.rightsider
+{
+	float: left;
+	padding-left: 78px;
+	width: 400px;
+	padding-top: 148px;
+}
+.rightsider dl
+{
+	clear: both;
+	padding: 3px;
+	height: 1%;
+	overflow: hidden;
+}
+.rightsider dt
+{
+	float: left;
+	width: 48px;
+	text-align: right;
+	padding-right: 5px;
+	padding-top: 8px;
+}
+.rightsider dd
+{
+	float: left;
+	width: 250px;
+}
+.dd_input, .dd_input20
+{
+	border: 0;
+	background: none;
+	width: 164px;
+	height: 22px;
+	font-size: 14px;
+	margin-top: -3px;
+	overflow: hidden;
+	line-height: 24px;
+}
+.dd_input20
+{
+	width: 64px;
+}
+.dd_input1, .dd_input1mover
+{
+	border: 0;
+	padding: 6px 6px;
+	background: url(../images/input_1link.png) no-repeat;
+	width: 171px;
+}
+.dd_input1mover
+{
+	background: url(../images/input_1.png) no-repeat;
+}
+.dd_input2, .dd_input2mover
+{
+	background: url(../images/input_2.png) no-repeat;
+	border: 0;
+	padding:6px;
+	height: 26px;
+	width: 71px;
+}
+.dd_input2mover
+{
+	background: url(../images/input_2link.png) no-repeat;
+}
+.denglu_btn, .denglu_btnmover
+{
+	background: url(../images/denglubg2.png) no-repeat;
+	padding: 4px;
+	width: 78px;
+	height: 36px;
+	border: 0;
+	line-height: 0;
+	font-size: 0;
+	color: #ff8619;
+	margin-right: 6px;
+	display: inline;
+	cursor: pointer;
+}
+.denglu_btnmover
+{
+	background: url(../images/denglu.png) no-repeat;
+}
+.quxiao_btn, .quxiao_btnmouver
+{
+	border: 0;
+	line-height: 0;
+	font-size: 0;
+	color: #ff8619;
+	background: url(../images/quxiaobg.png) no-repeat;
+	width: 74px;
+	height: 36px;
+	display: inline;
+	cursor: pointer;
+}
+.quxiao_btnmouver
+{
+	background: url(../images/quxiao.png) no-repeat;
+}

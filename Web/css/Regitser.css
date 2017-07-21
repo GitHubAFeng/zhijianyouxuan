@@ -1,0 +1,180 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+/*------register------*/
+.white, .white a {
+    color: #FFFFFF;
+}
+.padding_1100 {
+    padding-left: 100px;
+}
+.padding_1220 {
+    padding-left: 220px;
+}
+.fb {
+    font-weight: bold;
+}
+
+.register_info
+{
+	font-size: 14px;
+	border:1px solid #ddd;
+	padding:15px;
+    margin-bottom:15px;
+    background:#fff;
+}
+.register_bg
+{
+	background:#ddd;
+	width:800px;
+    border-radius: 20px;
+	height:30px;
+    line-height:30px;
+    margin:15px auto 30px;
+}
+.register_bg ul li {
+    float:left;
+    width:400px;
+    text-align:center;
+    }
+    .register_bg ul .reg_01_hover {
+        background:#f39800;
+        border-radius: 20px 0px 0px 20px;
+        color:#fff;
+    }
+    .register_bg ul .reg_02_hover {
+        background:#f39800;
+        border-radius: 0px 20px 20px 0px;
+        color:#fff;
+    }
+
+
+.reg_infor_bg p
+{
+	margin-left: 80px;
+	margin-bottom: 15px;
+    overflow:hidden;
+}
+    .reg_infor_bg p span {
+        padding-right:8px;
+        float:left;
+        display:inline-block;
+        line-height:32px;
+    }
+.text_style
+{
+	background: none repeat scroll 0 0 #fbfbfb;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 5px;
+    width: 280px;
+    float:left;
+}
+.text_style_hover
+{
+	background:#fff;
+    border:1px solid #f39800;
+}
+.text_heddin_style
+{
+	color: #f39800;
+	font-size:12px;
+    margin-left:5px;
+    height:32px;
+    line-height:32px;
+    display:inline-block;
+    padding:0 5px;
+
+}
+.submit_button
+{
+	background:#f39800;
+    width:287px;
+    height:34px;
+    line-height:32px;
+    margin-left:66px;
+    cursor:pointer;
+    color:#fff;
+    font-size:15px;
+    border:none;
+}
+.code_style {
+    background:#ddd;
+    border:0;
+    height:33px;
+    line-height:33px;
+    margin-left:10px;
+    padding:0 5px;
+}
+/*------register_success--------*/
+
+.register_under {
+    margin-bottom: 30px;
+    margin-left: 190px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.registbg span {
+    display: inline-block;
+}
+.registbg .padding_1100 {
+    width:318px;
+}
+.registbg .padding_1240  {
+    width:342px;
+}
+.registbg .padding_1290 {
+    text-align: center;
+}
+
+
+
+/*-----------------register_02------------------*/
+.register_bg_02 {
+    background: url(../images/login_info_02.jpg) no-repeat;
+    width: 980px;
+    height: 25px;
+}
+
+.register_under {
+    margin-top: 30px;
+    margin-left: 190px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.register_left_img {
+    float: left;
+    margin-top: 15px;
+}
+
+.register_right_text {
+    float: left;
+    margin-left: 20px;
+}
+.register_right_text p {
+        padding-bottom:10px;
+    }
+.register_right_text p a {
+        color:#f39800;
+        text-decoration:underline;
+    }
+.register_right_text p a:hover {
+        text-decoration:none;
+    }
+
+.register_right_prompt {
+    font-size: 18px;
+    font-family: ΢���ź�;
+    font-weight: bold;
+    padding-left: 4px;
+}
+
+.register_div_more {
+    float: right;
+    margin-top: 4px;
+    margin-left: 30px;
+}

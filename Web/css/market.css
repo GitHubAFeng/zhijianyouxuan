@@ -1,0 +1,217 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.market_top {
+    background:url(/images/market/market_bg.jpg) center center no-repeat;
+    width:100%;
+    height:360px;
+    margin-top:-15px;
+    position:relative;
+    margin-bottom:15px;
+}
+.market_shopcat {
+    background:url(/images/market/market_shopcat_bg.png) right top no-repeat;
+    width:277px;
+    height:40px;
+    line-height:40px;
+    float:right;
+    cursor:pointer;
+}
+    .market_shopcat span {
+        padding-left:50px;
+        font-size:14px;
+    }
+    .market_shopcat img {
+        float:right;
+        margin-top:18px;
+        padding-right:12px;
+    }
+.market_img {
+    position:absolute;
+    top:19px;
+    text-align:center;
+    width:980px;
+    margin:0 auto;
+}
+.market_infor {
+    position:absolute;
+    top:150px;
+    color:#fff;
+    width:980px;
+    margin:0 auto;
+}
+.market_infor_con {
+    width:410px;
+    margin:0 auto;
+}
+.market_style {
+    margin-bottom:15px;
+    overflow:hidden;
+}
+.market_style li {
+    float:left;
+    width:33%;
+}
+    .market_style li h4 {
+        font-size:24px;
+        text-align:center;
+        font-weight:normal;
+    }
+    .market_style li p {
+        text-align:center;
+    }
+
+.market_time {
+    text-align:center;
+    padding-bottom:20px;
+    border-bottom:2px solid #fff;
+    opacity: 0.5;
+    margin-bottom:20px;
+}
+    .market_time span {
+        padding:0 5px;
+    }
+
+.market_search {
+
+}
+.market_text {
+    border: 2px solid #f39800;
+    color: #999999;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 10px;
+    vertical-align: middle;
+    width:318px;
+    background:none;
+}
+.market_btn {
+    background: none repeat scroll 0 0 #f39800;
+    border: medium none;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    margin-left: -4px;
+    padding: 0 20px;
+    vertical-align: middle;
+    cursor:pointer;
+}
+
+
+.market_title{
+    background:url(/images/market/market_column_bg.png) no-repeat;
+    width:980px;
+    height:50px;
+    color:#fff;
+    margin-bottom:15px;
+}
+.market_f {
+    font-size:20px;
+    font-family:Arial;
+    float:left;
+    padding-left:3px;
+}
+.market_name {
+    float:left;
+    padding-left:17px;
+    font-size:16px;
+    line-height:50px;
+    font-family:微软雅黑;
+}
+.market_back {
+    float:right;
+    background:url(/images/market/back_top.png) right center no-repeat;
+    margin-right:13px;
+    font-size:14px;
+    line-height:50px;
+    padding-right:11px;
+}
+    .market_back a {
+        display:block;
+        color:#fff;
+    }
+        .market_back a:hover {
+            text-decoration:none;
+        }
+
+.market_column {
+    margin-bottom:15px;
+    overflow:hidden;
+}
+    .market_column ul li {
+        float:left;
+        width:216px;
+        height:310px;
+        background:#fff;
+        margin-right:12px;
+        padding:10px;
+    }
+        .market_column ul li .img_name {
+            margin-bottom:20px;
+        }
+            .market_column ul li .img_name h5 {
+                margin-bottom:8px;
+            }
+            .market_column ul li .img_name h4 {
+                font-size:14px;
+                font-weight:normal;
+                line-height:22px;
+            }
+
+.market_price {
+    float:left;
+}
+    .market_price p {
+        text-decoration:line-through;
+        color:#999;
+    }
+    .market_price h3 {
+        font-size:24px;
+        color:#ffa336;
+        line-height:20px;
+        font-weight:normal;
+    }
+.market_addcart {
+    float:right;
+}
+
+
+
+
+.market_nav {
+    border:1px solid #dfdfdf;
+    border-bottom:none;
+    background:#fff;
+    width:90px;
+    position:absolute;
+    top:550px;
+    left:100px;
+}
+    .market_nav ul li {
+        height:36px;
+        line-height:36px;
+        text-align:center;
+        border-bottom:1px solid #dfdfdf;
+    }
+        .market_nav ul li a {
+            display:block;
+            color:#333;
+        }
+            .market_nav ul li a span {
+                font-size:14px;
+                padding-right:3px;
+            }
+
+            .market_nav ul li a:hover {
+                background:#f39800;
+                color:#fff;
+                text-decoration:none;
+            }
+    .market_nav ul .cur {
+        background:#f39800;
+        color:#fff;
+    }
+ .market_nav ul .cur a {
+            color:#fff;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>上传图片</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+</head>
+<body>
+    <iframe name="uploadFrame_100" style="display: none;"></iframe>
+    <form id="uploadForm" action="File.ashx" method="post" enctype="multipart/form-data"
+    target="uploadFrame_100" style="width: 280px">
+    <input type="hidden" id="Urls" name="Urls" />
+    <div id="uploadDiv" style="width: 300px; margin: 10px;">
+        <div id="_yc">
+            <div style="background: url(../Images/System/UpLoad_top.gif) no-repeat left bottom;
+                padding-left: 20px;">
+                <span style="background-color: white; line-height: 120%; font-weight: bold;">上传图片</span>
+            </div>
+            <div style="border-left: 1px solid #C8C8C8; border-right: 1px solid #C8C8C8; text-align: center;">
+                <div id="upc" style="line-height: 30px; font-size: 12px">
+                    <a href="javascript:void(0);" class="files" id="idFile"></a>
+                    <input type="file" id="upFile" name="upFile" />
+                    <input type="button" value="上传" id="idBtnupload" onclick="tj()" />
+                    <input type="hidden" id="fileType" name="fileType" value=".gif.jpg.bmp.png.swf" />
+                    <input type="hidden" id="HiddUserIDs" name="HiddUserIDs" />
+                    <input type="hidden" id="WaterType" name="WaterType" value="1" />
+                    <input type="hidden" id="JFolderType" name="FolderType" />
+                    <input type="hidden" id="hidTogoId" name="hidTogoId" />
+                    <br />
+                    <span class="txt_01"></span>
+                </div>
+            </div>
+            <div>
+                <img alt="" src="../Images/System/UpLoad_bottom.gif" /></div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
+
+<script type="text/javascript" language="JavaScript">
+    var isIE = (document.all) ? true : false;
+    var $ = function(id) {
+        return document.getElementById(id);
+    };
+    function tj() {
+        var uploadFlg = false;
+        if (uploadFlg) {
+            alert("正在上传图片，请稍侯……");
+            return false;
+        }
+        var file = document.getElementById('upFile');
+        var filespec = file.value;
+        var fileType = document.getElementById('fileType').value;
+        if (file.value == null || file.value.length == 0) {
+            alert("上传图片路径不能为空！");
+            return false;
+        }
+        if ((!checkSuffix(file.value, document.getElementById('fileType').value))) {
+            alert("上传图片格式不对\n格式只能为：'" + fileType + "'");
+            return false;
+        }
+        ///这里得到从页面中来的文件类型：
+        //   0 表示只有一级目录即~/admin/...
+        //   1 表示只有一级目录即~/admin/shop/...
+        //   这个用来回传正确的图片路径
+        var parentfolder = window.parent.document.getElementById("FolderType");
+        //  0 为表示不加水印 1 为表示加水印
+        var parentwater = window.parent.document.getElementById("WaterType");
+
+        var TogoId = window.parent.document.getElementById("hidTogoId");
+        if (parentfolder != null) { 
+            document.getElementById("JFolderType").value = parentfolder.value;
+        }
+        if (parentwater != null)
+        {
+            document.getElementById("WaterType").value = parentwater.value;
+        }
+        if(TogoId!=null)
+        {
+            document.getElementById("hidTogoId").value = TogoId.value;
+        }
+        uploadFlg = true;
+        document.getElementById("uploadForm").submit();
+    }
+
+    //在后台通过window.parent来访问主页面的函数
+    function Finish(msg) {
+    
+        if (msg == null || msg.length == 0) {
+            alert("网络传输错误！请梢后.....")
+            return false;
+        }
+        else {
+            var ImgLogo = window.parent.document.getElementById("ImgUrl");
+            var ImgLogo1 = window.parent.document.getElementById("ImgUrl1");
+            var bunt = window.parent.document.getElementById("txtupload");
+            var rowTest1 = window.parent.document.getElementById("rowTest");
+            document.getElementById("Urls").value = msg;
+            var surl = msg;
+            var parentfolder = window.parent.document.getElementById("FolderType").value
+            if( parentfolder == "0")
+            {
+                ImgLogo.src = ".."+msg.substring(1 , msg.length);
+            }
+            else
+            {
+                ImgLogo.src = "../.."+msg.substring(1 , msg.length);
+            }
+            if (parentfolder == "-1") {
+                ImgLogo.src =  msg.substring(2, msg.length);
+            }
+            
+            ImgLogo.alt = msg;
+            ImgLogo1.value = msg;
+            bunt.value = "上传";
+            rowTest1.style.display = "none";
+        }
+
+    }
+
+    function checkSuffix(fileUrl, suffixs) {
+        if (fileUrl == null || fileUrl.length == 0) return false;
+        var idx = fileUrl.lastIndexOf(".");
+        if (idx <= 0) return false;
+        var suffix = fileUrl.substring(idx);
+        return (suffixs.toLowerCase().indexOf(suffix.toLowerCase()) != -1);
+    }
+
+    function doOnload() {
+        var aParams = document.location.search.substr(1);
+        //document.getElementById("Type").value = aParams;
+        //document.getElementById("Urls").value = window.parent.document.getElementById("ImgUrl1").value;
+    }
+    document.body.onload = doOnload;
+</script>
+

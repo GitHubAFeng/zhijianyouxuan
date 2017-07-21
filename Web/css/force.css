@@ -1,0 +1,603 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+body{color:#333; background:#fff;  }
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}
+.clearfix{zoom:1}
+table{border-collapse:collapse;border-spacing:0}
+ol,ul{list-style:none}
+body,button,input,select,textarea{font:12px/1.5 "Microsoft Yahei", tahoma,arial,Hiragino Sans GB,\5b8b\4f53}
+h1, h2, h3, h4, h5, h6 { font-size: 100%;}
+.sup {vertical-align: text-top;}
+.sum{ vertical-align:middle;}
+sub { vertical-align: text-bottom;}
+input, textarea, select {font-family: inherit;  font-size: inherit;font-weight: inherit;}
+input {  outline: medium none;}
+textarea {outline: medium none;}
+legend { color: #000000;}
+img{ border:none;vertical-align:text-bottom;}
+a { color: #333;text-decoration: none;}
+
+a:hover {color: #299bd7;text-decoration: underline;}
+strong{ font-weight:bold;}
+.arial{ font-family:Arial;}
+.yahei {font-family: 'Microsoft Yahei','YaHei','黑体','Hei',Arial,verdana,arial,sans-serif;}
+.bh { display: block;font-size: 0;line-height: 0;margin: 0;overflow: hidden;padding: 0;text-indent: -999px;}
+.fl { float: left;}
+.fr { float: right;}
+.white{ color:#fff;}
+.yell{ color:#ffcc00;}
+.orange{ color:#ff4400;}
+.theme{ color:#299bd7;}
+.clear{ clear:both;}
+.green{ color:#0b9652;}
+.purple{color:#9926a0;}
+.yellow{ color:#d38b00;}
+.red{color:#f63b39;}
+.grey{color:#666;}
+.tcenter{ text-align:center;}
+.blue{ color:#03a4ea;}
+.bold{ font-weight:bold;}
+.dark{ color:#000;}
+.darkred{color:#4f000d;}
+.mgt15{ margin-top:15px;}
+.mgt10{ margin-top:10px;}
+.mgb10{ margin-bottom:10px;}
+.mgb20{ margin-bottom:20px;}
+.gbord{border:#dfdede 1px solid;}
+.clear{ clear:both;}
+.wrap{width:980px;margin:0 auto;}
+.pad3{ padding-top:3px;}
+.f10{ font-size:10px;}
+.f12{ font-size:12px;}
+.f14{ font-size:14px;}
+.f16{ font-size:16px;}
+.f18{ font-size:18px;}
+.f20{ font-size:20px;}
+.f24{ font-size:24px;}
+.f30{ font-size:30px;}
+.sfont{ font-size:10px;}
+.norbord{ border:1px solid #ddd;}
+.whbg{ background:#fff;}
+.wrap{ width:980px; margin:0 auto;}
+
+.padt5{
+	
+	padding-top:5px;
+	
+	}
+.padtb10{
+	padding:10px 0;
+	}	
+.mg10{
+	
+	margin:10px 0;
+	
+	
+	}
+.mg15{
+	
+	margin:15px 0;
+	
+	
+	}
+.mgb15{
+	
+	margin-bottom:15px;
+	
+	
+	}	
+.mgb30{
+	
+	margin-bottom:30px;
+	
+	
+	}	
+.padl5{
+	
+	padding-left:5px;
+	}
+.padt10{
+	padding-top:10px;
+	}	
+.padlr5{
+	
+	padding:0 5px;
+	}
+.padlr10{
+	
+	padding:0 10px;
+	}	
+.pad10{
+	
+	padding:10px;
+	}
+.padlr20{
+	
+	padding:0 20px;
+	}		
+.pad20{
+	
+	padding:20px;
+	}
+.padl10{
+	padding-left:10px;
+	}	
+.padl15{
+	
+	padding-left:15px;
+	
+	}	
+.padtb20{
+	padding:20px 0;
+	}
+.repos{
+	
+	position:relative;
+	
+	}
+.ter{
+	
+	text-align:right;
+	
+	}
+.tec{
+	
+	text-align:center;
+	
+	}
+.tel{
+	
+	text-align:left;
+	
+	}	
+.though{
+	text-decoration:line-through;
+	
+	}
+.padr5{
+	
+	padding-right:5px;
+	}	
+	
+	
+	
+html{
+	height:100%;
+	}
+body{
+	height:100%;
+	}	
+html,body{
+	height:100%;
+	}	
+.page-bg	{
+	width:100%;
+	height:100%;
+	background:url(../images/force_bg.jpg) no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-color:rgba(0,0,0,0);
+	overflow:hidden;
+	background-attachment:scroll;
+	}
+.page-content{
+	height:100%;
+	position:relative;
+	}	
+.page-content .main_content{
+	width:980px;
+	position:absolute;
+	min-height:580px;
+	top:34%;
+	margin-top:-310px;
+	left:50%;
+	margin-left:-450px;
+	
+	
+	
+	
+	}
+.page-content  .top-bar{
+	width:100%;
+	background:rgba(255,255,255,0.9);
+	top:0;
+	position:relative;
+	left:0;
+	height:50px;
+	line-height:50px;
+	color:#fff;
+	z-index:9999;
+	}
+.page-content  .top-bar a{
+	color:#fff;
+	}	
+.top-bar{
+	 white-space:nowrap;
+	 word-break:no-break;
+	 
+	 }
+.d_headBox_index .QQ_icon, .d_headBox_index .WB_icon, .d_headBox_index .WX_icon, .d_headBox_index .inLogin .btnWhite40 .eye_icon, .d_seachMain .selectBox .dropDown_icon {
+    background: url("../images/thirdparty_index.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 31px;
+}
+.d_seachBox{
+	position:absolute;
+	top:50%;
+	margin:-30px auto 0;
+	height:60px;
+	width:925px;
+	
+	
+	}
+.d_seachBox .d_seachMain .d_seachCon {
+    height: 60px;
+    width: 925px;
+	margin:0 auto;
+}
+.d_seachBox .d_seachMain .selectBox {
+    float: left;
+    position: relative;
+    z-index: 990;
+}
+.d_seachMain .selectBox .dropDown_icon{
+	background-position: -154px 0;
+    height: 10px;
+    width: 18px;
+	}
+.d_seachBox .d_seachMain .selectBox .dropDown_iconBox {
+    display: block;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+}
+.d_seachBox .d_seachMain .selectBox .dropDown_icon {
+    left: 50%;
+    margin: -4px 0 0 -8px;
+    position: absolute;
+    top: 50%;
+}
+.d_seachBox .d_seachMain .selectBox .positionIconB {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.d_seachBox .d_seachMain .citySelect {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 6px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    height: 60px;
+    line-height: 60px;
+    margin-right: 10px;
+    width: 100px;
+}
+.d_seachBox .d_seachMain .citySelect input {
+    background: none repeat scroll 0 0 #fff;
+    border: 0 none;
+    border-radius: 0px;
+    color: #444;
+    font-family: "Microsoft YaHei","SimSun";
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    width: 80px;
+}
+.d_seachBox .d_seachMain .historySelect {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 6px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    height: 60px;
+    line-height: 60px;
+    width: 150px;
+}
+.d_seachBox .d_seachMain .historySelect input {
+    background: none repeat scroll 0 0 #fff;
+    border: 0 none;
+    border-radius: 0px;
+    color: #444;
+    font-family: "Microsoft YaHei","SimSun";
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    width: 140px;
+}
+.d_seachBox .d_seachMain .citySelect .dropDown_iconBox {
+    display: block;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+}
+.d_seachBox .d_seachMain .citySelect .dropDown_icon {
+    left: 50%;
+    margin: -4px 0 0 20px;
+    position: absolute;
+    top: 50%;
+}
+.d_seachBox .d_seachMain .addressSelect {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 0px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    height: 60px;
+    line-height: 60px;
+    width: 620px;
+	margin-right:10px;
+}
+.d_seachBox .d_seachMain .addressSelect input {
+    background: none repeat scroll 0 0 #fff;
+    border: 0 none;
+    border-radius: 0px;
+    color: #444;
+    font-family: "Microsoft YaHei","SimSun";
+    font-size: 18px;
+    height: 34px;
+    line-height: 34px;
+    padding: 13px 40px 13px 20px;
+    width: 460px;
+}
+.d_seachBox .d_seachMain .addressSelect .shake {
+    background: none repeat scroll 0 0 #ffe9e8;
+    color: #d00;
+}
+.d_seachBox .d_seachMain .addressSelect .searchBtn {
+    background: none repeat scroll 0 0 #fe4d3d;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Microsoft YaHei","SimSun";
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    top: 0px;
+    width: 120px;
+}
+.d_seachBox .d_seachMain .addressSelect .dropDown_iconBox {
+    right: 100px;
+}
+.d_seachBox .d_seachMain .selectList {
+    background: none repeat scroll 0 0 #fff;
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 57px;
+    z-index: 998;
+}
+.d_seachBox .d_seachMain .selectList li {
+    border-top: 1px solid #ddd;
+    height: 44px;
+    line-height: 44px;
+}
+.d_seachBox .d_seachMain .selectList li a {
+    color: #777;
+    display: block;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 0 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.d_seachBox .d_seachMain .selectList li a:hover {
+    background: none repeat scroll 0 0 #eee;
+    text-decoration:none;
+}
+.d_seachBox .d_seachMain .selectList li.lastSet span, .d_seachBox .d_seachMain .selectList li.lastSet a {
+    float: right;
+}
+.d_seachBox .d_seachMain .selectList li.lastSet a {
+    color: #ec7b01;
+    padding: 0 10px;
+}
+.d_seachBox .d_seachMain .selectList li.lastSet a:hover {
+    background: none repeat scroll 0 0 #fff;
+}
+.d_seachBox .d_seachMain .selectList li.lastSet span.set_icon {
+    top: 10px;
+}
+.d_seachBox .d_seachMain .selectList li.hover a {
+    background: none repeat scroll 0 0 #eee;
+}
+.d_seachBox .d_seachMain .selectList li.lastSet.hover a {
+    background: none repeat scroll 0 0 #fff;
+}
+.d_seachBox .d_seachMain .selectList li:last-child {
+    border-bottom: 0 none;
+}
+.d_seachBox .d_seachMain .selectListCity {
+    padding: 0 1px;
+    width: 96px;
+}
+.d_seachBox .d_seachMain .selectListAddress {
+    padding: 0 1px;
+    width: 457px;
+}
+.d_seachBox .downApp {
+    display: block;
+    height: 70px;
+    overflow: hidden;
+    width: 70px;
+}
+
+
+
+/*#region 首页城市弹框选择 2015-12-21 */
+.bs-dropdown-menu {
+    position: absolute;
+    z-index: 50;
+}
+
+.map-block {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+.city-dropdown {
+    margin: 9.6px 0 0;
+    padding: 0 30px 0 23px;
+    width: 900px;
+}
+
+.bs-dropdown.open > .bs-dropdown-menu {
+    display: block;
+}
+
+.city-dropdown::before {
+    background: none repeat scroll 0 0 #fff;
+    content: "";
+    height: 8px;
+    left: 47px;
+    position: absolute;
+    top: -4.8px;
+    transform: rotate(45deg);
+    width: 8px;
+}
+
+.module-header {
+    color: #666;
+    font: 14px/1 "Helvetica Neue",Arial,"Microsoft Yahei",sans-serif;
+    margin: 0;
+}
+
+.city-dropdown > .module-header {
+    padding: 16px 0;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin: 0 0 -1px;
+}
+.cities-wrapper {
+    margin-bottom: 10px;
+    max-height:240px;
+    overflow-y: auto;
+}
+.city-initial-group {
+    border-top: 1px solid #eee;
+    padding: 10px 0;
+}
+.city-initial-group::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.guess-caption, .city-initial {
+    box-sizing: border-box;
+    color: #fe4d3d;
+    display: inline-block;
+    font-size: 15px;
+    padding: 0 0 0 5px;
+    width: 67px;
+}
+.city-initial {
+    float: left;
+    line-height: 33px;
+}
+.city-list {
+    float: left;
+    width: 760px;
+    margin:0;
+    padding:0;
+}
+
+.city-block {
+    float: left;
+    font-size: 17px;
+    padding: 3px 0;
+    width: 10%;
+    line-height:initial;
+}
+
+.city {
+    cursor: pointer;
+    font-size: 16px;
+}
+    .city:hover {
+        color:#fe4d3d;
+    }
+/*#endregion */
+
+
+/*首页二维码 */
+.index_code_bg {
+    position:absolute;
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    bottom:100px;
+    left:50%;
+    margin-left:-160px;
+    color:#333;
+    width:320px;
+    height:230px;
+    text-align:center;
+}
+.index_code_title {
+    font-size:18px;
+    line-height:18px;
+    padding:20px 5px;
+}
+    .index_code_title span {
+        background: url("/images/index_code_title.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 1px;
+    vertical-align: middle;
+    width: 25px;
+    }
+.index_code_con {
+    position:absolute;
+    left:50%;
+    margin-left:-138px;
+    width:276px;
+
+}
+    .index_code_con .index_code_wx {
+        float:left;
+        margin-right:20px;
+        background:#fff;
+        padding:10px 10px 1px;
+    }
+        .index_code_con .index_code_wx p {
+            padding-bottom:6px;
+            font-size:14px;
+        }
+        .index_code_con .index_code_app {
+        float:left;
+        background:#fff;
+        padding:10px 10px 1px;
+    }
+         .index_code_con .index_code_app p {
+            padding-bottom:6px;
+            font-size:14px;
+        }
+
+.index_bot {
+    position:absolute;
+    bottom:20px;
+    color:#fff;
+    width:100%;
+    text-align:center;
+}
+    .index_bot .index_link {
+        font-size:14px;
+        margin-bottom:5px;
+    }
+        .index_bot .index_link a {
+            color:#fff;
+        }
+        .index_bot .index_link i {
+            padding:0 20px;
+
+
+        }
+.index_copyright {
+    color:#fff;
+}
+
+
+

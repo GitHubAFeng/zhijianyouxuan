@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="TogoCollect.aspx.cs" Inherits="Ajax_TogoCollect" %>

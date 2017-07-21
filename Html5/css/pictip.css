@@ -1,0 +1,30 @@
+﻿@charset "utf-8";
+.mModal{position:fixed;left:0;top:0;width:100%;background-color:rgba(0,0,0,.5);}
+.mModal>a{display:block;}
+
+#page_allMenu .freeSet{
+
+    background-color:#fff;
+
+
+     left: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    right: 5px;
+    width: auto;
+    top: 50%;
+
+}
+.content{position:relative;}
+#page_allMenu .freeSet>a.x{top:-6px;right:-6px;}
+.content b{display:block;position:absolute;width:70px;height:70px;background:url("../images/wei_canyin/pop.png") no-repeat;background-size:cover;top:140px;right:20px;-moz-transform:rotate(-30deg);-o-transform:rotate(-30deg);-webkit-transform:rotate(-30deg);}.content h3,.content p{margin:0 20px;}.content img{width:300px;height:225px;}.content h2,.content #myintro{background-color:#f6f6f6;color:#5e6060;font-size:13px;padding:10px 20px 9px 20px;margin-top:-5px;font-weight:normal;}
+.content h2 i{color:#f00;font-style:normal;font-size:12px;display:inline-block;margin-left:10px;}
+.content h2 span{display:inline-block;float:right;font-size:12px;color:#a7acad;}
+.content h3{border-top:1px solid #f8f8f9;border-bottom:1px solid #f8f8f9;font-weight:normal;color:#b8b8b8;padding:5px 0;font-size:12px;}
+.content p{color:#b8b8b8;padding:10px 0 12px;font-size:12px;line-height:18px;}.intelPage .freeSet{padding:0;background-color:#fff;width:300px;}
+.content del{font-size:12px;margin-left:5px;color:#ccc;}#page_viewLarge .picBox{position:relative;margin:0 auto;text-align:left;text-align:center;overflow:hidden;}
+
+.mDialog,.mDialog *{margin:0;padding:0;}
+.mDialog{width:250px;position:fixed;bottom:auto;top:0;left:0;background-color:rgba(0,0,0,.7);box-shadow:0 0 10px rgba(0,0,0,.5);padding:15px;}
+#page_allMenu .freeSet>a.x{top:-6px;right:-6px;}
+.mDialog>a.x{display:inline-block;width:27px;height:27px;text-indent:-9999px;background:url('../images/mdlg_btn_x.png') no-repeat 0 0;-webkit-background-size:27px 27px;background-size:27px 27px;position:absolute;top:-9px;right:-11px;}

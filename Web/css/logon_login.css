@@ -1,0 +1,372 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*===================logon_login===========================*/
+/*-----------------register------------------*/
+.register_con {
+    border: 1px solid #d5d5d5;
+    overflow: hidden;
+}
+
+.info {
+    border-bottom: 1px dotted #ccc;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #000;
+    background: #f6f6f6;
+}
+
+.info_left {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.info_right {
+    float: right;
+    padding-right: 20px;
+}
+
+.login_info {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow: hidden;
+}
+
+    .login_info p {
+        padding-top: 5px;
+    }
+
+.login_left {
+    width: 415px;
+    border-right: 1px solid #ccc;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    float: left;
+}
+
+.login_img_01 {
+    float: left;
+}
+
+.enter_button {
+    background: url(../images/sure_button.jpg) no-repeat;
+    width: 86px;
+    height: 28px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: ΢���ź�;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.login_right {
+    width: 415px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    float: right;
+}
+
+.login_img_01 {
+    float: left;
+}
+
+.text_style {
+    width: 180px;
+    height: 20px;
+    color: #000;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    padding:3px;
+}
+
+.text_heddin_style {
+    background-color: #F1FAFE;
+    border: 1px solid #B1DFF3;
+    padding: 5px 4px 3px 4px;
+    color: #0863C0;
+    font-size: 12px;
+}
+
+.submit_button {
+    background: url(../images/sure_button.jpg) no-repeat;
+    width: 86px;
+    height: 28px;
+    margin-left: 60px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: ΢���ź�;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.check_button {
+    font-size: 12px;
+    width: 100px;
+    height: 20px;
+}
+
+.next_button, .next_button_hover {
+    background: url(../images/next_button.jpg) no-repeat;
+    width: 87px;
+    height: 29px;
+    margin-left: 65px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.next_button_hover {
+    background: url(../images/next_button_hover.jpg) no-repeat;
+    width: 87px;
+    height: 29px;
+}
+
+.email_button {
+    background: url(../images/email_button.jpg) no-repeat;
+    width: 128px;
+    height: 28px;
+    margin-top: 10px;
+    margin-left: 8px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: ΢���ź�;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.register_email_bottom {
+    background: #f7f7f7;
+    width: 700px;
+    height: 100px;
+    margin-left: 140px;
+    margin-bottom: 60px;
+}
+
+    .register_email_bottom h4 {
+        padding-left: 30px;
+        padding-top: 10px;
+        color: #3d3c3c;
+        padding-bottom: 5px;
+    }
+
+.register_email_text {
+    font-size: 12px;
+    color: #3d3c3c;
+}
+
+.email_text_01 {
+    border-right: 1px dashed #d4d2d2;
+    width: 170px;
+    height: 45px;
+    float: left;
+    margin-left: 30px;
+    line-height: 15px;
+    padding-right: 20px;
+}
+
+.email_text_02 {
+    border-right: 1px dashed #d4d2d2;
+    width: 165px;
+    height: 45px;
+    float: left;
+    margin-left: 20px;
+    line-height: 15px;
+    padding-right: 20px;
+}
+
+.email_text_03 {
+    width: 170px;
+    height: 45px;
+    float: left;
+    margin-left: 20px;
+    line-height: 15px;
+}
+
+/*-----------------register_03------------------*/
+.register_bg_03 {
+    background: url(../images/login_info_03.jpg) no-repeat;
+    width: 980px;
+    height: 25px;
+}
+
+/*-----------------forget_code------------------*/
+.forget_code_info {
+    padding-top: 20px;
+    color: #000;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 60px;
+    border: 1px solid #ddd;
+    background:#fff;
+    margin-bottom:15px;
+}
+
+    .forget_code_info p {
+        margin-bottom: 20px;
+    }
+
+.forget_code_email {
+    text-indent: 4px;
+    letter-spacing: 0.5px;
+}
+
+.sure_button {
+    background:#f39800;
+    width: 86px;
+    height: 32px;
+    line-height:32px;
+    margin-left: 53px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 13px;
+}
+
+/*-----------------logon------------------*/
+.logon_info {
+    overflow: hidden;
+    padding: 30px 100px 40px;
+    background:#fff;
+    border: 1px solid #ddd;
+}
+    .logon_info p {
+        padding-bottom:15px;
+    }
+.logon_left {
+    width: 355px;
+    float: left;
+}
+    .logon_info_bg p {
+        padding-left:20px;
+        line-height:30px;
+        padding-bottom:15px;
+    }
+    .logon_info_bg p span {
+        padding-right:8px;
+        font-size:14px;
+    }
+
+.logon_bg_01 {
+    width: 355px;
+    height: 33px;
+    background: url(../images/logon_bg.jpg)no-repeat;
+    border-bottom: 1px solid #e8e8e8;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+    line-height: 33px;
+}
+
+.logon_bg_02 {
+    background: none repeat scroll 0 0 #F7F7F7;
+    width: 360px;
+    padding-top: 10px;
+    color: #000;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.code_text {
+    letter-spacing: 7px;
+}
+
+.user_name, .user_name_hover {
+    background:#fbfbfb;
+    border:1px solid #ddd;
+    width: 280px;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.user_name_hover {
+    background:#fff;
+    border:1px solid #f39800;
+}
+
+.forget_code {
+    height:35px;
+    display:block;
+    float:right;
+    padding-right:12px;
+}
+
+.logon_button {
+    background: url(../images/sure_button.jpg) no-repeat;
+    width: 86px;
+    height: 28px;
+    margin-left: 84px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: ΢���ź�;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.logon_right {
+    width: 280px;
+    margin-left: 40px;
+    margin-top: 40px;
+    float: right;
+}
+    .logon_right p {
+        padding-bottom:15px;
+    }
+
+.reg_text{
+    font-weight: bold;
+    color: #f39800;
+    font-size: 14px;
+}
+
+.qq {
+    background: url("../Images/QQ.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 24px;
+    width: 124px;
+}
+.login_button, .login_button_hover {
+    background:#f39800;
+    width:284px;
+    height:36px;
+    line-height:36px;
+    margin-left:57px;
+    cursor:pointer;
+    color:#fff;
+    font-size:15px;
+    border:none;
+}
+.login_button_hover {
+    background:#f17d00;
+}
+
+.login_wel {
+    height:34px;
+    line-height:34px;
+    font-size:18px;
+    margin-bottom:10px;
+    margin-left:20px;
+}
+.prompt_text {
+    padding-left:20px;
+    color:#ff0000;
+    padding-bottom:15px;
+}
+

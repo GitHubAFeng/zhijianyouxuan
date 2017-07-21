@@ -1,0 +1,321 @@
+
+
+/*---------------×¢²áÒ³Ãæ------------*/
+.login_header{
+				width:970px;
+				background:url(../Images/userlogo.jpg) no-repeat left;
+				height:60px;
+				margin:0 auto;
+				border-bottom:2px solid #2e86b6;
+	}
+.login_header .loadlogin {						
+						float:right;
+						height:21px;
+						line-height:21px;
+						overflow:hidden;
+						padding-top:35px;
+						text-align:right;
+						white-space:nowrap;
+						width:500px;
+						padding-right:10px;
+	}
+.mhd {
+		background-position:-9px -4px;
+		height:73px;
+		position:relative;
+		width:980px;
+		background:url(../Images/bg_010.jpg) no-repeat;
+		margin-top:10px;
+}
+ .mhd .tit {
+			color:#D3EAFE;
+			font-size:14px;
+			left:55px;
+			line-height:16px;
+			position:absolute;
+			top:22px;
+}
+.mcont {
+		height:auto;		
+		width:980px;
+		background:url(../Images/bg_y.gif) repeat-y 1px 0;
+	}
+.main-cont {
+			margin:0 auto;
+			padding:10px 0;
+			width:870px;
+	}
+.main-cont-tit {
+				
+				height:30px;
+				line-height:30px;
+				margin:20px 0;
+				position:relative;
+				text-align:left;
+				text-indent:15px;
+				background:#f1f9ff;
+				border-bottom:1px solid #2e86b6;
+ }
+ .main-cont-tit .arr {
+					border-left:5px solid #FFFFFF;
+					border-right:5px solid #FFFFFF;
+					border-top:5px solid #98B7CC;
+					float:left;
+					font-size:0;
+					left:40px;
+					line-height:0;
+					overflow:hidden;
+					position:absolute;
+					top:30px;
+}
+.main-cont-tit h2 {
+					color:#007BBB;
+					float:left;
+					font-size:14px;
+					line-height:30px;
+	}
+.cont-tab {
+		width:870px;		
+		text-align:left;
+}
+.nes {
+		color:#CC0000;
+		font-size:14px;
+		line-height:30px;
+}
+.cont-tab td.td1 {
+					font-size:14px;
+					text-align:right;
+					width:155px;
+	}
+.cont-tab td.td2 {
+				width:205px;
+	}
+.cont-tab td {
+			line-height:30px;
+			padding:6px 2px;
+			vertical-align:top;
+	}
+.cont-tab td  .inp {
+					border:1px solid #A0B4C5;
+					height:20px;
+					padding:2px 4px;
+					width:170px;
+}
+
+.mft{
+	
+	font-size:0;
+	height:10px;
+	line-height:0;
+	overflow:hidden;
+	position:relative;
+	width:980px;
+	background:url(../Images/bg_010.jpg) no-repeat 0px -102px; ;
+}
+.notice_error
+{
+	color: #f00;
+	border: 1px solid #f00;
+	padding: 2px;
+	background: #ffeee1;
+	font-size: 12px;
+}
+.notice
+{
+	font-size: 12px;
+	color: #666666;
+	padding-top: 3px;
+}
+/*-------------µÇÂ¼³É¹¦Ò³Ãæ------------------*/
+.RegisterSuccess{
+				margin:0 auto;
+				width:850px;
+				border:1px solid #A0B4C5;
+				background:#f4f9fd;
+				padding:10px 20px;				
+				overflow:hidden;
+				font-size:13px;
+				line-height:200%;
+	}
+.RegisterSuccess h4{
+					background:url(../Images/bg_y_1.gif) no-repeat;
+					height:48px;
+					font-size:15px;
+					line-height:48px;
+					color:#0066CC;					
+					text-indent:4em;
+					display:block;
+					width:800px;
+	}
+.RegisterSuccess .zongyao{
+							margin:10px 20px;
+							border:1px solid #bdcedd;
+	}
+.RegisterSuccess .zongyao h5{
+								height:30px;
+								line-height:30px;
+								background:#ccdfef;
+								text-indent:2em;
+								color:#222;
+								font-size:14px;
+	}
+.RegisterSuccess .zongyao ul{
+								margin-left:200px;
+								background:#fff;
+								padding:20px;
+								font-size:14px;
+	}
+/*----------Íü¼ÇÃÜÂë---------*/
+.two-to{
+		background:#FFFFFF url(../Images/reg-bg03.gif) no-repeat scroll 480px center;		
+		height:330px;
+		padding-top:30px;
+		width:828px;
+		margin:0 auto
+}
+.two-to p {
+			color:#475793;
+			font-size:14px;
+			font-weight:bold;
+			line-height:40px;
+			margin-bottom:40px;
+			text-align:center;
+			width:828px;
+	}
+.two-to ul{
+			width:560px;
+			height:246px;
+			margin:0 auto;
+			
+	}
+.two-to li{
+			height:40px;
+			line-height:40px;
+			clear:both;
+			width:430px;			
+	}
+.two-to li img{
+				margin-top:10px;
+				*margin-top:-30px;
+				_margin-top:-20px;
+				float:right;
+				text-align:left;
+	}
+.two-to .span1{
+				float:left;
+				width:100px;
+				padding-right:10px;
+				_margin-top:-10px;
+				font-weight:normal;
+				text-align:right;			
+	}
+/*-----------------µÇÂ¼Ò³Ãæ-----------------*/
+.login_warp{
+			width:970px;
+			margin:10px auto;
+			background:#fff;
+	}
+.loginrightsider{
+				float:right;
+				background:url(../Images/loginrightbg.png) no-repeat;
+				width:308px;
+				height:431px;
+	}
+.loginrightsider .login_ul{
+							margin:75px 10px 20px;
+	}
+.loginrightsider .login_ul input{
+								font-family:Verdana,Arial,Helvetica,sans-serif;
+								font-weight:bold;
+	}
+.loginrightsider .login_ul li{
+								height:40px;
+								line-height:40px;
+								font-size:14px;								
+	}
+.loginrightsider .login_ul li .spanright{
+										float:left;
+										width:70px;
+										padding-right:10px;
+										text-align:right;
+	}
+.loginrightsider .imgtu img{
+									float:right;									
+									position:relative;
+									margin-top:-30px;
+									padding-right:60px;								
+	}
+.input_on{ 
+			 background:#f4f4f4;
+			 font-size:14px;
+			 padding:5px 3px;
+			 width:172px;
+			 border:1px solid #00a8e3;		
+	}
+.input_off{
+			background:#fff;
+			 font-size:14px;
+			 padding:5px 3px;
+			 width:172px;
+			 border:1px solid #858585;		
+}
+.input_move{ 
+			 background:#f4f4f4;
+			 font-size:14px;
+			 padding:5px 3px;
+			 width:172px;
+			 border:1px solid #00a8e3;	
+	}
+.input_out{
+			 background:#fff;
+			 font-size:14px;
+			 padding:5px 3px;
+			 width:172px;
+			 border:1px solid #858585;					
+}
+.login_btn1,.login_btn2{
+			background:url(../Images/login_bg.gif) no-repeat;
+			width:108px;
+			height:36px;
+			border:0;
+			cursor:pointer;
+	}
+.login_btn1:hover,.login_btn2:hover{
+					background:url(../Images/login_bg.gif) no-repeat 0 -71px;
+					height:36px;
+					width:108px;
+	}
+.loginrightsider .bottom{
+							position:absolute;
+							margin-top:50px;
+							text-align:center;
+							padding-left:110px;
+							font-size:14px;						
+	}
+.login_btn2{
+			background:url(../Images/login_bg.gif) no-repeat 0 -36px;
+	}
+.login_btn2:hover{
+					background:url(../Images/login_bg.gif) no-repeat 0 -107px;
+	}
+.loginleftsider{
+				float:left;
+				width:650px;
+	}
+.loginleftsider .guanggao{
+							padding:5px 0;
+	}
+.loginleftsider .guanggao img{
+						width:650px;
+						height:169px;
+	}
+.loginleftsider .loginlist{
+							padding:10px 20px;
+	}
+.loginleftsider .loginlist li{
+							line-height:180%;
+							font-size:14px;
+							list-style-type: decimal;
+							list-style-position:inside;
+	}

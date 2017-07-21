@@ -1,0 +1,592 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-weight: normal;
+}
+
+* {
+    font-family: "方正黑体简体";
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    display: block;
+}
+
+.cleaerfix {
+    clear: both;
+}
+body {
+    background-color:#ff3f26;
+}
+.banner img {
+    max-width: 640px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainbox {
+    max-width: 640px;
+    background-color: #ff3f26;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: central;
+}
+
+.column_top {
+    width: 100%;
+    height:200px;
+    background-image: url(../images/coupons.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: inherit;
+    padding:15px 0;
+
+}
+
+.red_packets {
+   position: relative;
+   width:100%;
+   padding:10% 0;
+   height:50px;
+}
+
+    .red_packets h1 {
+        position:absolute;
+        left:17%;
+        top:26%;
+        font-size: 30px;
+        color: #ff4126;
+    }
+    .red_packets h2 {
+    font-size: 40px;
+        position:absolute;
+        left:42%;
+        top:45%;
+    color: #ff4126;
+}
+    .red_packets h3 {
+    font-size: 105px;
+     position:absolute;
+     left:50%;
+     top:10%;
+    color: #ff4126;
+}
+    .red_packets h4 {
+    font-size: 21px;
+    color: #a19e9e;
+     position:absolute;
+     left:38%;
+    bottom:5%;
+}
+
+@media screen and (max-width: 414px) {
+.column_top {
+    height:130px;
+    background-size: 90%;
+    padding:15px 0;
+
+
+}
+.red_packets h1 {
+        left:15%;
+        top:26%;
+        font-size: 22px;
+    }
+    .red_packets h2 {
+    font-size: 22px;
+      left:42%;
+     top:45%;
+
+}
+    .red_packets h3 {
+    font-size: 70px;
+     left:50%;
+     top:10%;
+
+}
+    .red_packets h4 {
+    font-size: 16px;
+     left:38%;
+         bottom:7%;
+}
+
+}
+@media screen and (max-width: 360px) {
+.column_top {
+    height:130px;
+    background-size: 90%;
+    padding:10px 0;
+}
+.red_packets h1 {
+        left:15%;
+        top:26%;
+        font-size: 22px;
+    }
+    .red_packets h2 {
+    font-size: 22px;
+      left:42%;
+     top:45%;
+
+}
+    .red_packets h3 {
+    font-size: 70px;
+     left:50%;
+     top:10%;
+
+}
+    .red_packets h4 {
+    font-size: 14px;
+     left:35%;
+       bottom:7%;
+}
+
+}
+@media screen and (max-width: 320px) {
+    .column_top {
+        height: 125px;
+        background-size: 90%;
+        padding: 5px 0;
+    }
+     .red_packets h3 {
+    font-size: 65px;
+
+
+}
+}
+
+.column_two {
+    max-width: 640px;
+    background-color: #ff3f26;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.content {
+    width: 91%;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.3);
+    margin:0 auto;
+}
+
+.concent_qb h1 {
+    font-size: 26px;
+    color: #793030;
+    padding-top: 30px;
+    text-align: center;
+}
+.concent_qb h2 {
+    font-size: 26px;
+    color: #793030;
+text-align:center;
+}
+
+@media screen and (max-width: 414px) {
+    .concent_qb h1 {
+        font-size: 16px;
+        padding-top: 15px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .concent_qb h1 {
+    font-size: 16px;
+    padding-top: 15px;
+}
+.concent_qb h2 {
+    font-size: 16px;
+}
+}
+
+.concent_qb h3 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 65px;
+    float: left;
+}
+
+@media screen and (max-width: 414px) {
+    .concent_qb h3 {
+        font-size: 18px;
+        margin-top: 18px;
+        margin-left: 45px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .concent_qb h3 {
+        font-size: 16px;
+        margin-top: 13px;
+        margin-left: 40px;
+    }
+}
+
+.concent_qb h3 a {
+    color: #cf1a02;
+}
+
+.buttom {
+    width: 80%;
+    border-radius: 10px;
+    background-color: #fe4d3d;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 32px;
+    line-height: 60px;
+}
+
+@media screen and (max-width:414px) {
+    .buttom {
+        margin-top: 10px;
+        line-height: 36px;
+    }
+}
+
+
+.buttom a {
+    font-size: 30px;
+    color: #FFF;
+}
+
+@media screen and (max-width: 414px) {
+    .buttom a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .buttom a {
+        font-size: 15px;
+    }
+}
+
+.concent_rule h1 {
+    background-image: url(../images/hr01.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    background-position: center;
+}
+
+@media screen and (max-width: 414px) {
+    .concent_rule h1 {
+        background-size: 100% 25%;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .concent_rule h1 {
+        background-size: 100% 24%;
+        font-size: 18px;
+        margin-top: 35px;
+    }
+}
+
+.concent_rule a {
+    color: #ff0000;
+}
+
+.concent_rule ol {
+    margin-left: 53px;
+    font-size: 24px;
+    margin-top: 30px;
+    width: 514px;
+}
+
+@media screen and (max-width: 414px) {
+    .concent_rule ol {
+        margin-left: 35px;
+        font-size: 16px;
+        margin-top: 25px;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .concent_rule ol {
+        margin-left: 35px;
+        font-size: 15px;
+        margin-top: 25px;
+        width: 250px;
+    }
+}
+
+.content_luck h1 {
+    background-image: url(../images/hr02.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    background-position: center;
+}
+
+@media screen and (max-width: 414px) {
+    .content_luck h1 {
+        background-size: 100% 25%;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content_luck h1 {
+        background-size: 100% 24%;
+        font-size: 18px;
+        margin-top: 35px;
+    }
+}
+
+.content_luck img {
+    float: left;
+    margin-left: 46px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 414px) {
+    .content_luck img {
+        width: 18%;
+        margin-left: 15px;
+        margin-top: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content_luck img {
+        width: 16%;
+        margin-left: 15px;
+        margin-top: 18px;
+    }
+}
+
+.content_luck h2 {
+    font-size: 24px;
+    color: #383838;
+    float: left;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 414px) {
+    .content_luck h2 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content_luck h2 {
+        font-size: 14px;
+        margin-top: 18px;
+    }
+}
+
+.content_luck span {
+    font-size: 24px;
+    color: #cf1a02;
+    margin-top: 22px;
+}
+
+@media screen and (max-width: 414px) {
+    .content_luck span {
+        font-size: 16px;
+        margin-top: 21px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content_luck span {
+        font-size: 15px;
+        margin-top: 18px;
+    }
+}
+
+.content_luck h4 {
+    font-size: 24px;
+    color: #383838;
+    margin-top: 13px;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 414px) {
+    .content_luck h4 {
+        font-size: 16px;
+        margin-top: 13px;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content_luck h4 {
+        font-size: 14px;
+        margin-top: 6px;
+        padding-bottom: 15px;
+    }
+}
+
+.tel {
+    background-color: #FFF;
+    color: #b5b5b5;
+}
+
+.button {
+        width: 100%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        height:60px;
+        font-size: 30px;
+        border:none;
+        color: #FFF;
+       background-color:#ddd;
+}
+
+.mainbox1 {
+    max-width: 640px;
+    background-color: #ff3f26;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: central;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+    .mainbox1 span{
+        width: 80%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 20px;
+        height:60px;
+        font-size: 30px;
+        border:none;
+        outline:none;
+    }
+
+@media screen and (max-width: 414px) {
+    .mainbox1 span {
+        margin-bottom: 15px;
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .mainbox1 span {
+        margin-bottom: 15px;
+        height: 35px;
+        font-size: 15px;
+    }
+}
+   .mainbox1 span input{
+        width: 100%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        height:60px;
+        font-size: 30px;
+        border:none;
+        background-color:#fff;
+    }
+
+@media screen and (max-width: 414px) {
+    .mainbox1 span input {
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .mainbox1 span input {
+        height: 35px;
+        font-size: 15px;
+
+    }
+}
+
+
+
+.content {
+    width: 91%;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.3);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.concent_rule h1 {
+    background-image: url(../images/hr01.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 25px;
+    background-position: center;
+}
+
+@media screen and (max-width: 414px) {
+    .concent_rule h1 {
+        background-size: 100% 25%;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .concent_rule h1 {
+        background-size: 100% 24%;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+
+.concent_rule a {
+    color: #ff0000;
+}
+
+.concent_rule ol {
+    margin-left: 53px;
+    font-size: 24px;
+    margin-top: 30px;
+    width: 514px;
+}
+
+@media screen and (max-width: 414px) {
+    .concent_rule ol {
+        margin-left: 35px;
+        font-size: 16px;
+        margin-top: 15px;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .concent_rule ol {
+        margin-left: 35px;
+        font-size: 15px;
+        margin-top: 15px;
+        width: 250px;
+    }
+}

@@ -1,0 +1,599 @@
+
+
+
+div.span-1, div.span-2, div.span-3, div.span-4, div.span-5, div.span-6, div.span-7, div.span-8, div.span-9, div.span-10, div.span-11, div.span-12, div.span-13, div.span-14, div.span-15, div.span-16, div.span-17, div.span-18, div.span-19, div.span-20, div.span-21, div.span-22, div.span-23, div.span-24, div.span-auto
+{
+	float: left;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+.span-1
+{
+	width: 30px;
+}
+.span-2
+{
+	width: 75px;
+}
+.span-3
+{
+	width: 110px;
+}
+.span-4
+{
+	width: 150px;
+}
+.span-5
+{
+	width: 180px;
+}
+.span-6
+{
+	width: 230px;
+}
+.span-7
+{
+	width: 270px;
+}
+.span-8
+{
+	width: 310px;
+}
+
+.span-24, div.span-24
+{
+	width: 950px;
+	margin: 0;
+}
+div.span-auto-6
+{
+	width: auto !important;
+	min-width: 230px;
+	width: 230px;
+}
+
+
+
+.gridlist
+{
+	border-top: 1px solid #EBEBEB;
+}
+table.gridlist
+{
+	border: 1px solid #efefef;
+	width: 100%;
+	margin: 0;
+}
+.division td .gridlist
+{
+	width: auto;
+}
+
+.gridlist tbody td, .gridlist tbody th
+{
+	text-align: center;
+	border: 1px solid;
+	border-color: #fff #DBE2E7 #ddd #fff;
+	white-space: normal;
+}
+.gridlist div.span-1, .gridlist div.span-2, .gridlist div.span-3, .gridlist div.span-4, .gridlist div.span-5, .gridlist div.span-6, .gridlist div.span-7, .gridlist div.span-8, .gridlist div.span-9, .gridlist div.span-10, .gridlist div.span-11, .gridlist div.span-12
+{
+	border-right: 1px solid #DBE2E7;
+	border-left: 1px solid #fff;
+	margin: 0;
+	padding: 0 2px;
+}
+.highlight div.span-1, .highlight div.span-2, .highlight div.span-3, .highlight div.span-4, .highlight div.span-5, .highlight div.span-6, .highlight div.span-7, .highlight div.span-8, .highlight div.span-9, .highlight div.span-10, .highlight div.span-11, .highlight div.span-12
+{
+	border: none;
+	margin: 0;
+	padding: 0 3px;
+}
+.gridlist-colChanger
+{
+	border: 1px solid #ccc;
+	background: #E7EFF4 url(../images/sysrightbackgroud.gif) repeat-x;
+}
+.gridlist .opt
+{
+	display: block;
+	padding: 3px 0;
+	cursor: pointer;
+	text-align: center;
+}
+.gridlist-tab
+{
+	position: relative;
+	background: #6F777A;
+	margin: -20px 0 -1px 0;
+	height: 23px;
+	font-size: 13px;
+	overflow: hidden;
+	zoom: 1;
+}
+.gridlist-tab div
+{
+	border-right: 1px solid #879397;
+	border-left: 1px solid #879397;
+	padding-left: 15px;
+	height: 1em;
+	line-height: 1em;
+	margin: 5px -1px 0 0;
+	white-space: nowrap;
+	_width: 60px;
+	float: left;
+	cursor: pointer;
+}
+.gridlist-tab div span
+{
+	padding-right: 15px;
+}
+.gridlist-tab a
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: #d3d3d3;
+}
+.gridlist-tab a:hover
+{
+	color: #d3d3d3;
+}
+.gridlist-tab .cur
+{
+	background: url(../images/gridlist_tab.gif) no-repeat;
+	height: 24px;
+	line-height: normal;
+	margin: 0 1px 0 2px;
+	border: none;
+	cursor: default;
+}
+.gridlist-tab .cur span
+{
+	background: url(../images/gridlist_tab.gif) no-repeat right 0;
+	display: block;
+	height: 24px;
+	color: #000;
+	line-height: 23px; *line-height:25px;font-weight:bold;}
+.gridlist-tab .nobl
+{
+	border-left: none;
+}
+.gridlist-tab .nobr
+{
+	border-right: none;
+}
+.row-line
+{
+	cursor: default;
+}
+div.row
+{
+	line-height: 24px;
+	clear: both;
+	white-space: nowrap;
+	background-color: #F1F5FA;
+	border-bottom: 1px solid #fff;
+}
+div.row .lnk
+{
+	color: #369;
+	margin: 0 2px;
+}
+div.highlight-row
+{
+	font-weight: bold;
+	background-color: #fff;
+}
+div.row:hover
+{
+	background-color: #FFFFD4;
+}
+div.row div
+{
+	overflow: hidden;
+}
+div.row div.span-relative
+{
+	position: relative;
+	overflow: visible;
+}
+div.row .row-line
+{
+	height: 24px;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+div.highlight .row-line
+{
+	border-bottom: 0;
+}
+
+
+
+
+.x-drop-menu .imgbundle
+{
+	margin-right: 5px;
+}
+
+
+.imgbundle
+{
+	background-image: url('../images/bundle.gif');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	margin-right: 2px;
+}
+
+.gridlist-head
+{
+	background: url(../images/tablethbg.gif);
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	line-height: 24px;
+	height: 24px;
+	white-space: nowrap;
+	overflow: hidden;
+	color: #000;
+}
+table.gridlist-head
+{
+	border-bottom: none;
+}
+.gridlist-head th, .gridlist-head td
+{
+	background: url(../images/tablethbg.gif);
+	border-right: 1px solid #DBE2E7;
+	border-left: 1px solid #fff;
+	padding: 0 2px;
+	text-align: left;
+}
+.gridlist-head .pointer
+{
+	cursor: pointer;
+}
+.gridlist-head .pointer:hover
+{
+	color: #f90;
+	cursor: pointer;
+}
+.gridlist-head .highlight-up
+{
+	cursor: pointer;
+	background: url(../images/arrow-up.gif) no-repeat 95% 50%;
+	color: #369;
+	padding-left: 3px;
+}
+.gridlist-head .highlight-down
+{
+	cursor: pointer;
+	background: url(../images/arrow-down.gif) no-repeat 95% 50%;
+	color: #369;
+	padding-left: 3px;
+}
+.gridlist-head div.span-1, .gridlist-head div.span-2, .gridlist-head div.span-3, .gridlist-head div.span-4, .gridlist-head div.span-5, .gridlist-head div.span-6, .gridlist-head div.span-7, .gridlist-head div.span-8, .gridlist-head div.span-9, .gridlist-head div.span-10, .gridlist-head div.span-11, .gridlist-head div.span-12
+{
+	border-right: 1px solid #DBE2E7;
+	border-left: 1px solid #fff;
+	margin: 0;
+	padding: 0 2px;
+	text-align: center;
+}
+
+.gridlist thead th
+{
+	font-size: 12px;
+	padding: 1px 3px;
+	height: 22px;
+	line-height: 22px;
+	background: url(../images/tablethbg.gif);
+	border: 1px solid;
+	border-color: #fff #DBE2E7 #ccc #fff;
+	font-weight: bold;
+	text-align: center;
+	white-space: nowrap;
+	color: #000;
+}
+.gridlist-footer
+{
+	background: transparent url(../images/tablethbg.gif) repeat scroll 0 0;
+	border-top: 1px solid #CFD8DD;
+	padding: 2px 0 3px;
+}
+
+div.span-24, div.span-auto {
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.gridlist-head div.span-11, .gridlist-head div.span-12 {
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #DBE2E7;
+    margin: 0;
+    padding: 0 2px;
+    text-align: center;
+}
+
+.btn, button
+{
+	height: auto;
+	line-height: 16px;
+	padding: 0;
+}
+
+
+
+.btn
+{
+	background: #E2E8EB;
+	border-style: solid;
+	border-color: #FFF #BEC6CE #BEC6CE #FFFFFF;
+	border-width: 1px 2px 2px 1px; *color:#333;display:inline-block;display:-moz-inline-stack;*display:inline;zoom:1;font-style:normal;font-variant:normal;font-weight:normal;margin:01px;padding:0;overflow:visible;text-decoration:none;cursor:pointer;}
+.btn span
+{
+	display: block;
+	padding: 0 0 0 3px;
+	height: 18px;
+	line-height: 20px;
+	white-space: nowrap;
+}
+
+.btn:hover span
+{
+	background-position: 0 -100px;
+}
+a.btn:hover span
+{
+	_background-position: 0 0;
+}
+.btn:active span
+{
+	background-position: 0 -200px;
+}
+.btn .droping span
+{
+	background-position: 0 -200px;
+	_background: none;
+}
+.btn-drop-menu:hover span
+{
+	background-position: 0 -300px;
+}
+.btn-drop-menu:active span, .btn .btn-drop-menu.droping span
+{
+	background-position: 0 -400px;
+}
+.btn span span
+{
+	padding: 0 3px 0 0;
+}
+.btn:hover span span
+{
+	background-position: right -100px;
+}
+.btn:active span span
+{
+	background-position: right -200px;
+}
+a.btn:hover span span
+{
+	_background-position: right 0;
+}
+.btn .droping span span
+{
+	background-position: right -200px;
+}
+.btn-drop-menu:hover span span
+{
+	background-position: right -300px;
+}
+.btn-drop-menu:active span span, .btn .btn-drop-menu.droping span span
+{
+	background-position: right -400px;
+}
+.btn img
+{
+	vertical-align: middle;
+}
+.btn .icon
+{
+	margin: -3px 2px 0 0; *margin:02px00;}
+.btn .drop-handle
+{
+	margin: 0 -3px 0 2px;
+	padding: 0;
+	background: url(../images/arrow-down.gif) no-repeat 4px 50%;
+	width: 14px;
+}
+
+
+.action-bar
+{
+	line-height: 30px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #CCC;
+	padding: 2px 8px; *padding:08px;background:#f0f0f0;}
+.action-bar td, .action-bar th
+{
+	padding: 0;
+}
+.action-bar table
+{
+	width: auto;
+	margin: 0;
+}
+.action-bar-btns
+{
+	margin: 0 15px 0 0;
+}
+.action-bar-info
+{
+	margin-right: 5px;
+}
+.action-bar-btns ul, .action-bar-btns li
+{
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style: none;
+}
+.actionItems
+{
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #bec6ce;
+	margin: 0;
+	height: 65px;
+	padding: 0 3px;
+}
+.actionItems table td
+{
+	width: auto;
+}
+.actionItemsSingleLine
+{
+	padding: 6px 9px 3px 3px;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #bec6ce;
+}
+.actionItems h3
+{
+	color: #969696;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+}
+.actionItems .functop
+{
+	padding-top: 3px;
+	height: 20px;
+	line-height: 28px; *height:20px;_height:27px;}
+.actionItems .func
+{
+	padding-top: 0;
+}
+.actionItems .func selete
+{
+	margin-left: 5px;
+}
+.actionItems .funcTopWrap .func
+{
+	height: 30px;
+}
+.actionItems .keywords
+{
+	border: 1px solid #ccc;
+	width: 75px;
+	height: 18px;
+}
+.finder-action
+{
+	background: url(../images/finder_bar_bg.gif) no-repeat;
+	padding-left: 9px;
+	height: 50px;
+	overflow: hidden;
+}
+.finder-action-inner
+{
+	background: url(../images/finder_bar_bg.gif) no-repeat right 0;
+	padding-right: 5px;
+	height: 50px;
+}
+.finder-action .btn
+{
+	background: none;
+	font-family: Tahoma,Geneva,sans-serif;
+	font-size: 12px;
+	border: none;
+	min-width: 60px;
+	width: auto !important;
+	width: 60px;
+	height: 50px;
+	vertical-align: top;
+	padding-top: 0; *padding-top:1px;}
+.finder-action a.btn, .finder-action span.btn
+{
+	padding-top: 1px;
+}
+.finder-action .btn-blank span
+{ *text-decoration:underline;}
+.finder-action .btn .finder-icon
+{
+	display: block;
+	width: 50px;
+	height: 24px;
+	overflow: hidden;
+	margin: 0 auto 1px; *margin:001px;}
+.finder-action .btn .icon
+{
+	margin: 0;
+}
+.finder-action .btn .drop-handle
+{
+	margin: 0 -3px 0 0;
+}
+.finder-action .btn span
+{
+	background-color: transparent;
+	background-image: url(../images/finder_btn_bg.gif);
+	border: none;
+	height: 50px;
+	line-height: normal;
+	color: #eaeef6;
+	padding-left: 5px;
+}
+.finder-action .btn span span
+{
+	padding: 5px 5px 0 0;
+	text-align: center;
+}
+.finder-action .x-drop-menu
+{
+	background: #f5faff;
+	border: 1px solid #949ba0;
+	color: #000;
+	padding: 2px 4px;
+}
+
+
+
+.btn-appstore
+{
+	cursor: pointer;
+	color: #FFF7C5;
+	padding: 0 0 0 2px;
+}
+.btn-appstore span
+{
+	color: #fffdde;
+}
+
+
+
+ .finder-action  img
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+.imgbundle
+{
+	background-image: url('../images/bundle.gif');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	margin-right: 2px;
+}
+
+.btn a 
+{
+   color:White;
+   text-decoration : none;
+}

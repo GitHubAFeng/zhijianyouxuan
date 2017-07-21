@@ -1,0 +1,2 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="GetFoodListByShopId.aspx.cs" Inherits="AndroidAPI_GetFoodListByShopId_2" %>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

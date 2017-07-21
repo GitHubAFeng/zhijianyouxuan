@@ -1,0 +1,70 @@
+﻿.time_div
+{
+	width: 243px;
+	position: absolute;
+}
+.time_div_top
+{
+	background: url(../images/time/topbg_03.jpg) no-repeat;
+	height: 4px;
+	line-height:0;
+	font-size:0px;
+}
+.time_div_con
+{
+	background: url(../images/time/conbg_03.jpg) repeat-y;
+	height:1%;
+	overflow:hidden;	
+}
+.time_div_bottom
+{
+	background: url(../images/time/bottombg_03.jpg) no-repeat;
+	height: 4px;
+}
+.con_left
+{
+	width: 190px;
+	float: left;
+}
+.con_left h1
+{
+	font-size: 12px;
+	font-weight: bold;
+	font: Arial;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+.key_ul li
+{
+	background: url(../images/time/unit_bg_03.jpg) no-repeat;
+	width: 29px;
+	height: 26px;
+	float: left;
+	margin-left: 2px;
+	line-height: 26px;
+	text-align: center;
+	margin-bottom: 2px;
+	cursor:pointer;
+	list-style :none;
+}
+.con_right
+{
+	width: 50px;
+	float: right;
+}
+.con_right h1
+{
+	font-size: 12px;
+	font-weight: bold;
+	font: Arial;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+ul, li, h1, h2
+        {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }

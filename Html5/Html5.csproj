@@ -1,0 +1,1317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C3A0784-6E06-40C3-9931-29636B270BE7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Html5</RootNamespace>
+    <AssemblyName>Html5</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort>44300</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\192.168.1.11\hangjingserver\DocCenter\第三方控件源码\Dll4Code\Newtonsoft.Json8.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="404.aspx.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="404.aspx.designer.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\weixincallbak.aspx.cs">
+      <DependentUpon>weixincallbak.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\weixincallbak.aspx.designer.cs">
+      <DependentUpon>weixincallbak.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Runner.aspx.cs">
+      <DependentUpon>Runner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\Runner.aspx.designer.cs">
+      <DependentUpon>Runner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\SendGmsCode.aspx.cs">
+      <DependentUpon>SendGmsCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\SendGmsCode.aspx.designer.cs">
+      <DependentUpon>SendGmsCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\AjaxGetAddressInfo.aspx.cs">
+      <DependentUpon>AjaxGetAddressInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\AjaxGetAddressInfo.aspx.designer.cs">
+      <DependentUpon>AjaxGetAddressInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alipay\notify_url.aspx.cs">
+      <DependentUpon>notify_url.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alipay\notify_url.aspx.designer.cs">
+      <DependentUpon>notify_url.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alipay\wappayreturn.aspx.cs">
+      <DependentUpon>wappayreturn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alipay\wappayreturn.aspx.designer.cs">
+      <DependentUpon>wappayreturn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Anew\header.ascx.cs">
+      <DependentUpon>header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anew\header.ascx.designer.cs">
+      <DependentUpon>header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Anew\myorderlist.aspx.cs">
+      <DependentUpon>myorderlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anew\myorderlist.aspx.designer.cs">
+      <DependentUpon>myorderlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Anew\shopcomment.aspx.cs">
+      <DependentUpon>shopcomment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anew\shopcomment.aspx.designer.cs">
+      <DependentUpon>shopcomment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Anew\Showtogo.aspx.cs">
+      <DependentUpon>Showtogo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anew\Showtogo.aspx.designer.cs">
+      <DependentUpon>Showtogo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Anew\waimaijie.aspx.cs">
+      <DependentUpon>waimaijie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anew\waimaijie.aspx.designer.cs">
+      <DependentUpon>waimaijie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="api\updatecache.aspx.cs">
+      <DependentUpon>updatecache.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="api\updatecache.aspx.designer.cs">
+      <DependentUpon>updatecache.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_LocalResources\AlertScript.cs" />
+    <Compile Include="App_LocalResources\AliPay.cs" />
+    <Compile Include="App_LocalResources\AlipayConfig.cs" />
+    <Compile Include="App_LocalResources\AlipayCore.cs" />
+    <Compile Include="App_LocalResources\AliPayInfo.cs" />
+    <Compile Include="App_LocalResources\AlipayNotify.cs" />
+    <Compile Include="App_LocalResources\AlipaySubmit.cs" />
+    <Compile Include="App_LocalResources\ANTDDOS.cs" />
+    <Compile Include="App_LocalResources\CacheProvider.cs" />
+    <Compile Include="App_LocalResources\CacheUtils.cs" />
+    <Compile Include="App_LocalResources\Cartinfo.cs" />
+    <Compile Include="App_LocalResources\CartProductinfo.cs" />
+    <Compile Include="App_LocalResources\checkMachine.cs" />
+    <Compile Include="App_LocalResources\CheckOrder.cs" />
+    <Compile Include="App_LocalResources\ChinaBank.cs" />
+    <Compile Include="App_LocalResources\ChinaBankInfo.cs" />
+    <Compile Include="App_LocalResources\ChineseConvert.cs" />
+    <Compile Include="App_LocalResources\Collectors.cs" />
+    <Compile Include="App_LocalResources\CommonClass.cs" />
+    <Compile Include="App_LocalResources\Email.cs" />
+    <Compile Include="App_LocalResources\FeYinPrinter.cs" />
+    <Compile Include="App_LocalResources\getCaheData.cs" />
+    <Compile Include="App_LocalResources\Global.asax.cs" />
+    <Compile Include="App_LocalResources\HandlerBase.ashx.cs" />
+    <Compile Include="App_LocalResources\ICacheProvider.cs" />
+    <Compile Include="App_LocalResources\IPAccess.cs" />
+    <Compile Include="App_LocalResources\IProviderV30.cs" />
+    <Compile Include="App_LocalResources\IPScanner.cs" />
+    <Compile Include="App_LocalResources\ISmtpMail.cs" />
+    <Compile Include="App_LocalResources\Listsort.cs" />
+    <Compile Include="App_LocalResources\mapConfig.cs" />
+    <Compile Include="App_LocalResources\mapConfigInfo.cs" />
+    <Compile Include="App_LocalResources\MasterPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_LocalResources\MD5.cs" />
+    <Compile Include="App_LocalResources\mypermission.cs" />
+    <Compile Include="App_LocalResources\NameService.cs" />
+    <Compile Include="App_LocalResources\OrderState.cs" />
+    <Compile Include="App_LocalResources\OrderTemplate.cs" />
+    <Compile Include="App_LocalResources\PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_LocalResources\Param.cs" />
+    <Compile Include="App_LocalResources\ProviderCollector.cs" />
+    <Compile Include="App_LocalResources\QQInfo.cs" />
+    <Compile Include="App_LocalResources\RenrenInfo.cs" />
+    <Compile Include="App_LocalResources\RSA.cs" />
+    <Compile Include="App_LocalResources\SectionProxyData.cs" />
+    <Compile Include="App_LocalResources\sharePageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_LocalResources\StartupTools.cs" />
+    <Compile Include="App_LocalResources\SysMailMessage.cs" />
+    <Compile Include="App_LocalResources\tenpayLib\ResponseHandler.cs" />
+    <Compile Include="App_LocalResources\UserHelp.cs" />
+    <Compile Include="App_LocalResources\ValidatorDeal.cs" />
+    <Compile Include="App_LocalResources\ValidatorInfo.cs" />
+    <Compile Include="App_LocalResources\ValidatorSet.cs" />
+    <Compile Include="App_LocalResources\WebUtility.cs" />
+    <Compile Include="App_LocalResources\YeePayInfo.cs" />
+    <Compile Include="baseControl.ascx.cs">
+      <DependentUpon>baseControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="baseControl.ascx.designer.cs">
+      <DependentUpon>baseControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="becomedistributor.aspx.cs">
+      <DependentUpon>becomedistributor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="becomedistributor.aspx.designer.cs">
+      <DependentUpon>becomedistributor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cartdetail.aspx.cs">
+      <DependentUpon>cartdetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cartdetail.aspx.designer.cs">
+      <DependentUpon>cartdetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CashAdvance.aspx.cs">
+      <DependentUpon>CashAdvance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CashAdvance.aspx.designer.cs">
+      <DependentUpon>CashAdvance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Commentshop.aspx.cs">
+      <DependentUpon>Commentshop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Commentshop.aspx.designer.cs">
+      <DependentUpon>Commentshop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hotstores.aspx.cs">
+      <DependentUpon>hotstores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hotstores.aspx.designer.cs">
+      <DependentUpon>hotstores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Discountstores.aspx.cs">
+      <DependentUpon>Discountstores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Discountstores.aspx.designer.cs">
+      <DependentUpon>Discountstores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="drawcash.aspx.cs">
+      <DependentUpon>drawcash.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="drawcash.aspx.designer.cs">
+      <DependentUpon>drawcash.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="drawcash2Wechat.aspx.cs">
+      <DependentUpon>drawcash2Wechat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="drawcash2Wechat.aspx.designer.cs">
+      <DependentUpon>drawcash2Wechat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="express.aspx.cs">
+      <DependentUpon>express.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="express.aspx.designer.cs">
+      <DependentUpon>express.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="expressOrderSuccess.aspx.cs">
+      <DependentUpon>expressOrderSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="expressOrderSuccess.aspx.designer.cs">
+      <DependentUpon>expressOrderSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="expresstwo.aspx.cs">
+      <DependentUpon>expresstwo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="expresstwo.aspx.designer.cs">
+      <DependentUpon>expresstwo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="familyhonor.aspx.cs">
+      <DependentUpon>familyhonor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="familyhonor.aspx.designer.cs">
+      <DependentUpon>familyhonor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.aspx.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Feedback.aspx.designer.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="distributorfooter.ascx.cs">
+      <DependentUpon>distributorfooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="distributorfooter.ascx.designer.cs">
+      <DependentUpon>distributorfooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GiftInfo.aspx.cs">
+      <DependentUpon>GiftInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiftInfo.aspx.designer.cs">
+      <DependentUpon>GiftInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GiftList.aspx.cs">
+      <DependentUpon>GiftList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiftList.aspx.designer.cs">
+      <DependentUpon>GiftList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="header.ascx.cs">
+      <DependentUpon>header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="header.ascx.designer.cs">
+      <DependentUpon>header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Merchantstous.aspx.cs">
+      <DependentUpon>Merchantstous.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Merchantstous.aspx.designer.cs">
+      <DependentUpon>Merchantstous.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="moneydetail.aspx.cs">
+      <DependentUpon>moneydetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="moneydetail.aspx.designer.cs">
+      <DependentUpon>moneydetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="moneylist.aspx.cs">
+      <DependentUpon>moneylist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="moneylist.aspx.designer.cs">
+      <DependentUpon>moneylist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myChange.aspx.cs">
+      <DependentUpon>myChange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myChange.aspx.designer.cs">
+      <DependentUpon>myChange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mydistributelist.aspx.cs">
+      <DependentUpon>mydistributelist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mydistributelist.aspx.designer.cs">
+      <DependentUpon>mydistributelist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myexpresslist.aspx.cs">
+      <DependentUpon>myexpresslist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myexpresslist.aspx.designer.cs">
+      <DependentUpon>myexpresslist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myfamilymb.aspx.cs">
+      <DependentUpon>myfamilymb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myfamilymb.aspx.designer.cs">
+      <DependentUpon>myfamilymb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addshopcard.aspx.cs">
+      <DependentUpon>addshopcard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addshopcard.aspx.designer.cs">
+      <DependentUpon>addshopcard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Anew\footer.ascx.cs">
+      <DependentUpon>footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anew\footer.ascx.designer.cs">
+      <DependentUpon>footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Anew\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anew\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="orderlist.aspx.cs">
+      <DependentUpon>orderlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="orderlist.aspx.designer.cs">
+      <DependentUpon>orderlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ordersteps.aspx.cs">
+      <DependentUpon>ordersteps.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ordersteps.aspx.designer.cs">
+      <DependentUpon>ordersteps.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RechargeList.aspx.cs">
+      <DependentUpon>RechargeList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RechargeList.aspx.designer.cs">
+      <DependentUpon>RechargeList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myqrcode.aspx.cs">
+      <DependentUpon>myqrcode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myqrcode.aspx.designer.cs">
+      <DependentUpon>myqrcode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myshopcard.aspx.cs">
+      <DependentUpon>myshopcard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myshopcard.aspx.designer.cs">
+      <DependentUpon>myshopcard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="recharge.aspx.cs">
+      <DependentUpon>recharge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="recharge.aspx.designer.cs">
+      <DependentUpon>recharge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PayPwd.aspx.cs">
+      <DependentUpon>PayPwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PayPwd.aspx.designer.cs">
+      <DependentUpon>PayPwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaySuccess.aspx.cs">
+      <DependentUpon>PaySuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaySuccess.aspx.designer.cs">
+      <DependentUpon>PaySuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="recommendFoods.aspx.cs">
+      <DependentUpon>recommendFoods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="recommendFoods.aspx.designer.cs">
+      <DependentUpon>recommendFoods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="remarkdetail.aspx.cs">
+      <DependentUpon>remarkdetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="remarkdetail.aspx.designer.cs">
+      <DependentUpon>remarkdetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="resetpwd.aspx.cs">
+      <DependentUpon>resetpwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="resetpwd.aspx.designer.cs">
+      <DependentUpon>resetpwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="search.aspx.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="search.aspx.designer.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sendtest.aspx.cs">
+      <DependentUpon>sendtest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sendtest.aspx.designer.cs">
+      <DependentUpon>sendtest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="createmymenu.aspx.cs">
+      <DependentUpon>createmymenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="createmymenu.aspx.designer.cs">
+      <DependentUpon>createmymenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="footer.ascx.cs">
+      <DependentUpon>footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="footer.ascx.designer.cs">
+      <DependentUpon>footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="sharedetail.aspx.cs">
+      <DependentUpon>sharedetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sharedetail.aspx.designer.cs">
+      <DependentUpon>sharedetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sharelist.aspx.cs">
+      <DependentUpon>sharelist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sharelist.aspx.designer.cs">
+      <DependentUpon>sharelist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shop.aspx.cs">
+      <DependentUpon>shop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shop.aspx.designer.cs">
+      <DependentUpon>shop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shopdetail.aspx.cs">
+      <DependentUpon>shopdetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shopdetail.aspx.designer.cs">
+      <DependentUpon>shopdetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shoplogin.aspx.cs">
+      <DependentUpon>shoplogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shoplogin.aspx.designer.cs">
+      <DependentUpon>shoplogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myorderlist.aspx.cs">
+      <DependentUpon>myorderlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myorderlist.aspx.designer.cs">
+      <DependentUpon>myorderlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="orderdetail.aspx.cs">
+      <DependentUpon>orderdetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="orderdetail.aspx.designer.cs">
+      <DependentUpon>orderdetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderSuccess.aspx.cs">
+      <DependentUpon>OrderSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderSuccess.aspx.designer.cs">
+      <DependentUpon>OrderSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="showexpressorder.aspx.cs">
+      <DependentUpon>showexpressorder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="showexpressorder.aspx.designer.cs">
+      <DependentUpon>showexpressorder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowFood.aspx.cs">
+      <DependentUpon>ShowFood.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowFood.aspx.designer.cs">
+      <DependentUpon>ShowFood.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="selectSeat.aspx.cs">
+      <DependentUpon>selectSeat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="selectSeat.aspx.designer.cs">
+      <DependentUpon>selectSeat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shopidcard.aspx.cs">
+      <DependentUpon>shopidcard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shopidcard.aspx.designer.cs">
+      <DependentUpon>shopidcard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowTogo.aspx.cs">
+      <DependentUpon>ShowTogo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowTogo.aspx.designer.cs">
+      <DependentUpon>ShowTogo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="showtogoorder.aspx.cs">
+      <DependentUpon>showtogoorder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="showtogoorder.aspx.designer.cs">
+      <DependentUpon>showtogoorder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="stylebanner.ascx.cs">
+      <DependentUpon>stylebanner.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="stylebanner.ascx.designer.cs">
+      <DependentUpon>stylebanner.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="submitexpressorder.aspx.cs">
+      <DependentUpon>submitexpressorder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="submitexpressorder.aspx.designer.cs">
+      <DependentUpon>submitexpressorder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="showshopic.aspx.cs">
+      <DependentUpon>showshopic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="showshopic.aspx.designer.cs">
+      <DependentUpon>showshopic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TogoList.aspx.cs">
+      <DependentUpon>TogoList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TogoList.aspx.designer.cs">
+      <DependentUpon>TogoList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myshops.aspx.cs">
+      <DependentUpon>myshops.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myshops.aspx.designer.cs">
+      <DependentUpon>myshops.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="updatepwd.aspx.cs">
+      <DependentUpon>updatepwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="updatepwd.aspx.designer.cs">
+      <DependentUpon>updatepwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VCode.aspx.cs">
+      <DependentUpon>VCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VCode.aspx.designer.cs">
+      <DependentUpon>VCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="waimaijie.aspx.cs">
+      <DependentUpon>waimaijie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="waimaijie.aspx.designer.cs">
+      <DependentUpon>waimaijie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin.aspx.cs">
+      <DependentUpon>weixin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixin.aspx.designer.cs">
+      <DependentUpon>weixin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myinfolist.aspx.cs">
+      <DependentUpon>myinfolist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myinfolist.aspx.designer.cs">
+      <DependentUpon>myinfolist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testorder.aspx.cs">
+      <DependentUpon>testorder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testorder.aspx.designer.cs">
+      <DependentUpon>testorder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myuserinfo.aspx.cs">
+      <DependentUpon>myuserinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myuserinfo.aspx.designer.cs">
+      <DependentUpon>myuserinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myAddresslist.aspx.cs">
+      <DependentUpon>myAddresslist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myAddresslist.aspx.designer.cs">
+      <DependentUpon>myAddresslist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myAddressdetail.aspx.cs">
+      <DependentUpon>myAddressdetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myAddressdetail.aspx.designer.cs">
+      <DependentUpon>myAddressdetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixinpay\nativepay.aspx.cs">
+      <DependentUpon>nativepay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixinpay\nativepay.aspx.designer.cs">
+      <DependentUpon>nativepay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixinpay\payNotifyUrl.aspx.cs">
+      <DependentUpon>payNotifyUrl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixinpay\payNotifyUrl.aspx.designer.cs">
+      <DependentUpon>payNotifyUrl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixinpay\wxpay.aspx.cs">
+      <DependentUpon>wxpay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weixinpay\wxpay.aspx.designer.cs">
+      <DependentUpon>wxpay.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.aspx" />
+    <Content Include="Account\weixincallbak.aspx" />
+    <Content Include="Ajax\Runner.aspx" />
+    <Content Include="Ajax\SendGmsCode.aspx" />
+    <Content Include="Alipay\notify_url.aspx" />
+    <Content Include="Alipay\wappayreturn.aspx" />
+    <Content Include="Anew\css\common.css" />
+    <Content Include="Anew\css\owl.carousel.css" />
+    <Content Include="Anew\css\owl.theme.css" />
+    <Content Include="Anew\css\page.css" />
+    <Content Include="Anew\css\shop.css" />
+    <Content Include="Anew\header.ascx" />
+    <Content Include="Anew\image\banner_guo%402x.png" />
+    <Content Include="Anew\image\fullimage7.jpg" />
+    <Content Include="Anew\image\icon-bag%402x.png" />
+    <Content Include="Anew\image\icon-trash%402x.png" />
+    <Content Include="Anew\image\icon_user_headimg.png" />
+    <Content Include="Anew\image\stargrey.png" />
+    <Content Include="Anew\image\starorange.png" />
+    <Content Include="Anew\image\yuanyangguo_3596420.jpg" />
+    <Content Include="Anew\javascript\jquery-1.8.3.min.js" />
+    <Content Include="Anew\javascript\jquery.js" />
+    <Content Include="Anew\javascript\jquery.min.js" />
+    <Content Include="Anew\javascript\owl.carousel.js" />
+    <Content Include="Anew\myorderlist.aspx" />
+    <Content Include="Anew\shopcomment.aspx" />
+    <Content Include="Anew\Showtogo.aspx" />
+    <Content Include="Anew\waimaijie.aspx" />
+    <Content Include="api\updatecache.aspx" />
+    <Content Include="baseControl.ascx" />
+    <Content Include="becomedistributor.aspx" />
+    <Content Include="bin\Hangjing.AppLog.dll" />
+    <Content Include="bin\Hangjing.AppLog.pdb" />
+    <Content Include="bin\Hangjing.Cache.dll" />
+    <Content Include="bin\Hangjing.Cache.pdb" />
+    <Content Include="bin\Hangjing.DBUtility.dll" />
+    <Content Include="bin\Hangjing.DBUtility.pdb" />
+    <Content Include="bin\Hangjing.Model.dll" />
+    <Content Include="bin\Hangjing.SQLServerDAL.dll" />
+    <Content Include="bin\Hangjing.SQLServerDAL.pdb" />
+    <Content Include="bin\Hangjing.Weixin.dll" />
+    <Content Include="bin\Hangjing.Weixin.pdb" />
+    <Content Include="bin\Hngjing.Config.dll" />
+    <Content Include="bin\Hngjing.Config.pdb" />
+    <Content Include="bin\Html5.dll" />
+    <Content Include="bin\Html5.pdb" />
+    <Content Include="bin\Interop.Scripting.dll" />
+    <Content Include="bin\Interop.SQLDMO.dll" />
+    <Content Include="bin\log4net.dll" />
+    <Content Include="bin\log4net.xml" />
+    <Content Include="cartdetail.aspx" />
+    <Content Include="CashAdvance.aspx" />
+    <Content Include="Commentshop.aspx" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\cart.css" />
+    <Content Include="css\common.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\fontawesome-webfont.svg" />
+    <Content Include="css\footer.css" />
+    <Content Include="css\getpackages.css" />
+    <Content Include="css\icons_mobiscroll.svg" />
+    <Content Include="css\idangerous.swiper.css" />
+    <Content Include="css\jquery.marquee.css" />
+    <Content Include="css\mobiscroll.custom-2.17.0.min.css" />
+    <Content Include="css\moneylist.css" />
+    <Content Include="css\page.css" />
+    <Content Include="css\recommendFoods.css" />
+    <Content Include="Anew\css\index.css" />
+    <Content Include="Anew\css\reset.css" />
+    <Content Include="css\star-rating.css" />
+    <Content Include="css\sweetalert.css" />
+    <Content Include="css\swiper.min.css" />
+    <Content Include="css\timeline.css" />
+    <Content Include="css\weui.min.css" />
+    <Content Include="hotstores.aspx" />
+    <Content Include="Discountstores.aspx" />
+    <Content Include="drawcash.aspx" />
+    <Content Include="drawcash2Wechat.aspx" />
+    <Content Include="express.aspx" />
+    <Content Include="expressOrderSuccess.aspx" />
+    <Content Include="expresstwo.aspx" />
+    <Content Include="familyhonor.aspx" />
+    <Content Include="Feedback.aspx" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="distributorfooter.ascx" />
+    <Content Include="ForgotPassword.aspx" />
+    <Content Include="GiftInfo.aspx" />
+    <Content Include="GiftList.aspx" />
+    <Content Include="header.ascx" />
+    <Content Include="images\address_style_bg.png" />
+    <Content Include="images\add_address_ico.png" />
+    <Content Include="images\ad_banner.png" />
+    <Content Include="images\ad_banner1.png" />
+    <Content Include="images\app_img.jpg" />
+    <Content Include="images\banner.png" />
+    <Content Include="images\bg_pic.png" />
+    <Content Include="images\code.jpg" />
+    <Content Include="images\contact-us.png" />
+    <Content Include="images\coupons.png" />
+    <Content Include="images\dfood1.jpg" />
+    <Content Include="images\distance_icon.png" />
+    <Content Include="images\distance_icon_hov.png" />
+    <Content Include="images\family.png" />
+    <Content Include="images\food.png" />
+    <Content Include="images\foodlist.png" />
+    <Content Include="images\foodpho.png" />
+    <Content Include="images\fruit01.png" />
+    <Content Include="images\fruit02.png" />
+    <Content Include="images\fruit03.png" />
+    <Content Include="images\fruit04.png" />
+    <Content Include="images\gotocart.png" />
+    <Content Include="images\hotno1.png" />
+    <Content Include="images\hotno2.png" />
+    <Content Include="images\hotno3.png" />
+    <Content Include="images\hr01.png" />
+    <Content Include="images\ico-b-address-cur.png" />
+    <Content Include="images\ico-b-address.png" />
+    <Content Include="images\ico-b-good-cur.png" />
+    <Content Include="images\ico-b-good.png" />
+    <Content Include="images\ico-b-more-cur.png" />
+    <Content Include="images\ico-b-more.png" />
+    <Content Include="images\ico-b-search-cur.png" />
+    <Content Include="images\ico-b-search.png" />
+    <Content Include="images\ico-cart.png" />
+    <Content Include="images\ico-green-marker.png" />
+    <Content Include="images\ico-open.png" />
+    <Content Include="images\ico-time.png" />
+    <Content Include="images\ico-weijie.png" />
+    <Content Include="images\icon-call.png" />
+    <Content Include="images\icon-chevron-down.jpg" />
+    <Content Include="images\icon-chevron-right.jpg" />
+    <Content Include="images\icon-chevron-up.jpg" />
+    <Content Include="images\icon-di.png" />
+    <Content Include="images\icon-new.png" />
+    <Content Include="images\icon-shop.png" />
+    <Content Include="images\icon_b_arrow.png" />
+    <Content Include="images\icon_b_buy.png" />
+    <Content Include="images\icon_b_eq.png" />
+    <Content Include="images\icon_b_medal.png" />
+    <Content Include="images\icon_b_order.png" />
+    <Content Include="images\icon_search.png" />
+    <Content Include="images\icon_t_arrow.png" />
+    <Content Include="images\ico_b_food.png" />
+    <Content Include="images\ico_b_food_cur.png" />
+    <Content Include="images\ico_b_mine.png" />
+    <Content Include="images\ico_b_mine_cur.png" />
+    <Content Include="images\ico_b_order.png" />
+    <Content Include="images\ico_b_order_cur.png" />
+    <Content Include="images\ico_b_send.png" />
+    <Content Include="images\ico_b_send_cur.png" />
+    <Content Include="images\ico_right_arrow.png" />
+    <Content Include="images\ico_user.png" />
+    <Content Include="images\ico_w_address.png" />
+    <Content Include="images\im.jpg" />
+    <Content Include="images\index_class_icon01.png" />
+    <Content Include="images\input-checked.png" />
+    <Content Include="images\input-nochecked.png" />
+    <Content Include="images\jian_02.png" />
+    <Content Include="images\joinus.png" />
+    <Content Include="images\left_arrow.png" />
+    <Content Include="images\link-ico.png" />
+    <Content Include="images\list_pic.png" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\lv.png" />
+    <Content Include="images\message.png" />
+    <Content Include="images\modity_button.jpg" />
+    <Content Include="images\modity_button_hover.jpg" />
+    <Content Include="images\money.png" />
+    <Content Include="images\nav_address.png" />
+    <Content Include="images\nav_comment.png" />
+    <Content Include="images\nav_c_address.png" />
+    <Content Include="images\nav_c_comment.png" />
+    <Content Include="images\nav_c_record.png" />
+    <Content Include="images\nav_record.png" />
+    <Content Include="images\ok_option_red_icon.png" />
+    <Content Include="images\ordersteps.jpg" />
+    <Content Include="images\packet_bg.png" />
+    <Content Include="images\pic.png" />
+    <Content Include="images\picinfo.png" />
+    <Content Include="images\rightmenu_cont.gif" />
+    <Content Include="images\send_ico.png" />
+    <Content Include="images\setis.png" />
+    <Content Include="images\share-it.png" />
+    <Content Include="images\shop-close-marker.png" />
+    <Content Include="images\shop-open-marker.png" />
+    <Content Include="images\shop.png" />
+    <Content Include="images\shopdetail_bg.jpg" />
+    <Content Include="images\shopdetail_img.jpg" />
+    <Content Include="images\shops.png" />
+    <Content Include="images\shop_ev_pic.png" />
+    <Content Include="images\shop_fav.png" />
+    <Content Include="images\shop_fav_later.png" />
+    <Content Include="images\shop_idcard.png" />
+    <Content Include="images\shop_img.png" />
+    <Content Include="images\shop_top_search.png" />
+    <Content Include="images\sort_all.png" />
+    <Content Include="images\sort_allc.png" />
+    <Content Include="images\sort_hot.png" />
+    <Content Include="images\sort_hotc.png" />
+    <Content Include="images\sort_star.png" />
+    <Content Include="images\sort_starc.png" />
+    <Content Include="images\star_bg.png" />
+    <Content Include="images\star_hover.png" />
+    <Content Include="images\tips.png" />
+    <Content Include="images\togolist_recommended.png" />
+    <Content Include="images\togolist_send.png" />
+    <Content Include="images\togolist_shop.png" />
+    <Content Include="images\user-address.png" />
+    <Content Include="images\user-all-order.png" />
+    <Content Include="images\user-coupon.png" />
+    <Content Include="images\user-fav.png" />
+    <Content Include="images\user-gift.png" />
+    <Content Include="images\user-noface.png" />
+    <Content Include="images\user-password.png" />
+    <Content Include="images\user-point.png" />
+    <Content Include="images\user-pt-order.png" />
+    <Content Include="images\user-pt.png" />
+    <Content Include="images\user-today-order.png" />
+    <Content Include="images\vegetable001.jpg" />
+    <Content Include="images\vegetable002.jpg" />
+    <Content Include="images\vegetable003.jpg" />
+    <Content Include="images\withdraw.png" />
+    <Content Include="Anew\footer.ascx" />
+    <Content Include="Anew\image\banner%402x.png" />
+    <Content Include="Anew\image\btn-add-red%402x.png" />
+    <Content Include="Anew\image\btn-Address-location%402x.png" />
+    <Content Include="Anew\image\btn-back%402x.png" />
+    <Content Include="Anew\image\btn-collect-n%402x.png" />
+    <Content Include="Anew\image\btn-collected%402x.png" />
+    <Content Include="Anew\image\btn-home-arrow-d%402x.png" />
+    <Content Include="Anew\image\btn-home-position%402x.png" />
+    <Content Include="Anew\image\btn-minus-b%402x.png" />
+    <Content Include="Anew\image\btn-search%402x.png" />
+    <Content Include="Anew\image\btn-share%402x.png" />
+    <Content Include="Anew\image\btn-shopcart%402x.png" />
+    <Content Include="Anew\image\btn-shopcart-red%402x.png" />
+    <Content Include="Anew\image\index-mune-recommend%402x.png" />
+    <Content Include="Anew\image\input-serach%402x.png" />
+    <Content Include="Anew\image\joinus%402x.png" />
+    <Content Include="Anew\image\lab-tosend%402x.png" />
+    <Content Include="Anew\image\n-shop-logopic.jpg" />
+    <Content Include="Anew\image\navpic-arrow-down%402x.png" />
+    <Content Include="Anew\image\navpic-arrow-up%402x.png" />
+    <Content Include="Anew\image\pic-arrow-right%402x.png" />
+    <Content Include="Anew\image\pic-correct-h%402x.png" />
+    <Content Include="Anew\image\pic-discount-h%402x.png" />
+    <Content Include="Anew\image\pic-distance-h%402x.png" />
+    <Content Include="Anew\image\pic-distance-n%402x.png" />
+    <Content Include="Anew\image\pic-hotfood%402x.png" />
+    <Content Include="Anew\image\pic-link1%402x.png" />
+    <Content Include="Anew\image\pic-linkl%402x.png" />
+    <Content Include="Anew\image\pic-new-h%402x.png" />
+    <Content Include="Anew\image\pic-new-n%402x.png" />
+    <Content Include="Anew\image\pic-sales-h%402x.png" />
+    <Content Include="Anew\image\pic-sales-n%402x.png" />
+    <Content Include="Anew\image\pic-shopcart-bg%402x.png" />
+    <Content Include="Anew\image\pic-sorting-h%402x.png" />
+    <Content Include="Anew\image\pic-sorting-n%402x.png" />
+    <Content Include="Anew\image\pic-star%402x.png" />
+    <Content Include="Anew\image\pic-star-h%402x.png" />
+    <Content Include="Anew\image\pic-star-n%402x.png" />
+    <Content Include="Anew\image\pic-Tick-green%402x.png" />
+    <Content Include="Anew\image\picinfo.png" />
+    <Content Include="Anew\image\shops%402x.png" />
+    <Content Include="Anew\image\Sort_icon_class1%402x.png" />
+    <Content Include="Anew\image\Sort_icon_class2%402x.png" />
+    <Content Include="Anew\image\Sort_icon_class3%402x.png" />
+    <Content Include="Anew\image\Sort_icon_class4%402x.png" />
+    <Content Include="Anew\image\Sort_icon_class5%402x.png" />
+    <Content Include="Anew\image\Sort_icon_class6%402x.png" />
+    <Content Include="Anew\image\Sort_icon_class7%402x.png" />
+    <Content Include="Anew\image\Sort_icon_index%402x.png" />
+    <Content Include="Anew\image\star-matrix.gif" />
+    <Content Include="Anew\image\star.png" />
+    <Content Include="Anew\image\toolbar-found%402x.png" />
+    <Content Include="Anew\image\toolbar-found-selected%402x.png" />
+    <Content Include="Anew\image\toolbar-index%402x.png" />
+    <Content Include="Anew\image\toolbar-index-selected%402x.png" />
+    <Content Include="Anew\image\toolbar-mine%402x.png" />
+    <Content Include="Anew\image\toolbar-mine-selected%402x.png" />
+    <Content Include="Anew\image\toolbar-order%402x.png" />
+    <Content Include="Anew\image\toolbar-order-selected%402x.png" />
+    <Content Include="index.aspx" />
+    <Content Include="javascript\angular.min.js" />
+    <Content Include="javascript\cartdetail.js" />
+    <Content Include="javascript\collect.js" />
+    <Content Include="javascript\CommonJs.js" />
+    <Content Include="javascript\easytabs.js" />
+    <Content Include="javascript\eventwrapper.min.js" />
+    <Content Include="javascript\express.js" />
+    <Content Include="javascript\expressorderdetai.js" />
+    <Content Include="javascript\expresstwo.js" />
+    <Content Include="javascript\fastclick.js" />
+    <Content Include="javascript\hjapp.js" />
+    <Content Include="javascript\hjcookapp.js" />
+    <Content Include="javascript\hjfoodapp.js" />
+    <Content Include="javascript\hjshopcartapp.js" />
+    <Content Include="javascript\hjshowcookapp.js" />
+    <Content Include="javascript\idangerous.swiper-1.9.1.min.js" />
+    <Content Include="javascript\importantchange.js" />
+    <Content Include="javascript\jquery-1.3.2.js" />
+    <Content Include="javascript\jquery.form.js" />
+    <Content Include="javascript\jquery.marquee.js" />
+    <Content Include="javascript\jsrender.js" />
+    <Content Include="javascript\locationmap.js" />
+    <Content Include="javascript\mobiscroll.custom-2.17.0.min.js" />
+    <Content Include="javascript\moneydetail.js" />
+    <Content Include="javascript\myAddressdetail.js" />
+    <Content Include="javascript\share.js" />
+    <Content Include="javascript\spin.min.js" />
+    <Content Include="javascript\star-rating.js" />
+    <Content Include="javascript\sweetalert.min.js" />
+    <Content Include="javascript\swiper-3.3.1.jquery.min.js" />
+    <Content Include="Merchantstous.aspx" />
+    <Content Include="moneydetail.aspx" />
+    <Content Include="moneylist.aspx" />
+    <Content Include="myChange.aspx" />
+    <Content Include="mydistributelist.aspx" />
+    <Content Include="myexpresslist.aspx" />
+    <Content Include="myfamilymb.aspx" />
+    <Content Include="addshopcard.aspx" />
+    <Content Include="Anew\index.aspx" />
+    <Content Include="Anew\javascript\importantchange.js" />
+    <Content Include="orderlist.aspx" />
+    <Content Include="ordersteps.aspx" />
+    <Content Include="RechargeList.aspx" />
+    <Content Include="myqrcode.aspx" />
+    <Content Include="myshopcard.aspx" />
+    <Content Include="recharge.aspx" />
+    <Content Include="PayPwd.aspx" />
+    <Content Include="PaySuccess.aspx" />
+    <Content Include="recommendFoods.aspx" />
+    <Content Include="remarkdetail.aspx" />
+    <Content Include="resetpwd.aspx" />
+    <Content Include="search.aspx" />
+    <Content Include="sendtest.aspx" />
+    <Content Include="createmymenu.aspx" />
+    <Content Include="css\404.css" />
+    <Content Include="css\home.css" />
+    <Content Include="css\jquery.mobile-1.2.0.css" />
+    <Content Include="css\pictip.css" />
+    <Content Include="css\shop.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\wxdemo_mobile.css" />
+    <Content Include="footer.ascx" />
+    <Content Include="Global.asax" />
+    <Content Include="images\404e.png" />
+    <Content Include="images\cart.png" />
+    <Content Include="images\cart_icon.png" />
+    <Content Include="images\close.png" />
+    <Content Include="images\del.png" />
+    <Content Include="images\fangda.png" />
+    <Content Include="images\images.png" />
+    <Content Include="images\in.png" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\Logo_weixin.png" />
+    <Content Include="images\T1XHPpXh0tXXa.WL_n-74-25.png" />
+    <Content Include="images\weixin\1.png" />
+    <Content Include="images\weixin\2.png" />
+    <Content Include="images\weixin\3.png" />
+    <Content Include="images\weixin\4.png" />
+    <Content Include="images\wm_img.png" />
+    <Content Include="javascript\404.js" />
+    <Content Include="javascript\jCommon.js" />
+    <Content Include="javascript\jquery.js" />
+    <Content Include="javascript\jquery.mobile-1.2.0.js" />
+    <Content Include="javascript\JSintellisense\jquery-1.3.2-vsdoc2.js" />
+    <Content Include="javascript\orderdetai.js" />
+    <Content Include="javascript\shopcart.js" />
+    <Content Include="javascript\shopcarttool.js" />
+    <Content Include="javascript\showtogo.js" />
+    <Content Include="javascript\togolist.js" />
+    <Content Include="css\icons_mobiscroll.eot" />
+    <Content Include="css\icons_mobiscroll.ttf" />
+    <Content Include="css\icons_mobiscroll.woff" />
+    <Content Include="fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="fonts\fontawesome-webfontf77b.eot" />
+    <Content Include="fonts\fontawesome-webfontf77b.ttf" />
+    <Content Include="fonts\fontawesome-webfontf77b.woff" />
+    <Content Include="css\fontawesome-webfontd41d.eot" />
+    <Content Include="css\fontawesome-webfontf77b.eot" />
+    <Content Include="css\fontawesome-webfontf77b.ttf" />
+    <Content Include="css\fontawesome-webfontf77b.woff" />
+    <Content Include="sharedetail.aspx" />
+    <Content Include="sharelist.aspx" />
+    <Content Include="shop.aspx" />
+    <Content Include="shopdetail.aspx" />
+    <Content Include="shoplogin.aspx" />
+    <Content Include="myorderlist.aspx" />
+    <Content Include="orderdetail.aspx" />
+    <Content Include="OrderSuccess.aspx" />
+    <Content Include="showexpressorder.aspx" />
+    <Content Include="ShowFood.aspx" />
+    <Content Include="selectSeat.aspx" />
+    <Content Include="shopidcard.aspx" />
+    <Content Include="ShowTogo.aspx" />
+    <Content Include="showtogoorder.aspx" />
+    <Content Include="stylebanner.ascx" />
+    <Content Include="submitexpressorder.aspx" />
+    <Content Include="showshopic.aspx" />
+    <Content Include="TogoList.aspx" />
+    <Content Include="myshops.aspx" />
+    <Content Include="updatepwd.aspx" />
+    <Content Include="VCode.aspx" />
+    <Content Include="waimaijie.aspx" />
+    <Content Include="weixin.aspx" />
+    <Content Include="weixinpay\nativepay.aspx" />
+    <Content Include="weixinpay\payNotifyUrl.aspx" />
+    <Content Include="weixinpay\wxpay.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ajaxHandler.ashx" />
+    <Content Include="Ajax\AjaxGetAddressInfo.aspx" />
+    <Content Include="config\log4net.config" />
+    <Content Include="bin\Html5.dll.config" />
+    <Content Include="HandlerBase.ashx" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="config\Email.config" />
+    <None Include="Properties\PublishProfiles\lichunlin.pubxml" />
+    <None Include="Properties\PublishProfiles\zhujunwei.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="images\mdlg_btn_x.png" />
+    <Content Include="images\s_nopic.jpg" />
+    <Content Include="images\wm_img1.png" />
+    <Content Include="logout.aspx" />
+    <Content Include="register.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="login.aspx" />
+    <Content Include="myinfolist.aspx" />
+    <Content Include="testorder.aspx" />
+    <Content Include="myuserinfo.aspx" />
+    <Content Include="myAddresslist.aspx" />
+    <Content Include="myAddressdetail.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppLog\AppLog.csproj">
+      <Project>{C88E3055-7D37-4636-9A8A-56DCDBEAA466}</Project>
+      <Name>AppLog</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cache\Cache.csproj">
+      <Project>{D5BA3E7B-4307-43AB-8427-56AFFB2A3C32}</Project>
+      <Name>Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{2F5564B8-8C31-4DBE-9AFA-5884830AC289}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Config\Config.csproj">
+      <Project>{38C15CDA-3D62-4E11-BB71-D19A4DD9FA14}</Project>
+      <Name>Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{6ac5ce66-da73-4498-9b7e-56c34a4a186d}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{75B91AE3-CE5E-47E3-BA44-84986FF7FFB7}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SQLServerDAL\SQLServerDAL.csproj">
+      <Project>{6790B5B9-9E02-4FA6-A6C2-DF3F08425B5B}</Project>
+      <Name>SQLServerDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebCommon\WebCommon.csproj">
+      <Project>{391cf68e-818d-4446-9600-dd07440e654b}</Project>
+      <Name>WebCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Weixin\Weixin.csproj">
+      <Project>{216095c4-feb5-45a1-a4f2-e23be06d0a56}</Project>
+      <Name>Weixin</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="font\" />
+    <Folder Include="logs\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="Old_App_Code\" />
+    <Folder Include="weixinpaytest\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1368</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:30406/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

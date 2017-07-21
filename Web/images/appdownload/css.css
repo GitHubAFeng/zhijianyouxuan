@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+body, dl, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, form, img {margin:0; padding:0;}
+body, button, input, select, textarea {font:20px/160%, Microsoft YaHei, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-size:100%}
+em, b,i{font-style:normal}
+a,input{text-decoration:none; outline:none;}
+img{border:0;}
+input{outline:none;}
+li{list-style:none}
+area{outline:none; border:0;}
+.hd{text-indent:-999em;overflow:hidden;height:0;line-height:0;	font-size:0;}
+.ht1{overflow:hidden; text-indent:-999em;}
+.clearfix:after{content:".";display:block;height:0;visibility:hidden;clear:both;}
+.clearfix{zoom:1;}
+body{font-family:Microsoft YaHei;position:relative; max-width:640px; height:100%;color: #FFFFFF;margin:0 auto; background-size:cover}
+i{font-style:normal;}
+a:hover{color:#ffde00; text-decoration:none}
+.ht1{overflow:hidden;text-indent:-9999px;}
+
+html{font-size:10px; height:100%; }
+.top{padding:1rem; background:#FFFFFF;}
+.top .logo{width:18%; float:left; position:absolute; top:0.8rem; left:1rem}
+.top .tit{width:44%; float:left; padding:0 0 0 21%; }
+.top .btn{width:23.4%; float:right;padding:0.3rem 0 0}
+
+.con{width:100%; padding:0 0 1rem}
+.con img{display:block;}
+.con .logo{width:33.6%; margin:0 auto; padding:1.8rem 0 0}
+.con .time{width:60%;margin:1rem auto 0}
+
+.con a{width:69%; display:block; margin:0 auto}
+.con a img{width:100%;}
+.con a.dl_iphone{margin:34% auto 0}
+.con a.dl_android{margin:34% auto 0}
+.con .txt{width:40%;margin:1rem auto 0}
+
+/*.con .logo{width:33.6%; position:absolute; top:11%; left:50%; margin:0 0 0 -16.8%;}
+.con .time{width:60%; position:absolute; top:26%; left:50%; margin:0 0 0 -30%;}
+
+.con a{width:69%; position:absolute; margin:0 0 0 -34.5% }
+.con a img{width:100%;}
+.con a.dl_iphone{bottom:22%; left:50%;}
+.con a.dl_android{bottom:8%; left:50%;}
+.con .txt{width:40%; position:absolute; left:50%; bottom:3%; margin:0 0 0 -20%}
+*/
+.tip_wrap{position:absolute; width:100%; height:100%; top:0; left:0; background:#FFFFFF;}
+.wxtip{position:absolute; width:100%; top:0; left:0;}
+
+@media screen and (max-width:321px){
+.con .logo{padding:0.6rem 0 0}
+.con .time{margin:0.8rem auto 0}
+.con a{width:69%;}
+.con a.dl_iphone{margin:38% auto 0}
+.con a.dl_android{margin:38% auto 0}
+.con .txt{margin:1.4rem auto 1rem}
+	
+}
+
+@media screen and (min-width:322px) and (max-width:376px){
+.con .logo{padding:1.6rem 0 0}
+.con .time{margin:1.8rem auto 0}
+.con a{width:69%;}
+.con a.dl_iphone{margin:45% auto 0}
+.con a.dl_android{margin:45% auto 0}
+.con .txt{margin:2rem auto 1rem}
+	
+}
+
+@media screen and (min-width:377px) and (max-width:415px){
+.con .logo{padding:1.6rem 0 0}
+.con .time{margin:1.8rem auto 0}
+.con a{width:69%;}
+.con a.dl_iphone{margin:44% auto 0}
+.con a.dl_android{margin:44% auto 0}
+.con .txt{margin:2rem auto 1rem}
+}
+
+@media screen and (min-width:415px) and (max-width:640px){
+.con .logo{padding:1.6rem 0 0}
+.con .time{margin:1.8rem auto 0}
+.con a{width:69%;}
+.con a.dl_iphone{margin:44% auto 0}
+.con a.dl_android{margin:44% auto 0}
+.con .txt{margin:2rem auto 1rem}
+}
+@media screen and (min-width:640px){
+body{background-size:auto}
+}

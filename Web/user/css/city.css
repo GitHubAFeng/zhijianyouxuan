@@ -1,0 +1,35 @@
+﻿.Jbutton
+{
+	border: none;
+	background: none;
+	margin-right: 20px;
+}
+.Jbutton:hover
+{
+	text-decoration: underline;
+}
+#hukou_div
+{
+	position: absolute;
+	z-index: 100px;
+	background-color: white;
+	filter: alpha(opacity=100);
+}
+#hukou_div
+{
+	border: silver 1px solid;
+	width: 300px;
+}
+#address
+{
+	width: 180px;
+}
+#choose_address
+{
+	width: 120px;
+}
+#content_hukou
+{
+	position: absolute;
+	z-index: 100;
+}

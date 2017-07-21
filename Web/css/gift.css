@@ -1,0 +1,309 @@
+﻿
+/*-----gift_left----*/
+.hgift_left {
+    float: left;
+    width: 245px;
+}
+.hgift_left_bot {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding:15px;
+    background:#fff;
+}
+
+.hleft_list_02 {
+}
+
+.hleft_list_02 ul li {
+    margin-bottom:5px;
+    line-height:22px;
+    border-bottom:1px dotted #ddd;
+    padding-bottom:5px;
+}
+    .hleft_list_02 ul li span {
+        color:#f39800;
+        padding-right:5px;
+    }
+        .hleft_list_02 ul li span a {
+            color:#f39800;
+            text-decoration:none;
+        }
+.hleft_list_02 {
+}
+/*-------gift_right----------*/
+.hgift_right {
+    float: right;
+    width: 720px;
+    background:#fff;
+}
+
+.hgift_right_bot {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    overflow: hidden;
+    background:#fff;
+    padding:5px;
+}
+
+.hgift_div_01 {
+    overflow: hidden;
+    width:708px;
+}
+
+.hgift_title_01 {
+    border-bottom: 1px solid #E2E2E2;
+    color: #333;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+.hgift_content {
+}
+
+.hgift_content ul li {
+    float: left;
+    margin:30px 15px 0;
+}
+
+.hgift_body_01 {
+    border: 1px solid #E2E2E2;
+    height: 150px;
+    width:322px;
+}
+.hbody_left {
+    float:left;
+    margin-right:15px;
+}
+.hbody_left p {
+    text-align:center;
+    line-height:45px;
+}
+    .hbody_left p a {
+        color:#f39800;
+    }
+.hbody_left p a img {
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.hbody_right {
+    line-height: 25px;
+    margin-top: 5px;
+    float:left;
+}
+    .hbody_right h4 {
+        color:#f39800;
+        font-size:14px;
+    }
+    .hbody_right p {
+
+    }
+        .hbody_right p span {
+            color:#f39800;
+        }
+
+.shop_send_btn {
+    background:#f39800;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 13px;
+    height: 27px;
+    line-height: 26px;
+    margin-top: 10px;
+    text-align: center;
+    width:78px;
+}
+.shop_submit_btn{
+    background:#f39800;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    height:35px;
+    line-height:33px;
+    text-align: center;
+    width:120px;
+}
+.gift_prompt {
+    color:#f39800;
+    padding:20px 15px 15px;
+}
+
+
+/*------------------积分兑换详细页---------------*/
+.hgift_right_detail {
+    border:1px solid #ddd;
+    width:718px;
+    float:right;
+    background:#fff;
+    margin-bottom:15px;
+}
+.duihuan_more
+{
+    margin-bottom:20px;
+    overflow:hidden;
+}
+.duihuan_more dt
+{
+    float: left;
+
+}
+.duihuan_more dt img
+{
+    padding: 10px;
+    height:240px;
+    width:240px;
+}
+.duihuan_more dd
+{
+    font-size: 14px;
+    padding:5px 10px;
+    float: left;
+    width: 340px;
+    margin-left:10px;
+    line-height:30px;
+}
+.duihuan_more .title {
+    color:#f39800;
+    font-weight:bold;
+    font-size:18px;
+    padding:10px;
+
+    }
+    .duihuan_more dd .gift_btn {
+        background:#f39800;
+        width:80px;
+        height:28px;
+        line-height:28px;
+        color:#fff;
+        font-size:13px;
+        text-align:center;
+        border:none;
+        cursor:pointer;
+        margin-top:20px;
+    }
+
+
+
+
+/*----------------礼品介绍详情------------------*/
+.jiangpin
+{
+    line-height: 30px;
+    height: 30px;
+    background: #ffe9d1;
+    border-bottom: 1px solid #f39800;
+    clear: both;
+    margin: 0px auto;
+}
+.jiangpin .div1
+{
+    margin-left: 30px;
+    padding: 0 10px;
+    width: 80px;
+    font-weight: 900;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #f39800;
+    border-bottom:none;
+    font-size:14px;
+}
+.jiangpin_info
+{
+    padding:15px;
+    font-size: 14px;
+    clear: both;
+    overflow: hidden;
+    color: #525252;
+    line-height: 180%;
+}
+.jiangpin_info p
+{
+    text-indent: 2em;
+}
+
+
+/*----------------填写详情资料------------------*/
+.hgift_right_intro {
+    border:1px solid #ddd;
+    width:718px;
+    float:right;
+    background:#fff;
+    margin-bottom:15px;
+}
+.hgift_right_title {
+    background:#fafafa;
+    border-bottom:1px solid #ddd;
+    height:33px;    
+    line-height:33px;
+    padding-left:15px;
+    font-weight:bold;
+    font-size:14px;
+}
+.order_intro {
+    padding:5px 15px;
+    overflow:hidden;
+}
+.order_intro li
+{
+	border-bottom: 1px dotted #ddd;
+	clear: both;
+	height: 40px;
+	line-height: 40px;
+}
+.order_intro li input, .order_buy_1 input
+{
+	border: 1px solid #bbb;
+	padding: 2px;
+}
+.order_intro .borderNone
+{
+	border: none;
+}
+.order_intro_left
+{
+	float: left;
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.order_refer
+{
+	margin: 20px 0;
+	text-align: center;
+}
+
+.order_intro li textarea 
+{
+	border: 1px solid #bbb;
+	padding: 2px;
+	margin-top:4px;
+}
+
+.gift_category {
+    height: 35px;
+    line-height: 35px;
+    padding:0 15px;
+    font-size:14px;
+}
+    .gift_category strong {
+        color:#f39800;
+    }
+    .gift_category span {
+        color:#ddd;
+    }
+    .gift_category span a {
+        padding:0 5px;
+    }

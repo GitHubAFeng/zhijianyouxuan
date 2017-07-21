@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<combres xmlns="urn:combres">
+  <jsMinifiers>
+    <minifier name="msajax" type="Combres.Minifiers.MSAjaxJSMinifier, Combres" binderType="Combres.Binders.SimpleObjectBinder, Combres">
+      <param name="CollapseToLiteral" type="bool" value="true" />
+      <param name="EvalsAreSafe" type="bool" value="true" />
+      <param name="MacSafariQuirks" type="bool" value="true" />
+      <param name="CatchAsLocal" type="bool" value="true" />
+      <param name="LocalRenaming" type="string" value="CrunchAll" />
+      <param name="OutputMode" type="string" value="SingleLine" />
+      <param name="RemoveUnneededCode" type="bool" value="true" />
+      <param name="StripDebugStatements" type="bool" value="true" />
+    </minifier>
+  </jsMinifiers>
+  <resourceSets url="~/combres.axd"
+                 defaultDuration="30"
+                 defaultVersion="201504291"
+                 defaultDebugEnabled="true"
+                 defaultCompressionEnabled="true"
+                 defaultCssMinifierRef=""
+                 defaultJSMinifierRef=""
+                 defaultVersionGenerator="Combres.VersionGenerators.Sha512VersionGenerator"
+                 localChangeMonitorInterval="1"
+                 remoteChangeMonitorInterval="1">
+
+
+    <resourceSet name="indexCss" type="css" debugEnabled="false" compressionEnabled="true" minifierRef="off">
+      <resource path="~/css/common.css" minifierRef="default"/>
+      <resource path="~/css/index.css" minifierRef="default" />
+    </resourceSet>
+    <resourceSet name="indexJs" type="js" debugEnabled="false" compressionEnabled="true" minifierRef="off">
+      <resource path="~/javascript/jquery-1.7.min.js" minifierRef="default"/>
+      <resource path="~/javascript/json2.js" minifierRef="default"/>
+      <resource path="~/javascript/jsrender.js" minifierRef="default"/>
+      <resource path="~/javascript/eventwrapper.min.js" minifierRef="default"/>
+      <resource path="~/javascript/indexbaidumap.js" minifierRef="default"/>
+      <resource path="~/javascript/jquery.page.js" minifierRef="default"/>
+      <resource path="~/javascript/historyaddress.js" minifierRef="default"/>
+    </resourceSet>
+
+  </resourceSets>
+</combres>

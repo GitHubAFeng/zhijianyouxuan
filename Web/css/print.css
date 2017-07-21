@@ -1,0 +1,55 @@
+﻿@charset "utf-8";
+ .printinfo {
+            background-color: #fff;
+            width: 210px;
+        }
+
+            .printinfo h1 {
+                text-align: center;
+                line-height: 20px;
+                font-size: 12px;
+            }
+
+            .printinfo p {
+                padding-left: 5px;
+            }
+
+            .printinfo td {
+                padding: 0px 2px;
+            }
+
+            .printinfo li {
+                list-style: none;
+                padding-left: 5px;
+            }
+
+            .printinfo h1, .printinfo ul, .printinfo li, .printinfo p {
+                font-size: 12px;
+                padding: 0;
+                margin: 0;
+            }
+
+            .printinfo td, .printinfo th, IFRAME td, IFRAME th {
+                font-size: 12px;
+                font-weight: normal;
+            }
+
+        .food li {
+            float: left;
+        }
+
+        .food {
+            width: 100%;
+        }
+
+            .food .num {
+                width: 13%;
+            }
+
+            .food .price {
+                width: 18%;
+            }
+
+             .food .name {
+                width: 41%;
+            }

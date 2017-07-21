@@ -1,0 +1,1 @@
+document.write("<a href='' target='_blank'><img src='http://localhost:16314/images/adsuss.png' border='0' width='978' height='88'  target='_blank'></a>");

@@ -1,0 +1,1 @@
+document.write("<a href='' target='_blank'><img src='http://localhost:16314/images/weixindefault.png' border='0' width='360' height='200'  target='_blank'></a>");

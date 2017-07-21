@@ -1,0 +1,1 @@
+document.write("<a href='http://www.baidu.com' target='_blank'><img src='http://localhost:16967/images/newindex/ad3.png' border='0' width='654' height='63'  target='_blank'></a>");

@@ -1,0 +1,642 @@
+
+#bg {
+    position: fixed;
+    width: 100%;
+}
+
+#page_title {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main.container {
+    padding-top: 42px;
+    margin-bottom: 55px;
+}
+
+.cart_button {
+    background-color: #43a607;
+    background-image: -moz-linear-gradient(center top, #49b607, #379100);
+    border: 1px solid #379100;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 3px 0 rgba(255, 255, 255, 0.35) inset;
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    font-size: 20px;
+    line-height: 16px;
+    margin-right: 6px;
+    margin-top: 5px;
+    padding: 6px 5px 6px 1px;
+    text-decoration: none;
+}
+
+.green_button {
+    background-color: #43a607;
+    background-image: -moz-linear-gradient(center top, #49b607, #379100);
+    border: 1px solid #379100;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 3px 0 rgba(255, 255, 255, 0.35) inset;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 16px;
+    margin-right: 6px;
+    margin-top: 5px;
+    padding: 6px 8px;
+    text-decoration: none;
+}
+
+#cart_button.open {
+    background-color: #F385A3;
+    background-image: -moz-linear-gradient(center top, #F385A3, #E16184);
+    box-shadow: 0 0 3px 0 rgba(255, 255, 255, 0.35) inset;
+}
+
+#cart_icon {
+    margin: 0 6px;
+}
+
+#food_num {
+    display: inline-block;
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 2px;
+    position: relative;
+}
+
+#cart {
+    color: #666666;
+    display: none;
+    overflow: hidden;
+    padding: 46px 4px 0;
+}
+
+#cart_body {
+    background-color: #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+    padding: 13px 16px 24px;
+}
+
+#cart_food_list, #cart_list {
+    position: relative;
+    top: -10px;
+}
+
+#cart_body li {
+    line-height: 16px;
+}
+
+    #cart_body li:after {
+        clear: both;
+        content: ".";
+        display: block;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+    }
+
+    #cart_body li .name {
+        float: left;
+        font-family: "Î¢ÈíÑÅºÚ";
+        font-size: 16px;
+        height: 16px;
+        overflow: hidden;
+        padding: 12px 0;
+        position: relative;
+        text-overflow: ellipsis;
+        top: -2px;
+        white-space: nowrap;
+        width: 200px;
+    }
+
+    #cart_body li a {
+        float: right;
+        padding: 10px 0 10px 20px;
+    }
+
+    #cart_body li .pri {
+        float: right;
+        font-family: Arial,sans-serif;
+        font-size: 17px;
+        padding: 10px 0;
+    }
+
+#cart #empty {
+    font-size: 17px;
+    line-height: 17px;
+    text-align: center;
+}
+
+#cart #total_price {
+    border-top: 1px solid #444444;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 14px 0;
+    text-align: right;
+}
+
+#cart p span {
+    font-family: Arial,sans-serif;
+}
+
+#total_price .money {
+    color: #F3780B;
+    font-family: Arial,sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+}
+
+#food_num2 {
+    font-family: Arial,sans-serif;
+}
+
+#not_enough {
+    background-color: #43A607;
+    border-radius: 6px 6px 6px 6px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 16px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#submit, #a_shoptel {
+    background-color: #3da300;
+    background-image: -moz-linear-gradient(center top, #3da300, #318200);
+    border-radius: 6px 6px 6px 6px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 17px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Î¢ÈíÑÅºÚ";
+}
+
+#cart .time {
+    color: #666666;
+    display: block;
+    font-size: 13px;
+    line-height: 13px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.category {
+    background-color: #F0FFE3;
+    color: #666666;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    padding: 0 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.food {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #DADADA;
+    border-top: 1px solid #FFFFFF;
+    display: block;
+    height: 65px;
+    overflow: hidden;
+    padding: 0 14px;
+    position: relative;
+}
+
+    .food:last-child {
+        border-bottom: medium none;
+    }
+
+    .food:after {
+        clear: both;
+        content: ".";
+        display: block;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+    }
+
+    .food .img {
+        float: left;
+        margin-top: 7px;
+        margin-right: 7px;
+    }
+
+        .food .img img {
+            padding: 1px;
+            border: 1px solid #DDDDDD;
+        }
+
+    .food .info {
+        float: left;
+        overflow: hidden;
+    }
+
+        .food .info span {
+            color: #F3780B;
+            font-size: 12px;
+            position: relative;
+            top: -2px;
+            display: inline-block;
+            margin-top: 12px;
+        }
+
+            .food .info span b {
+                font-size: 20px;
+                font-family: "Î¢ÈíÑÅºÚ";
+                font-weight: bold;
+            }
+
+
+    .food .name {
+        color: #444444;
+        font-size: 16px;
+        font-weight: bold;
+        height: 16px;
+        margin-top: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .food .stars_b {
+        margin-top: 10px;
+    }
+
+    .food .gold {
+        bottom: 11px;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .food .price {
+        background-color: #F1F1F1;
+        background-image: -moz-linear-gradient(center top, #FFFFFF, #F1F1F1);
+        border: 1px solid #CCCCCC;
+        border-radius: 3px 3px 3px 3px;
+        color: #777777;
+        display: block;
+        float: right;
+        font-family: Arial,sans-serif;
+        font-size: 16px;
+        height: 22px;
+        line-height: 22px;
+        margin-top: 5px;
+        min-width: 18px;
+        padding: 0 2px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .food .price1 {
+        background-color: #F1F1F1;
+        background-image: -moz-linear-gradient(center top, #FFFFFF, #F1F1F1);
+        border: 1px solid #CCCCCC;
+        border-radius: 7px 7px 7px 7px;
+        color: #777777;
+        display: block;
+        float: right;
+        font-family: Arial,sans-serif;
+        font-size: 16px;
+        height: 24px;
+        line-height: 24px;
+        margin-top: 16px;
+        min-width: 20px;
+        padding: 0 4px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .food .price .price_n {
+        font-family: Helvetica;
+        font-weight: bold;
+        margin-left: 2px;
+    }
+
+    .food .info .num {
+        background-color: #666666;
+        border-radius: 9px 9px 9px 9px;
+        color: #FFFFFF;
+        float: right;
+        font-family: Arial,sans-serif;
+        font-size: 13px;
+        height: 17px;
+        line-height: 18px;
+        margin: 10px 5px 0;
+        padding: 0 5px;
+    }
+
+    .food .info .numred {
+        background-color: #FF6000;
+        border-radius: 9px 9px 9px 9px;
+        color: #FFFFFF;
+        float: right;
+        font-family: Arial,sans-serif;
+        font-size: 13px;
+        height: 17px;
+        line-height: 18px;
+        margin: 10px 5px 0;
+        padding: 0 5px;
+    }
+
+    .food .hfood_con {
+        width: 225px;
+    }
+
+        .food .hfood_con .hfood_left {
+            float: left;
+        }
+
+        .food .hfood_con .hfood_right {
+            float: right;
+        }
+
+#cart_title {
+    border-bottom: 1px solid #444444;
+    color: #8A8A8A;
+    font-size: 15px;
+    height: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+}
+
+    #cart_title h2 {
+        float: left;
+        width: 100px;
+    }
+
+#close_cart {
+    float: right;
+}
+
+#close_img {
+    float: right;
+}
+
+#showimg {
+    color: #666666;
+    display: none;
+    overflow: hidden;
+    padding: 46px 4px 0;
+}
+
+.getimage {
+    background-image: url(../images/images.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    text-indent: 16px;
+    padding-left: 5px;
+}
+
+.menudetail {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+    .menudetail div {
+        margin-top: 3px;
+    }
+
+#menudesc {
+    display: none;
+}
+
+
+.foodlist_class {
+    background-color: #F0FFE3;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 500px;
+}
+
+    .foodlist_class ul li {
+        float: left;
+        height: 38px;
+        line-height: 38px;
+    }
+
+        .foodlist_class ul li a {
+            color: #666;
+            text-decoration: none;
+            padding: 0 20px;
+        }
+
+            .foodlist_class ul li a:hover {
+                color: #449200;
+            }
+
+    .foodlist_class ul .current a {
+        display: inline-block;
+        background: #449200;
+        color: #fff;
+    }
+
+        .foodlist_class ul .current a:hover {
+            color: #fff;
+        }
+
+.caiwid {
+    float: left;
+    overflow-y: auto;
+    width: 78%;
+}
+
+    .caiwid li {
+        margin-left: 0px;
+    }
+
+.cailei {
+    width: 22%;
+    float: left;
+    overflow-y: auto;
+    background-color: #fafafa;
+    box-shadow: -1px 0 20px #CCCCCE inset;
+}
+
+    .cailei li {
+        font-size: 13px;
+        padding: 3px 0 3px 10px;
+        text-align: left;
+        cursor: pointer;
+        line-height: 32px;
+        margin-left: 0;
+    }
+
+        .cailei li a {
+            color: #333;
+        }
+
+        .cailei li.current {
+            background-color: #f0ffe3;
+            color: #FFFFFF;
+        }
+
+.bottom_btn {
+    position: fixed;
+    width: 100%;
+    height: 42px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background: #eee;
+}
+
+.mar5 {
+    margin-right: 5px;
+}
+
+.bottom_btn a {
+    vertical-align: middle;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+}
+
+
+/*---------showpic-----------*/
+.mDialog {
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    left: 0;
+    padding: 25px;
+    position: fixed;
+    top: 0;
+    width: 250px;
+}
+
+.content {
+    position: relative;
+}
+
+
+.mDialog, .mDialog * {
+    margin: 0;
+    padding: 0;
+}
+
+.content b {
+    background: url("../images/wei_canyin/pop.png") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+    display: block;
+    height: 70px;
+    position: absolute;
+    right: 20px;
+    top: 140px;
+    transform: rotate(-30deg);
+    width: 70px;
+}
+
+.content img {
+    height: 225px;
+    width: 300px;
+}
+
+.content h2, .content #myintro {
+    background-color: #F6F6F6;
+    color: #5E6060;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: -5px;
+    padding: 10px 20px 9px;
+}
+
+.mDialog > a.x {
+    background: url("../images/mdlg_btn_x.png") no-repeat scroll 0 0 / 27px 27px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 27px;
+    position: absolute;
+    right: -11px;
+    text-indent: -9999px;
+    top: -9px;
+    width: 27px;
+}
+
+#tbremark {
+    background-color: #F6F6F6;
+    color: #5E6060;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 10px 20px 9px;
+}
+       .fixed-top {
+            position: fixed;
+            bottom: auto;
+            top: 0;
+        }
+
+        * html .fixed-top {
+            position: absolute;
+            bottom: auto;
+            top: expression(eval(document.documentElement.scrollTop));
+        }
+
+        *, html {
+            _background-image: url(about:blank);
+            _background-attachment: fixed;
+        }
+
+        .henglei {
+            background: none repeat scroll 0 0 #E6F0FF;
+            padding: 5px 10px;
+            z-index: 100;
+        }
+
+        .food .hfood_con .hfood_left {
+            float: left;
+        }
+
+        .food .info span {
+            color: #F3780B;
+            display: inline-block;
+            font-size: 12px;
+            margin-top: 12px;
+            position: relative;
+            top: -2px;
+        }
+
+        .food .info {
+            float: left;
+            overflow: hidden;
+        }
+
+        .food .hfood_con .hfood_left {
+            float: left;
+        }
+
+        .food .hfood_con .hfood_left {
+            float: left;
+        }
+
+        .food .info span {
+            color: #F3780B;
+            display: inline-block;
+            font-size: 12px;
+            margin-top: 0px;
+            position: relative;
+            top: -2px;
+        }
+
+        .food {
+            /* height: 65px;*/
+        }
+
+            .food .name {
+                height: 16px;
+                line-height: 16px;
+                margin: 10px 0 0;
+            }
+
+            .food .info span {
+                margin-top: 12px;
+            }

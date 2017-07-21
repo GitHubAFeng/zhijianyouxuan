@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{75B91AE3-CE5E-47E3-BA44-84986FF7FFB7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hangjing.Model</RootNamespace>
+    <AssemblyName>Hangjing.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\192.168.1.11\hangjingserver\DocCenter\第三方控件源码\Dll4Code\Newtonsoft.Json8.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutClass.cs" />
+    <Compile Include="aboutus.cs" />
+    <Compile Include="acountInfo.cs" />
+    <Compile Include="Adtable.cs" />
+    <Compile Include="AllFoodsInfo.cs" />
+    <Compile Include="AndroidFoodInOrderInfo.cs" />
+    <Compile Include="AndroidOrderModelInfo.cs" />
+    <Compile Include="apiResultInfo.cs" />
+    <Compile Include="DeliverAddMoneyLogInfo.cs" />
+    <Compile Include="packetconfigInfo.cs" />
+    <Compile Include="autodispatchconfig.cs" />
+    <Compile Include="batshopcard.cs" />
+    <Compile Include="CanCashOutInfo.cs" />
+    <Compile Include="City.cs" />
+    <Compile Include="attritem.cs" />
+    <Compile Include="deliverSettleInfo.cs" />
+    <Compile Include="distributeRatio.cs" />
+    <Compile Include="distributor.cs" />
+    <Compile Include="msgpacket.cs" />
+    <Compile Include="msgpacketrecord.cs" />
+    <Compile Include="ordersource.cs" />
+    <Compile Include="OrderStep.cs" />
+    <Compile Include="ShopSurroundings.cs" />
+    <Compile Include="StyleAndAttr.cs" />
+    <Compile Include="FoodAttributesInfo.cs" />
+    <Compile Include="FoodStyleInfo.cs" />
+    <Compile Include="Practice.cs" />
+    <Compile Include="shopgroup.cs" />
+    <Compile Include="citygroup.cs" />
+    <Compile Include="CustorderInfo.cs" />
+    <Compile Include="DeliverGroupInfo.cs" />
+    <Compile Include="DeliverInfo.cs" />
+    <Compile Include="deviceInfo.cs" />
+    <Compile Include="DrinklistInfo.cs" />
+    <Compile Include="EAddressInfo.cs" />
+    <Compile Include="EAdminInfo.cs" />
+    <Compile Include="EBuilding.cs" />
+    <Compile Include="ECustomerInfo.cs" />
+    <Compile Include="EFoodOpinionInfo.cs" />
+    <Compile Include="EFoodSortInfo.cs" />
+    <Compile Include="EmailGsmRecordInfo.cs" />
+    <Compile Include="EPointRecordInfo.cs" />
+    <Compile Include="ESectionInfo.cs" />
+    <Compile Include="ESystemLogInfo.cs" />
+    <Compile Include="ETempBuildingInfo.cs" />
+    <Compile Include="ETogoCollectInfo.cs" />
+    <Compile Include="ETogoFoodCollectInfo.cs" />
+    <Compile Include="ETogoLocalInfo.cs" />
+    <Compile Include="ETogoOrderInfo.cs" />
+    <Compile Include="ETogoShoppingCart.cs" />
+    <Compile Include="ETogoShoppingCartInfo.cs" />
+    <Compile Include="EUserWordInfo.cs" />
+    <Compile Include="expressFeeConfig.cs" />
+    <Compile Include="expressinfo.cs" />
+    <Compile Include="ExpressOrderDeliverInfo.cs" />
+    <Compile Include="ExpressOrderInfo.cs" />
+    <Compile Include="FoodCountInfo.cs" />
+    <Compile Include="FoodinfoInfo.cs" />
+    <Compile Include="FoodInOrderInfo.cs" />
+    <Compile Include="FoodlistInfo.cs" />
+    <Compile Include="FoodPackag.cs" />
+    <Compile Include="GiftsClassInfo.cs" />
+    <Compile Include="GiftsInfo.cs" />
+    <Compile Include="GPS_RecordsInfo.cs" />
+    <Compile Include="hurryorder.cs" />
+    <Compile Include="IntegralInfo.cs" />
+    <Compile Include="LinksInfo.cs" />
+    <Compile Include="lnglnginfo.cs" />
+    <Compile Include="localInfo.cs" />
+    <Compile Include="LogInfo.cs" />
+    <Compile Include="msgRecord.cs" />
+    <Compile Include="NewsInfo.cs" />
+    <Compile Include="NoticenewsInfo.cs" />
+    <Compile Include="OldUserInfo.cs" />
+    <Compile Include="OrderCountInfo.cs" />
+    <Compile Include="OrderDeliverInfo.cs" />
+    <Compile Include="PackFoodlist.cs" />
+    <Compile Include="PayOrderLogInfo.cs" />
+    <Compile Include="PointSetInfo.cs" />
+    <Compile Include="PointsInfo.cs" />
+    <Compile Include="PPTInfo.cs" />
+    <Compile Include="PrinterSecretInfo.cs" />
+    <Compile Include="printorderlog.cs" />
+    <Compile Include="promotionType.cs" />
+    <Compile Include="resultinfo.cs" />
+    <Compile Include="RoleInfo.cs" />
+    <Compile Include="ScheduledEventsInfo.cs" />
+    <Compile Include="SendfeeInfo.cs" />
+    <Compile Include="SendInfo.cs" />
+    <Compile Include="ShopCardInfo.cs" />
+    <Compile Include="ShopCardUserRecordInfo.cs" />
+    <Compile Include="ShopData.cs" />
+    <Compile Include="shopdelivery.cs" />
+    <Compile Include="ShopFoodPicture.cs" />
+    <Compile Include="ShopOrderCountInfo.cs" />
+    <Compile Include="shopsettleaccount.cs" />
+    <Compile Include="shop_print_r.cs" />
+    <Compile Include="simpleorderInfo.cs" />
+    <Compile Include="SortAdInfo.cs" />
+    <Compile Include="sortgroup.cs" />
+    <Compile Include="StateConfigInfo.cs" />
+    <Compile Include="STemplate.cs" />
+    <Compile Include="subscribeByUserQRcodeRecord.cs" />
+    <Compile Include="SystemGsmListInfo.cs" />
+    <Compile Include="sys_Module.cs" />
+    <Compile Include="sys_ModulePermition.cs" />
+    <Compile Include="sys_RolePermission.cs" />
+    <Compile Include="sys_Roles.cs" />
+    <Compile Include="TogoAddMoneyLogInfo.cs" />
+    <Compile Include="TogoDelMoneyLogInfo.cs" />
+    <Compile Include="TogoDiscountInfo.cs" />
+    <Compile Include="TogoInfo.cs" />
+    <Compile Include="TogoLoginInfo.cs" />
+    <Compile Include="TogoPictureInfo.cs" />
+    <Compile Include="TogoPointSetInfo.cs" />
+    <Compile Include="ROrderinfo.cs" />
+    <Compile Include="ETogoOpinionInfo.cs" />
+    <Compile Include="HotTogoandFoodInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TogoPrinterInfo.cs" />
+    <Compile Include="UserAddMoneyLogInfo.cs" />
+    <Compile Include="UserCancellogInfo.cs" />
+    <Compile Include="userCashAcount.cs" />
+    <Compile Include="usercashout.cs" />
+    <Compile Include="UserDelMoneyLogInfo.cs" />
+    <Compile Include="UserDistributionLogInfo.cs" />
+    <Compile Include="userpacket.cs" />
+    <Compile Include="User_Grade_RInfo.cs" />
+    <Compile Include="VipGrade.cs" />
+    <Compile Include="WebBasicInfo.cs" />
+    <Compile Include="WebMessageInfo.cs" />
+    <Compile Include="WebMessageLogInfo.cs" />
+    <Compile Include="OrderPromotion.cs" />
+    <Compile Include="webPromotionConfig.cs" />
+    <Compile Include="WeiXinAccount.cs" />
+    <Compile Include="WeixinUserLocation.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

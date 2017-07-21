@@ -1,0 +1,210 @@
+﻿/*----------------弹出式餐盒----------*/
+.lunch_box_frame
+{
+	border: #d8c0d6 1px solid;
+	width: 383px;
+    overflow:hidden;
+	background: #fff;
+}
+.lunch_box_bg
+{
+	background: #faf4f9;
+	width: 381px;
+	height: 1%;
+	margin: 1px;
+}
+.lunch_box_01
+{
+	border-bottom: 1px solid #e3d3e1;
+	padding: 5px;
+}
+.text_style
+{
+	width: 44px;
+	height: 20px;
+	line-height: 20px;
+	border: #ccb3c9 1px solid;
+	font-size: 12px;
+	margin-right: 5px;
+}
+.lunch_box_02
+{
+	border-bottom: 1px solid #fff;
+	padding: 7px 10px;
+}
+.lunch_box_03
+{
+	padding: 7px 10px;
+}
+.textarea_style
+{
+	width: 186px;
+	height: 35px;
+	border: #ccb3c9 1px solid;
+	float: left;
+}
+.modity_button
+{
+	background: url(../images/modity_button.jpg) no-repeat;
+	width: 44px;
+	height: 21px; *height:25px;line-height:21px;cursor:pointer;border:none;margin:10px 0px 0px 15px;}
+.modity_button:hover
+{
+	background: url(../images/modity_button_hover.jpg) no-repeat;
+	width: 44px;
+	height: 21px;
+	cursor: pointer;
+	border: none;
+}
+.lunch_box_04
+{
+	margin-top: 10px;
+	overflow: hidden;
+}
+.lunch_box_04 h4
+{
+	color: #75272b;
+	background: #d7cfcf;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	margin: 0;
+}
+.lunch_box_04 ul li
+{
+	float: left;
+	line-height: 30px;
+	margin-left: 5px;
+	color: #584f4f;
+}
+.lunch_box_05
+{
+	overflow: hidden;
+}
+.lunch_box_05 h4
+{
+	color: #75272b;
+	background: #ece1c8;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	margin: 0;
+}
+.lunch_box_05 ul li
+{
+	float: left;
+	line-height: 30px;
+	margin-left: 5px;
+	color: #584f4f;
+}
+.lunch_box_06
+{
+	overflow: hidden;
+}
+.lunch_box_06 h4
+{
+	color: #75272b;
+	background: #ece1c8;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	margin: 0;
+	padding-right: 15px;
+}
+.lunch_box_06 ul li
+{
+	padding-top: 4px;
+	margin-left: 5px;
+	color: #584f4f;
+	color: #000;
+}
+.headercart{ width:960px;  margin:0px auto; overflow:hidden;}
+
+
+/*---------我的餐盒------*/
+.my_box_t
+{
+    background: url(../Images/shopinfo_20.gif) no-repeat;
+    height: 31px;
+    padding-left: 46px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #2e8625;
+    font-weight: bold;
+}
+.my_box_t span
+{
+    float: right;
+    width: 80px;
+    text-align: center;
+    padding-top: 1px;
+}
+.my_box_in
+{
+    padding: 10px;
+    border: 1px solid #dae6d1;
+    border-top: 0;
+}
+.my_box_in_h td
+{
+    border-bottom: 1px dotted #ccc;
+    border-collapse: collapse;
+    padding: 2px 3px;
+}
+
+/*----------------右侧菜单项----------*/
+.shopinfo_listright{ float:left; width:240px; padding-top:20px; padding-left:19px;}
+.shopinfo_listright_info{ border:1px dashed #000; padding:5px 0;}
+.shopinfo_listright_info_in_input{ width:26px; border:1px solid #ccc;}
+.shopinfo_listright_info_in{ background:#f0f0f0; padding:5px; overflow:hidden; color:#3c3c3c;}
+.shopinfo_listright_info_in_tea{ width:184px; height:30px; border:1px solid #ccc; overflow:auto;}
+.shopinfo_listright_btn1,.shopinfo_listright_btn2{ border:0; background:#5bc1e6; color:#fff; cursor:pointer; margin:0 2px;}
+.shopinfo_listright_btn2{  background:#f18c00;}
+.shopinfo_listright_btn3{ border:0; cursor:pointer; background:url(../images/shopInfo_5.jpg) no-repeat;  width:83px; height:28px;}
+.shopinfo_listright_btn3:hover{ border:0; cursor:pointer; background:url(../images/shopInfo_5_hover.jpg) no-repeat;  width:83px; height:28px;}
+.shopinfo_listright_zongji{ background:url(../images/shopInfo_12.jpg) no-repeat; padding-left:30px; color:#f18c00; font-size:14px;}
+
+.padding_lr5 {
+    padding-bottom: 3;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3;
+}
+.fb {
+    font-weight: 900;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.shop_right {
+    float: right;
+}
+
+.shopinfo_listright_zongji {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("../images/shopInfo_12.jpg");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    color: #F18C00;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.mrg_t10 {
+    margin-top: 10px;
+}
+.mrg_t5
+{
+	margin-top: 5px;
+}
+
+.float_l 
+{
+    float:left;	
+}

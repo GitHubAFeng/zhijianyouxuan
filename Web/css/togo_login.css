@@ -1,0 +1,112 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.tlogin_con {
+    margin-bottom:15px;
+    overflow:hidden;
+    background:#fff;
+    border:1px solid #ddd;
+}
+
+.user_t {
+    background: none repeat scroll 0 0 #fafafa;
+    border-bottom:1px solid #ddd;
+    font-weight: bold;
+    height: 33px;
+    line-height: 33px;
+    padding-left: 20px;
+    font-size:14px;
+}
+
+.user_in {
+    overflow: hidden;
+}
+.user_in_left, .user_in_right {
+    float: left;
+    width: 485px;
+}
+
+.user_in_left_t {
+    clear: both;
+    color: #333;
+    font-size:16px;
+    font-weight: bold;
+    padding-left: 45px;
+    padding-top:25px;
+    width: 400px;
+}
+
+.user_in_left_ul {
+    margin: 15px 0 0 5px;
+}
+
+.user_in_left_ul li {
+    clear: both;
+    padding: 15px 0 8px;
+}
+
+.user_in_left_ul li span {
+    float: left;
+    font-size: 14px;
+    line-height: 22px;
+    padding-right: 6px;
+    text-align: right;
+    width: 70px;
+}
+
+.user_in_left_ul_input {
+    border: 1px solid #CCCCCC;
+    height:24px;
+    line-height:24px;
+    width:220px;
+    padding:3px;
+}
+
+.user_deng {
+    background:#f39800;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    height: 37px;
+    line-height: 37px;
+    margin-top: 10px;
+    width: 120px;
+    margin-left:76px;
+}
+.user_in_right_t {
+    clear: both;
+    color: #333;
+    font-size:16px;
+    font-weight: bold;
+    padding-left: 45px;
+    padding-top:25px;
+    width: 400px;
+}
+.refer_buy {
+    background:#f39800;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    height:30px;
+    width:76px;
+}
+.user_in_left_ul_inputh
+{
+	border:1px solid #f39800;
+    height:24px;
+    line-height:24px;
+    padding:3px;
+    width:220px;
+}
+
+.tlogo_line {
+     float: left;
+     width: 1px; 
+     border-left:1px dotted #ccc; 
+     height: 210px; 
+     margin-top: 20px; 
+     margin-bottom: 20px;
+}

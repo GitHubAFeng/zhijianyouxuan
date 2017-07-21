@@ -1,0 +1,2 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="deliverreceiveorder.aspx.cs" Inherits="AndroidAPI_UpdateOrderdeliverreceiveorde" %>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

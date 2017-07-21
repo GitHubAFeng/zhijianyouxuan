@@ -1,0 +1,347 @@
+﻿
+.page{ padding-bottom:2.45rem;
+
+}
+/*-----------方向箭头-----------*/	
+.leftarrow:before{
+	content: '';
+    display: inline-block;
+    width:.3rem;
+    height:.3rem;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    -webkit-transform: scaleY(1) rotateZ(45deg);
+    -moz-transform: scaleY(1) rotateZ(45deg);
+    -ms-transform: scaleY(1) rotateZ(45deg);
+	cursor:pointer;
+	}
+.rightarrow:before{
+	content: '';
+    display: inline-block;
+    width:.3rem;
+    height:.3rem;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    -webkit-transform: scaleY(1) rotateZ(225deg);
+    -moz-transform: scaleY(1) rotateZ(225deg);
+    -ms-transform: scaleY(1) rotateZ(225deg);
+	cursor:pointer;
+	}
+
+
+.uparrow:after{
+	content: '';
+    display: inline-block;
+    width:.3rem;
+    height:.3rem;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    -webkit-transform: scaleY(1) rotateZ(225deg);
+    -moz-transform: scaleY(1) rotateZ(225deg);
+    -ms-transform: scaleY(1) rotateZ(225deg);
+	cursor:pointer;
+    margin-left:5px;
+    vertical-align:middle;
+
+	}
+.downarrow:after{
+	content: '';
+    display: inline-block;
+    width:.3rem;
+    height:.3rem;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    -webkit-transform: scaleY(1) rotateZ(45deg);
+    -moz-transform: scaleY(1) rotateZ(45deg);
+    -ms-transform: scaleY(1) rotateZ(45deg);
+	cursor:pointer;
+    margin-left:5px;
+    vertical-align:middle;
+    margin-top:-.2rem;
+
+	}
+
+/*-----------方向箭头end-----------*/	
+
+
+
+.clear {
+    clear:both;
+}
+.header_title{
+	width:100%;
+	background-color:#ff2d4b;
+	height:2.2rem;
+    position:fixed;
+    z-index:999;
+}	
+	
+.header_title	h1{
+	font-size:0.8rem;
+	color:#fff;
+	line-height:2.2rem;
+	cursor:pointer;
+	text-align:center;}
+
+
+.wapper {
+    width:100%;
+
+}
+.back {
+    position:absolute;
+    left:.7rem;
+    top:.7rem;
+    width:1.05rem;
+    height:.8rem;
+    background-image:url(../image/btn-back@2x.png);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+.search {
+        position:absolute;
+        top:.6rem;
+        right:1rem;
+        width:1.3rem;
+        height:1.3rem;
+        background-image:url(../image/btn-search@2x.png);
+        background-repeat:no-repeat;
+        background-size:100%;
+}
+         .star {
+            display:inline-block;
+            vertical-align:middle;
+            width:3.25rem;
+            height:.65rem;
+            background-image:url(../image/stargrey.png);
+            background-size:100%;
+            background-repeat:no-repeat;
+            font-size:16px;
+
+        }
+         .star span {
+                display:block;
+                height:.65rem;
+                background-image:url(../image/starorange.png);
+                background-size:auto 100%;
+                background-repeat:no-repeat;
+                font-size:16px;
+    
+            }
+/*-----------商家详情head--------------*/
+.shop_head {
+    width:100%;
+    background-color:#69a008;
+    height:7rem;
+    color:#fff;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:99;
+}
+    .shop_head h1 {
+        text-align:center;
+        font-size:.8rem;
+        line-height:2.2rem;
+    }
+    .shop_head .share {
+        position:absolute;
+        top:.7rem;
+        right:3rem;
+        width:1.15rem;
+        height:1.2rem;
+        background-image:url(../image/btn-share@2x.png);
+        background-repeat:no-repeat;
+        background-size:100%;
+    }
+    .shop_head .shopinfo {
+        width:100%;
+        position:relative;
+
+    }
+        .shop_head .shopinfo .logo {
+            position:relative;
+            width:2.5rem;
+            height:2.5rem;
+            margin-left:0.8rem;
+            border-radius:50%;
+            border:#fff 1px solid;
+            overflow:hidden;
+        }
+            .shop_head .shopinfo .logo img {
+                vertical-align:middle;
+                height:100%;
+                position:absolute;
+                left:50%;
+                top:50%;
+                -moz-transform:translate(-50%,-50%);
+                -ms-transform:translate(-50%,-50%); /* IE 9 */
+                -webkit-transform:translate(-50%,-50%); /* Safari and Chrome */
+                -o-transform:translate(-50%,-50%); /* Opera */
+            }
+
+        .shop_head .shopinfo .shopname {
+            font-size:.7rem;
+            position:absolute;
+            left:4.2rem;
+            top:.3rem;
+        }
+
+        .shop_head .shopinfo .sign {
+             font-size:.55rem;
+             position:absolute;
+             left:4.2rem;
+             top:1.5rem;
+             max-width:25rem;
+             overflow : hidden;
+             text-overflow: ellipsis;
+             display: -webkit-box;
+             -webkit-line-clamp: 2;
+             -webkit-box-orient: vertical;
+          
+        }
+        @media screen and (max-width:750px) {
+            .shop_head .shopinfo .sign {
+                max-width: 10rem;
+            }
+        }
+        .shop_head .shopinfo .btn-faved {
+            position:absolute;
+            right:.6rem;
+            bottom:0;
+        }
+            .shop_head .shopinfo .btn-faved a{
+                height:1.1rem;
+                border:#fff 1px solid;
+                border-radius:.4rem;
+                text-align:center;
+                line-height:1.15rem;
+                font-size:.6rem;
+                color:#fff;
+                padding:0 .5rem;
+                cursor:pointer;
+                display:block;
+            }
+                .shop_head .shopinfo .btn-faved a img {
+                    vertical-align:middle;
+                    width:.7rem;
+                    margin-right:.2rem;
+                    margin-top:-1px;
+                }
+    .shop_head .discount {
+        position:absolute;
+        bottom:0;
+        left:0;
+        height:1.45rem;
+        line-height:1.45rem;
+        font-size:.6rem;
+        background-color:#629507;
+        width:100%;
+    }
+        .shop_head .discount marquee {
+            width:94%;
+            margin-left:3%;
+
+        }
+        .shop_head .discount span {
+            background-color:#ff2d4b;
+            border-radius:3px;
+            font-size:0.45rem;
+            margin-right:2px;
+            display:inline-block;
+            width:.6rem;
+            height:.6rem;
+            line-height:.6rem;
+            text-align:center;
+            vertical-align:middle;
+        }
+/*分类nav*/
+.shop-nav {
+    position:fixed;
+    top:7rem;
+    left:0;
+    z-index:99;
+    width:100%;
+    background-color:#fff;
+    height:2.1rem;
+    border-bottom:#eee 1px solid;
+}
+    .shop-nav a {
+        display:block;
+        float:left;
+        width:33.33%;
+        font-size:.65rem;
+        line-height:2rem;
+        text-align:center;
+
+    }
+        .shop-nav  .redcur {
+            border-bottom:#ff2d4b .1rem solid;
+        }
+
+/*-----------商家详情end--------------*/
+
+/*-----------footernav-----------*/
+.footers{
+	width:100%;
+	position:fixed;
+	left:0;
+	bottom:0;
+	background-color:#eee;
+	border-top:#ccc 1px solid;}
+.footers a{
+	width:25%;
+	float:left;
+	display:inline-block;
+	height:2.45rem;
+	line-height:3.9rem;
+	font-size:0.6rem;
+	text-align:center;
+	color:#333;
+	text-decoration:none;
+	background-repeat:no-repeat;
+	background-size:1.2rem;
+	background-position:center 0.27rem ;   
+	}
+	.footers a .selected{
+		color:#ff2d4b;
+
+	}
+	.footers a:hover{
+		color:#ff2d4b;
+		}
+	.footers	.ico_b_index{
+		background-image:url(../image/toolbar-index@2x.png);   
+		}
+	.footers	.ico_b_index:hover,
+	.footers	.ico_b_index_cur{
+		background-image:url(../image/toolbar-index-selected@2x.png);  
+		}
+	.footers	.ico_b_found{
+		background-image:url(../image/toolbar-found@2x.png);   
+		}
+	.footers	.ico_b_found:hover,
+	.footers	.ico_b_found_cur{
+		background-image:url(../image/toolbar-found-selected@2x.png);  
+		}	
+	.footers	.ico_b_order{
+		background-image:url(../image/toolbar-order@2x.png);   
+		}
+	.footers	.ico_b_order:hover,
+	.footers	.ico_b_order_cur{
+		background-image:url(../image/toolbar-order-selected@2x.png);  
+		}	
+	.footers	.ico_b_mine{
+		background-image:url(../image/toolbar-mine@2x.png);   
+		}
+	.footers	.ico_b_mine:hover,
+	.footers	.ico_b_mine_cur{
+		background-image:url(../image/toolbar-mine-selected@2x.png);  
+		}		
+		
+/*-----------footernav end-----------*/		
+
+
+
+
+

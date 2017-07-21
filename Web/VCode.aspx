@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="VCode.aspx.cs" Inherits="VCode_VCode" %>

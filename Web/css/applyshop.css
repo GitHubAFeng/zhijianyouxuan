@@ -1,0 +1,165 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.help_con {
+    background: #fff;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-top: none;
+    margin-bottom:15px;
+}
+
+.greybg {
+    height: 42px;
+    line-height: 42px;
+    padding-left: 15px;
+    background: #f1f1f1;
+}
+
+.right_navbg_04 {
+    background: #fafafa;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    font-weight: 900;
+    height: 33px;
+    line-height: 35px;
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+
+
+.aboutri_con {
+    padding: 0 25px 40px;
+    font-family: "Microsoft Yahei";
+}
+
+    .aboutri_con .btn {
+        margin: 0 auto;
+    }
+
+    .aboutri_con h2 {
+        height: 35px;
+        line-height: 35px;
+        margin: 10px 0 15px;
+        font-size: 16px;
+    }
+
+
+
+/*---------------------------商家加盟----------------------*/
+
+/*--------------加盟流程-------------*/
+.steps {
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 480px;
+    height: 45px;
+}
+
+    .steps li {
+        width: 142px;
+        float: left;
+        font-family: "Microsoft Yahei";
+        position: relative;
+    }
+
+    .steps .line {
+        width: 130px;
+        height: 4px;
+        background: #dedede;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .steps .dian {
+        width: 12px;
+        height: 12px;
+        background: url(../images/grey_circle.png) no-repeat;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .steps .imgshow {
+    }
+
+    .steps .have .line {
+        background: #f39800;
+    }
+
+    .steps .have .dian {
+        background: url(../images/cur_circle.png) no-repeat;
+    }
+
+    .steps .cul .dian {
+        background: url(../images/cur_circle.png) no-repeat;
+    }
+
+    .steps p {
+        color: #666;
+        position: absolute;
+        left: -20px;
+        top: 20px;
+    }
+
+    .steps .have p {
+        font-weight: bold;
+        color: #f39800;
+    }
+
+    .steps .cul p {
+        font-weight: bold;
+    }
+
+
+/*-----------加盟申请表---------------*/
+.infor_tit {
+    background: #ffe9d1;
+    border-left: 3px solid #f39800;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #f39800;
+    margin:20px;
+}
+.joinin_con {
+    padding:0 15px 30px;
+}
+.joinin_con p {
+    line-height: 35px;
+    margin-bottom:15px;
+}
+.joinin_con p .o_text {
+        border: 1px solid #ccc;
+        height:28px;
+        line-height:28px;
+        width: 350px;
+        padding:3px;
+    }
+
+.joinin_con p .le_in {
+        width: 100px;
+        display: inline-block;
+        text-align:right;
+        padding-right:15px;
+    }
+
+.joinin_con p .checkbox {
+        margin-right: 5px;
+    }

@@ -1,0 +1,68 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.help_con {
+    margin-bottom:15px;
+    overflow:hidden;
+}
+/*-------index_left----------*/
+
+.about_leftsider {
+    float: left;
+    width: 198px;
+    border:1px solid #ddd;
+    background:#fff;
+}
+
+.about_leftsider_ul dl {
+    padding:5px 5px 15px;
+}
+
+.about_leftsider_ul dt, .about_leftsider_ul dd {
+    border-bottom: 1px solid #F2F1F0;
+    font-weight:bold;
+    padding: 7px 0 7px 25px;
+}
+.about_leftsider_ul dt {
+    /*background: url("../images/tripon.png") no-repeat scroll 15px 13px rgba(0, 0, 0, 0);*/
+}
+.about_leftsider_ul dt a {
+    color: #f39800;
+}
+
+.about_leftsider_ul dd {
+    background: url("../images/dian.jpg") no-repeat scroll 25px center rgba(0, 0, 0, 0);
+    font-weight: 200;
+    padding-left: 35px;
+}
+
+
+
+
+/*-------index_right----------*/
+
+
+
+.about_rightsider {
+    float: right;
+    width: 763px;
+    border:1px solid #ddd;
+}
+
+.right_navbg_04 {
+    background: none repeat scroll 0 0 #fafafa;
+    border-bottom: 1px solid #ddd;
+    color: #333333;
+    font-size: 14px;
+    font-weight:bold;
+    height: 33px;
+    line-height: 35px;
+    padding-left:15px;
+}
+.about_rightsider_intro {
+    padding:15px;
+}
+.about_rightsider_intro p {
+    padding: 5px 0;
+    text-indent: 2em;
+}

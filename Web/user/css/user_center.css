@@ -1,0 +1,228 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*================user_center===============*/
+.right_side {
+    width: 760px;
+    float: right;
+}
+
+.right_side_top {
+    background: #FFFFE3;
+    border: 1px solid #FFE79C;
+    width: 740px;
+    height: 80px;
+}
+
+    .right_side_top h4 {
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .right_side_top ul li {
+        float: left;
+        padding-left: 20px;
+    }
+
+.right_side_bottom {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+    .right_side_bottom h2 {
+        padding-bottom: 8px;
+        color: #000;
+        font-family: ΢���ź�;
+        font-size: 18px;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 25px;
+    }
+
+    .right_side_bottom ul li {
+        float: left;
+        padding-bottom: 20px;
+        display: block;
+        cursor: pointer;
+        margin-left: 40px;
+    }
+
+.order_button {
+    background: url(../images/order_icon.png) no-repeat;
+    width: 196px;
+    height: 146px;
+}
+
+.order_button_hover {
+    background: url(../images/order_icon_hover.png) no-repeat;
+    width: 196px;
+    height: 146px;
+}
+
+.account_button {
+    background: url(../images/account_icon.png) no-repeat;
+    width: 196px;
+    height: 146px;
+}
+
+.account_button_hover {
+    background: url(../images/account_icon_hover.png) no-repeat;
+    width: 196px;
+    height: 146px;
+}
+
+.favorites_button {
+    background: url(../images/favorites_icon.png) no-repeat;
+    width: 196px;
+    height: 146px;
+}
+
+.favorites_button_hover {
+    background: url(../images/favorites_icon_hover.png) no-repeat;
+    width: 196px;
+    height: 146px;
+}
+
+.gift_button {
+    background: url(../images/gift_icon.png) no-repeat;
+    width: 196px;
+    height: 146px;
+}
+
+.gift_button_hover {
+    background: url(../images/gift_icon_hover.png) no-repeat;
+    width: 196px;
+    height: 146px;
+}
+
+.review_button {
+    background: url(../images/review_icon.png) no-repeat;
+    width: 196px;
+    height: 146px;
+}
+
+.review_button_hover {
+    background: url(../images/review_icon_hover.png) no-repeat;
+    width: 196px;
+    height: 146px;
+}
+
+
+/*================user_center_2===============*/
+.huser_right_side {
+    overflow: hidden;
+    padding: 15px;
+}
+
+.right_side_info {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.info_left_side {
+    float: left;
+    width: 90px;
+}
+
+    .info_left_side p {
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+.info_right_side {
+    width: 600px;
+    float: right;
+}
+
+.info_table {
+    border: 1px solid #E1E1E1;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .info_table tr td {
+        border-bottom: 1px solid #E1E1E1;
+        border-right: 1px solid #E1E1E1;
+        width70px;
+        height: 30px;
+        line-height: 30px;
+        padding: 2px;
+    }
+
+        .info_table tr td a {
+            padding-left: 10px;
+            padding-right: 5px;
+        }
+
+.right_side_order {
+    height: 25px;
+    border-bottom: 2px solid #FF7D00;
+}
+
+.order_bg {
+    background: #FF7D00;
+    width: 100px;
+    height: 25px;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.order_table {
+    border: 1px solid #E1E1E1;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+    .order_table tr td {
+        border-right: 1px solid #E1E1E1;
+        border-bottom: 1px solid #E1E1E1;
+        height: 35px;
+    }
+
+    .order_table tr th {
+        background: #F7F7F7;
+        border-right: 1px solid #E1E1E1;
+        border-bottom: 1px solid #E1E1E1;
+        height: 30px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+
+
+    .AdminSearchform
+{
+	border: #D5DCE6 1px solid;
+	padding-left: 0;
+	font-family: verdana, tahoma, helvetica;
+	font-size: 12px;
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+	padding-top: 0px;
+	overflow: hidden;
+	clear: both;
+}
+.AdminSearchform fieldset
+{
+	border: 0px;
+	padding-bottom: 10px;
+	margin: 0px;
+	clear: both;
+	overflow: auto;
+}
+.AdminSearchform legend
+{
+	font-weight: bold;
+	color: #2E6CD2;
+	font-size: 13px;
+	margin-left: 10px;
+    padding:0 5px;
+}
+.AdminSearchform .span12
+{
+	padding-left: 10px;
+}

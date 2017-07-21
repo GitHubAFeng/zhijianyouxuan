@@ -1,0 +1,58 @@
+﻿/*自动补全搜索结果弹出div样式*/
+#address_drop
+{
+	position: absolute;
+	z-index: 9998;
+	text-align: left;
+	padding: 2px 0 0 0;
+	font: normal 12px Arial, "宋体";
+	top: 90px;
+}
+#address_drop iframe
+{
+	float: left;
+	width: 170px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: auto !important; *height:100%!important;height:100%;z-index:9998;}
+#address_drop div
+{
+	float: left;
+	width: 240px; *width:243px;
+position:absolute;
+top:-4px;
+left:0;
+z-index:9998;
+overflow:hidden;
+background:#fff;
+border:1pxsolid#7D7D7D;
+}
+#address_drop a
+{
+	display: block;
+	clear: both;
+	height: 18px;
+	line-height: 18px;
+	overflow: hidden;
+	margin: 0;
+	padding: 2px 5px;
+	text-decoration: none;
+	text-align: left;
+}
+#address_drop a:hover, #address_drop a.drop_item
+{
+	background: #91ca30;
+}
+/*f4f1f8*/
+#address_drop a.off, #address_drop a.off:hover
+{
+	background: #91ca30;
+	text-align: right;
+}
+/*eee*/
+#address_drop a span
+{
+	float: right;
+	color: #333;
+}

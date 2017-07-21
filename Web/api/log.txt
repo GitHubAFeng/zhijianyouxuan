@@ -1,0 +1,8 @@
+2013/3/19 20:36:29 action=test&time=1363696592
+2013/3/19 20:36:46 action=test&time=1363696619
+2013/3/19 20:37:13 action=synlogin&username=admin&uid=1&password=26b0076d2635bee5c32b4d1bb183313f&time=1363696646
+2013/3/19 20:39:05 action=synlogout&time=1363696757
+2013/3/19 20:42:02 action=synlogout&time=1363696935
+2013/3/19 20:42:18 action=synlogin&username=test002a&uid=38&password=d83b1c47ad2b59f1186d70294d6435d4&time=1363696950
+2013/3/19 20:42:36 action=synlogin&username=admin&uid=1&password=26b0076d2635bee5c32b4d1bb183313f&time=1363696968
+2013/3/19 20:56:21 action=test&time=1363697794

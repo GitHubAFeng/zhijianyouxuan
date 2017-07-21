@@ -1,0 +1,12 @@
+﻿二期数据库修改记录(已经完成)
+1. 增加表sortAd，shopdelivery,,printorderlog
+2.webbasic 增加记录，从57开始
+3. 存储过程有修改GetShoppingCart,getAllSortAd,WeixinUserLocation_uploadLoaction，TogoPrinter_getAllShop,printorderlog_add
+4. 数据变化 
+UPDATE dbo.Points SET Inve1 = 0
+TRUNCATE TABLE IntegralToVip
+5.cutorder,加字段：tempcode
+
+
+2016/1/5
+1. 存储过程有修改 navlink_GetListWithOrderStatistics 

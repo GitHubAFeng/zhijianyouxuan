@@ -1,0 +1,90 @@
+﻿/*验证控件显示的气泡样式*/
+/*验证输入框是否正确的提示框样式*/
+.tip
+{
+    position: relative;
+}
+.tip-bg
+{
+    font-size: 12px;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: url(  "../images/tip_bg.gif" ) no-repeat left top;
+    font-weight: normal;
+    border-right:#dcdcdc 1px solid;
+    height:28px;
+}
+.tip-text
+{
+    font-size: 12px;
+    background: url(  "../images/tip_icon.gif" ) no-repeat left top;
+    padding: 4px 2px 6px 2px;
+    white-space: nowrap;
+    color: #000;
+    line-height: 100%;
+     
+}
+.tip-bulb
+{
+    font-size: 12px;
+    background: url(  "../images/tip_bulb.gif" ) no-repeat left top;
+    padding: 8px 2px 8px 18px;
+    white-space: nowrap;
+    color: #000;
+    line-height: 100%;
+    
+}
+.tip-bg a
+{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+}
+/*验证输入框是否正确的提示框样式 end*/
+
+/*自定义textbox样式 提示框*/
+.FormBase,.FormFocus,.FormCode,.FormMouseOver,.formnoborder{ font-family:Verdana,Arial,Helvetica,sans-serif; font-size:14px;background-color: #fff; padding:0.2em;border:1px double #84A1BD;}
+.formnoborder { background:transparent; border:1px solid #FFF;}
+*html .FormBase,*html .FormFocus,*html .FormMouseOver,*html .FormCode,*html .formnoborder {height:26px; padding:0 0 0 3px; line-height:26px; _line-height:23px; _height:23px;}
+*+html .FormBase,*+html .FormFocus,*+html .FormMouseOver,*html .FormCode,*+html .formnoborder {height:20px; padding:0; line-height:26px;_line-height:23px; _height:23px;}
+.FormFocus  
+{
+	background-color: #fff;
+	border-left:1px solid #000;
+	border-top:1px solid #000;
+
+}
+.FormMouseOver
+{
+	font-family:Verdana,Arial,Helvetica,sans-serif; 
+	font-size:14px; 
+	background-color: #fff; 
+	border: 1px double #9ECC00;
+}
+img {
+border:0 none;
+}
+/*
+* {
+margin:0;
+padding:0;
+}
+div {
+line-height:19px;
+text-align:left;
+word-wrap:break-word;
+}
+*/
+
+/*managerform*/
+
+#resultmessage{padding-right:15px;}
+
+/*command*/
+.messagetext {overflow:hidden; zoom:1; border-left:1px solid #000; border-right:1px solid #000; padding:0 10px;  text-align:left; background:#ffffe1; word-break : break-all; letter-break:break-all; }
+.messagetext img {float:left;margin:0 3px 3px 3px;}
+.infomessage {float:right;margin-top:-10px;margin-right:-4px;}
+*html .infomessage{margin-top:-15px;}
+/*command*/
+/*自定义textbox样式 提示框 end*/

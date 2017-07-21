@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2F5564B8-8C31-4DBE-9AFA-5884830AC289}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hangjing.Common</RootNamespace>
+    <AssemblyName>Hangjing.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>true</DebugSymbols>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.Scripting, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\192.168.1.11\hangjingserver\DocCenter\第三方控件源码\Dll4Code\Interop.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SQLDMO, Version=8.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\192.168.1.11\hangjingserver\DocCenter\第三方控件源码\Dll4Code\Interop.SQLDMO.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zxing">
+      <HintPath>\\192.168.1.11\hangjingserver\DocCenter\第三方控件源码\Dll4Code\zxing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arithmetic.cs" />
+    <Compile Include="CacheProvider.cs" />
+    <Compile Include="CacheUtils.cs" />
+    <Compile Include="CollectionHelper.cs" />
+    <Compile Include="ConsoleHelper.cs" />
+    <Compile Include="Constant.cs" />
+    <Compile Include="DataHelper.cs" />
+    <Compile Include="DataValidator.cs" />
+    <Compile Include="EMail.cs" />
+    <Compile Include="EmailConfig.cs" />
+    <Compile Include="EmailConfigInfo.cs" />
+    <Compile Include="EmailMultiThread.cs" />
+    <Compile Include="EnumHelper.cs" />
+    <Compile Include="Fetion.cs" />
+    <Compile Include="FetionInfo.cs" />
+    <Compile Include="FileHelper.cs" />
+    <Compile Include="FTP.cs" />
+    <Compile Include="HangjingList.cs" />
+    <Compile Include="HJlog.cs" />
+    <Compile Include="hjmap.cs" />
+    <Compile Include="HjNetHelper.cs" />
+    <Compile Include="HJQRCode.cs" />
+    <Compile Include="HttpHelper.cs" />
+    <Compile Include="ICacheProvider.cs" />
+    <Compile Include="IHangjingCollect.cs" />
+    <Compile Include="ISmtpMail.cs" />
+    <Compile Include="ManagedThreadPool.cs" />
+    <Compile Include="OrderSource.cs" />
+    <Compile Include="PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerializationHelper.cs" />
+    <Compile Include="ShopTypeSortedList.cs" />
+    <Compile Include="SiteInfo.cs" />
+    <Compile Include="SmiliesInfo.cs" />
+    <Compile Include="StringHelper.cs" />
+    <Compile Include="SysInfo.cs" />
+    <Compile Include="Thumbnail.cs" />
+    <Compile Include="TimeHelper.cs" />
+    <Compile Include="TypeParse.cs" />
+    <Compile Include="UrlTools.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="Validator.cs" />
+    <Compile Include="XMLProcess.cs" />
+    <Compile Include="XmlWriter.cs" />
+    <Compile Include="ZipHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppLog\AppLog.csproj">
+      <Project>{c88e3055-7d37-4636-9a8a-56dcdbeaa466}</Project>
+      <Name>AppLog</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

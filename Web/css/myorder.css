@@ -1,0 +1,186 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.content_primary {
+
+}
+.ordertab {
+    background:#fff;
+    margin-bottom:15px;
+}
+.book_dinner
+{
+    float: left;
+    width: 980px;
+    background: #fff;
+    overflow: hidden;
+}
+.order_bg
+{
+    background: url(../Images/footer_linkbg.png) repeat-x;
+    height: 30px;
+    color: #fc7609;
+    font-weight: bold;
+    line-height: 30px;
+    _padding-top: 6px;
+    text-indent: 1em;
+    clear: both;
+}
+.order_ino
+{
+    border-bottom: 1px dashed #dedede;
+    margin-bottom: 10px;
+}
+.order_ino .f_01
+{
+    height: 25px;
+    line-height: 25px;
+    clear: both;
+    font-size: 12px;
+    color: #333;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.order_ino .f_02
+{
+    font-size: 14px;
+    font-weight: normal;
+}
+.order_ino ul li
+{
+    height: 25px;
+    line-height: 25px;
+    clear: both;
+    font-size: 14px;
+    color: #333;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.order_intro li
+{
+    border-bottom: 1px dashed #ccc;
+    clear: both;
+    height: 30px;
+    line-height: 30px;
+}
+.order_intro li input, .order_buy_1 input
+{
+    border: 1px solid #9bb78e;
+    padding: 2px;
+}
+.order_intro .borderNone
+{
+    border: none;
+}
+.order_intro_left
+{
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+.order_buy
+{
+    margin: 10px 0;
+}
+.order_buy th
+{
+    background: #e7f1cc;
+    border-bottom: 2px solid #62a637;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.order_buy_1 td
+{
+    border-bottom: 1px dashed #ccc;
+    line-height: 22px;
+    text-indent: 2em;
+}
+.order_buy_1 .name_bg
+{
+    background: url(../Images/shopping-cart.gif) no-repeat 5px 0;
+    font-weight: bold;
+    color: #4c4c4c;
+}
+.dd
+{
+    border: 1px solid #ccc;
+    height: 60px;
+    width: 600px;
+}
+.order_refer
+{
+    margin: 10px 0 25px;
+    text-align: center;
+}
+.right_bg
+{
+    background: url(../Images/rightbg.png) no-repeat;
+    width: 272px;
+    height: 30px;
+    _height: 24px;
+    color: #fc7609;
+    font-weight: bold;
+    line-height: 30px;
+    _padding-top: 6px;
+    text-indent: 1em;
+}
+.right_bg img
+{
+    margin-bottom: -3px;
+    padding-right: 5px;
+}
+
+.leaveWord
+{
+	background: none repeat scroll 0 0 #F4F4F4;
+    border-top: 2px solid #FE790C;
+	height: 30px;
+	color: #FE4E00;
+	font-weight: bold;
+	line-height: 31px;
+	_padding-top: 6px;
+	text-indent: 1em;
+	clear: both;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.gongxini
+{
+	background:url(../images/gongxi.jpg) no-repeat 48% 48%;
+	height:40px;
+	width:300px;
+	margin-left:300px;
+	*margin:0;
+	margin-bottom:10px;
+}
+.paysuccess
+{
+	background:url(../images/paysuccess.jpg) no-repeat 48% 48%;
+	height:40px;
+	width:300px;
+	margin-left:300px;
+	*margin:0;
+	margin-bottom:10px;
+}
+	
+.horder_btn
+{
+	background: url(../images/submit_btn.jpg) no-repeat;
+	width:125px;
+	height: 32px;
+	line-height:32px;
+	margin-top:10px;
+	border: none;
+	cursor: pointer;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.ordertab th{ height:32px; border:1px solid #ddd; background:#f3f3f3; }
+.ordertab th a.orange{ background:url(../images/arrowb_icon.png) no-repeat  right 3px; display:block; width:128px; height:25px; margin:0 auto; }
+.ordertab td{ text-align:center; border:1px solid #ddd; height:34px; color:#666;}
+.content-primary h2{ height:40px; line-height:40px; font-size:14px;}

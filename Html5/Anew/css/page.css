@@ -1,0 +1,77 @@
+﻿
+
+/*----------------订单列表--------------*/
+.orderlists {
+            background-color:#fff;
+            margin-bottom:.25rem;
+        }
+            .orderlists .order_Status {
+                line-height:1.4rem;
+                font-size:.6rem;
+                color:#333;
+                padding-left:.75rem;
+    
+            }
+                .orderlists .order_Status span {
+                    float:right;
+                    margin-right:.75rem;
+                    color:#999;
+                }
+            .orderlists .order_msg {
+                border-bottom:#eaeaea 1px solid;
+                padding-bottom:.25rem;
+            }
+                .orderlists .order_msg .pic {
+                    position:relative;
+                    width:4rem;
+                    height:3rem;
+                    float:left;
+                    overflow:hidden;
+                    margin:0.25rem;
+                }
+            .orderlists .order_msg img{             
+                vertical-align:middle;
+                height:100%;
+                position:absolute;
+                left:50%;
+                top:50%;
+                -moz-transform:translate(-50%,-50%);
+                -ms-transform:translate(-50%,-50%); /* IE 9 */
+                -webkit-transform:translate(-50%,-50%); /* Safari and Chrome */
+                -o-transform:translate(-50%,-50%); /* Opera */
+
+            }
+            .orderlists .order_msg ul {
+                float:left;
+                margin-top:.4rem;
+                font-size:.65rem;
+                margin-left:0;
+            }
+                .orderlists .order_msg ul li span{
+                    font-size:.75rem;
+                    color:#333;
+                 
+                }
+    .orderlists .order_nber {
+        line-height:2rem;
+        padding-left:.75rem;
+        font-size:.6rem;
+        color:#999;
+    }
+            .orderlists .order_nber a {
+                float:right;
+                color:#ff2d4b;
+                border:#ff2d4b 1px solid;
+                border-radius:4px;
+                display:inline-block;
+                margin-right:.75rem;
+                line-height:26px;
+                margin-top:.4rem;
+                height:1rem;
+                line-height:1rem;
+                padding:0 .3rem;
+
+
+            }
+                
+/*----------------订单列表end--------------*/

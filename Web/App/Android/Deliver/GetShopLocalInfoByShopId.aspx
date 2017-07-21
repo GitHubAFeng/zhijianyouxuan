@@ -1,0 +1,2 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="GetShopLocalInfoByShopId.aspx.cs" Inherits="App_Android_Deliver_GetShopLocalInfoByShopId" %>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

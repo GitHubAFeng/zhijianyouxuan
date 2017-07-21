@@ -1,0 +1,424 @@
+﻿body {
+    background-color:#fff;
+}
+.shoppage {
+    padding-top:9.1rem;
+}
+
+
+/*--------左边菜单--------*/
+.menu_nav {
+    background-color:#efefef;
+    width:24%;
+    position:fixed;
+    left:0;
+    top:9.1rem;
+    bottom:0;
+    padding-bottom:2rem;
+    max-height:24rem;
+    overflow-y:scroll;
+}
+            .menu_nav  a {
+                border-bottom:#aaa 1px dotted;
+                text-align:center;
+                display:block;
+                padding:.6rem .1rem;  
+                font-size:.6rem;            
+      
+            }
+                .menu_nav  a img {
+                    width:.6rem;
+                    margin-right:.38rem;
+                }
+                .menu_nav  a:hover,
+                .menu_nav  .cur
+                 {  color:#ff2d4b;
+                    background-color:#fff;
+                    
+                }
+/*--------菜品列表---------*/
+.foodcontainer {
+    width:76%;
+    float:left;
+    position:fixed;
+    left:24%;
+    top:9.1rem;
+    background-color:#fff;
+    max-height:24rem;
+    overflow-y:scroll;
+    padding-bottom:2rem;
+}
+    .foodcontainer .sort-title {
+        line-height:1rem;
+        background-color:#efefef;
+        font-size:.6rem;
+        padding-left:.55rem;
+    }
+    .foodcontainer .foodlist {
+        /*display: -webkit-flex;
+        display:flexbox;*/
+        
+        border-bottom:#d2d2d2 1px solid;
+        margin-left:.75rem;
+        height:3rem;
+        padding-bottom:.6rem;
+        position:relative;
+    }
+    .foodcontainer .foodlist .pic {
+        width:3.15rem;
+        height:2.3rem;
+        position:relative;
+        overflow:hidden;
+        flex:1;
+       margin-top:.6rem;
+       float:left;
+    }
+        .foodcontainer .foodlist .pic img {
+               height:100%;
+               min-width:3.15rem;
+               position: absolute;
+               left: 50%;
+               top: 50%;
+               -webkit-transform: translate(-50%,-50%);
+               -ms-transform: translate(-50%,-50%);
+               -moz-transform: translate(-50%,-50%);
+        }
+
+        .foodcontainer .foodlist ul {
+            float:left;
+            margin-left:.6rem;
+            margin-top:.6rem;
+        }
+        .foodcontainer .foodlist ul .foodname{
+            font-size:.65rem;
+            max-width:8rem;
+            white-space:nowrap;
+            text-overflow:ellipsis;
+            overflow: hidden;
+ 
+        }
+            .foodcontainer .foodlist ul .price {
+                font-size:.55rem;
+                color:#666;
+                margin-top:.4rem;
+            }
+                .foodcontainer .foodlist ul .price span {
+                    font-size:.75rem;
+                    color:#ff2d4b;
+                }
+        .foodcontainer .foodlist .btn_item {
+            position:absolute;
+            right:.75rem;
+            bottom:.6rem;
+
+        }
+               .btn_item .btn{
+                display:inline-block;
+                width:1.1rem;
+                height:1.1rem;
+                cursor:pointer;
+            }
+                 .btn_item .btn img {
+                    width:100%;
+                }
+             .btn_item input {
+                width:1.8rem;            
+                height:1.1rem;
+                font-size:.75rem;
+                text-align:center;
+                vertical-align:middle;
+                color:#333;
+            }
+/*------底部购物车------*/
+.shopmenu-cart-bar {
+    position:fixed;
+    bottom:0;
+    z-index:999;
+    width:100%;
+    height:2rem;
+    background-color:#504f4f;
+    color:#fff;
+}
+    .shopmenu-cart-bar .btn-cart {
+        position:relative;
+        top:-.5rem;
+        left:.65rem;
+        width:2.1rem;
+        height:2.1rem;
+        background-color:#504f4f;
+        border-radius:50%;
+        background-image:url(../image/btn-shopcart@2x.png);
+        background-repeat:no-repeat;
+        background-size:70%;
+        background-position:center .7rem;
+        cursor:pointer;
+    }
+
+        .shopmenu-cart-bar .btn-cart span {
+            position:absolute;
+            right:0;
+            top:.5rem;
+            border-radius:50%;
+            background-color:#ff2d4b;
+            width:.75rem;
+            height:.75rem;
+            color:#fff;
+            line-height:.75rem;
+            font-size:.5rem;
+            display:block;
+            text-align:center;
+        }
+    .shopmenu-cart-bar .row-status{
+        position:fixed;
+        right:0;
+        bottom:0;
+        width:6.25rem;
+        height:2rem;
+        text-align:center;
+        color:#fff;
+        font-size:.8rem;
+        line-height:2rem;
+        background-color:#ff2d4b;
+    }
+        .shopmenu-cart-bar .local-disable {          
+            background-color:#888;
+        }
+            .shopmenu-cart-bar .local-disable::before {
+                content:"20元起送";
+            }
+        .shopmenu-cart-bar .row-status::after {
+            content:"选好了";
+            display:none;
+           
+        }
+    .shopmenu-cart-bar .row-cart {
+        position:absolute;
+        top:0;
+        margin-left:3.5rem;
+        color:#fff;
+        height:2rem;
+        line-height:2rem;
+        font-size:.6rem;
+    }
+        .shopmenu-cart-bar .row-cart span {
+            font-size:.8rem;
+        }
+
+        /*购物车列表详情*/
+
+#global-black {
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.5);
+    width:100%;
+    height:100%;
+    background-size:cover;
+    z-index:997;
+}
+
+.shopmenu-cart-list {
+    position:absolute;
+    bottom:2rem;
+    left:0;
+    z-index:998;
+    background:#fff;
+    width:100%;
+    max-height:15rem;
+    overflow-y:scroll;
+
+}
+    .shopmenu-cart-list .fixedtit {
+        position:fixed;
+        width:100%;
+        background-color:#fff;
+        z-index:1;
+    }
+    .shopmenu-cart-list .cl-top-tit {
+        line-height:1.9rem;
+        padding:0 .75rem;
+        font-size:.7rem;
+        height:1.9rem;
+        border-bottom:#efefef 1px solid;
+        
+    }
+        .shopmenu-cart-list .cl-top-tit img {
+            height:.6rem;
+            vertical-align:middle;
+        }
+        .shopmenu-cart-list .cl-top-tit a {
+            margin-right:1.5rem;
+            cursor:pointer;
+            float:right;
+        }
+            .shopmenu-cart-list .cl-top-tit a img {
+                height:.8rem;
+                margin-right:.3rem;
+            }
+        .shopmenu-cart-list .cl-top-tit span {
+            color:#999;
+            font-size:.6rem;
+        }
+    .shopmenu-cart-list .hidelist:first-of-type {
+        margin-top:1.9rem;
+    }
+    .shopmenu-cart-list .hidelist {
+        padding-left:.8rem;
+        border-bottom:#eaeaea 1px solid;
+    }
+    .shopmenu-cart-list .hidelist li{
+        display: -webkit-flex;
+        display:flexbox;
+        flex-flow:row;
+        font-size:.65rem;
+        line-height:2rem;
+        border-bottom:#efefef 1px solid;
+        color:#ff2d4b;
+        list-style:inside;
+        position:relative;
+       
+    }
+        .shopmenu-cart-list .hidelist li:last-of-type {
+            border-bottom:none;
+        }
+        .shopmenu-cart-list .hidelist li span:nth-child(1) {
+          color:#000;
+          -o-text-overflow:ellipsis;
+          -moz-text-overflow:ellipsis;
+          width:9rem;
+          white-space:nowrap;
+          text-overflow:ellipsis;
+          overflow: hidden;
+        
+        }
+        .shopmenu-cart-list .hidelist li .btn_item {
+            position:absolute;
+            right:.75rem;
+            top:0;
+        }
+
+        .shopmenu-cart-list .hidelist li span:nth-child(2) {
+            max-width:3.25rem;
+            float:right;
+            margin-right:6rem;
+            
+        }
+
+/*-----------------商家评价页面------------------*/
+.commentscore {
+    padding:.65rem 0;
+
+}
+.commentscore .com-num {
+    float:left;
+    width:36%;
+    text-align:center;
+    border-right:solid 1px #dfdfdf;
+    font-size:.55rem;
+    color:#666;
+}
+    .commentscore .com-num span {
+        display:block;
+    }
+        .commentscore .com-num span:nth-child(1) {
+            font-size:1rem;
+            color:#fc0024;            
+            font-family:Arial;
+        }
+
+        .commentscore .com-num span:last-child {
+            margin-top:.5rem;
+        }
+    .commentscore .com-info {
+        float:left;
+        line-height:1.1rem;
+        color:#666;
+        font-size:0.55rem;
+        padding-left:.7rem;
+        vertical-align:middle;
+    }
+    .commentscore .com-info .score{  
+        margin-left:3rem;
+        color:#fc0024;
+    }
+        .commentscore .com-info span:nth-child(1) {
+            margin-right:.5rem;
+        }
+
+
+.screening-label {
+    display:block;
+    border-top:#f2f2f2 .25rem solid;
+    padding:.5rem;
+    border-bottom:#f2f2f2 1px solid;
+}
+    .screening-label a {
+        display:inline-block;
+        font-size:.55rem;
+        background-color:#e3e3e3;
+        padding:.15rem .4rem;
+        margin:.2rem;
+        border-radius:5px;
+        cursor:pointer;
+    }
+    .screening-label .cur {
+        background-color:#ff2d4b;
+        color:#fff;
+    }
+.screening {
+    line-height:1.8rem;
+    border-bottom:#dfdfdf 1px solid;
+    font-size:.55rem;
+    padding-left:.75rem;
+      cursor:default;
+      height:1.8rem;
+}
+    .screening img {
+        vertical-align:middle;
+        width:.85rem;
+        height:0.85rem;
+        margin-right:.4rem;
+      
+    }
+.comment-list-all .comment-content {
+    border-bottom:#dfdfdf 1px solid;
+    padding:0.7rem;
+    position:relative;
+}
+.comment-list-all  .comment-content .comment-img {
+        position:absolute;
+        left:.75rem;
+        width:1.5rem;
+        height:1.5rem;
+        border-radius:50%;
+        background-image:url(../image/icon_user_headimg.png);
+        background-size:100%;
+        overflow:hidden;
+    }
+        .comment-content .comment-img img {
+            width:100%;
+        }
+
+.comment-list-all .comment-info {
+    margin-left:2rem;
+    font-size:.55rem;
+    color:#666;
+}
+    .comment-list-all .comment-info li {
+
+    }
+        .comment-list-all .comment-info li:nth-last-child(-n+2) {
+            margin-top:.2rem;
+        }
+ .comment-list-all .comment-info li .screening-lab{
+     border:#eaeaea 1px solid;
+     padding:.1rem .2rem;
+     border-radius:5px;
+     margin-top:.2rem;
+ }
+
+
+
+
+
+/*-----------------商家评价页面end------------------*/
